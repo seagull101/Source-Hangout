@@ -1,0 +1,44 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Sound"
+  {
+    event speak "vo\npc\scientist_male01\illstayhere03.wav"
+    {
+      time 0.200000 2.237551
+      param "vo\npc\scientist_male01\illstayhere03.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look"
+  {
+    event lookat "Look at !player"
+    {
+      time 0.080000 2.500000
+      param "!player"
+      event_ramp
+      {
+        0.1529 0.1806
+        0.3147 0.8472
+        0.4824 0.9931
+        1.9070 0.9931
+        2.0541 0.8403
+        2.2423 0.2222
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "68"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

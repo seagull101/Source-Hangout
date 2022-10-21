@@ -1,0 +1,67 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "idle01"
+    {
+      time 0.073333 1.973923
+      param "vo\npc\hgrunt\hg_idle01.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough1"
+    {
+      time 0.046667 2.086667
+      param "humans\marine\marine"
+      param2 "Tough1"
+      event_ramp
+      {
+        0.0826 0.5417
+        0.9957 0.9271
+        1.9304 0.6771
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "Scan Area"
+    {
+      time 0.053333 1.993333
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_rightleft" range 30.0 -30.0 
+        {
+          0.4822 0.5200
+        }
+        "eyes_rightleft" range 30.0 -30.0 
+        {
+          0.4912 0.1963
+          1.1939 0.8190
+        }
+        "head_forwardback" range 0.2 -0.2 
+        {
+          0.2814 0.3000
+          1.4822 0.5400
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "RampTool" "46"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

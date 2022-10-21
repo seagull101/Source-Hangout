@@ -1,0 +1,44 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Sound"
+  {
+    event speak "vo\npc\sci_male\abouttime06.wav"
+    {
+      time 0.200000 1.974036
+      param "vo\npc\sci_male\abouttime06.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look"
+  {
+    event lookat "Look at !player"
+    {
+      time 0.080000 2.220000
+      param "!player"
+      event_ramp
+      {
+        0.1529 0.1806
+        0.3147 0.8472
+        0.4824 0.9931
+        1.6271 0.9931
+        1.7741 0.8403
+        1.9624 0.2222
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "68"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

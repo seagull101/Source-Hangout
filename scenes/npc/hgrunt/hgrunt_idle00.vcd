@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "idle00"
+    {
+      time 0.153333 1.167120
+      param "vo\npc\hgrunt\hg_idle00.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough4 Alt"
+    {
+      time 0.046667 1.286667
+      param "humans\marine\marine"
+      param2 "Tough4 Alt"
+      event_ramp
+      {
+        0.0633 0.3229
+        1.1230 0.6771
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "RampTool" "70"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

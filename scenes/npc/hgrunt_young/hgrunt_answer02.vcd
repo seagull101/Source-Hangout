@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "answer02"
+    {
+      time 0.086667 1.057869
+      param "vo\npc\hgrunt_young\hg_answer02.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough1"
+    {
+      time 0.033333 1.153334
+      param "humans\marine\marine"
+      param2 "Tough1"
+      event_ramp
+      {
+        0.0560 0.5366
+        1.0260 0.5610
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

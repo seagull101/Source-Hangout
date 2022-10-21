@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "taunt00"
+    {
+      time 0.126667 2.389842
+      param "vo\npc\hgrunt\hg_taunt00.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough1"
+    {
+      time 0.020000 2.520000
+      param "humans\marine\marine"
+      param2 "Tough1"
+      event_ramp
+      {
+        0.3167 0.9063
+        2.2278 0.6042
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "36"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

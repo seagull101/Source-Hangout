@@ -1,0 +1,96 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "npc_marine.charge06"
+    {
+      time 0.073333 1.642403
+      param "vo\npc\hgrunt\hg_charge06.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough1"
+    {
+      time 0.046667 0.653333
+      param "humans\marine\marine"
+      param2 "Tough1"
+      event_ramp
+      {
+        0.0320 0.5104
+        0.5280 0.9479
+      }
+    }
+    event expression "Tough5"
+    {
+      time 0.493333 1.160000
+      param "humans\marine\marine"
+      param2 "Tough5"
+      event_ramp
+      {
+        0.0620 0.9896
+        0.6260 0.9583
+      }
+    }
+    event expression "Tough Panic1"
+    {
+      time 1.026667 1.733333
+      param "humans\marine\marine"
+      param2 "Tough Panic1"
+      event_ramp
+      {
+        0.0580 0.8958
+        0.6340 0.8125
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "Go Go Go"
+    {
+      time 0.020000 1.926666
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_updown" range 15.0 -15.0 
+        {
+          0.0733 0.3600
+          0.6667 0.2400
+          0.8800 0.2700
+          1.0533 0.5000
+        }
+        "eyes_updown" range 30.0 -30.0 
+        {
+          0.0733 0.6200
+          0.6467 0.5700
+          0.8840 0.5600
+          1.0533 0.5000
+        }
+        "head_forwardback" range 0.2 -0.2 
+        {
+          0.0733 1.0000
+          0.6667 0.3600
+          0.9080 0.3200
+          1.0853 0.0700
+          1.6453 0.0700
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "88"
+  "ExpressionTool" "50"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

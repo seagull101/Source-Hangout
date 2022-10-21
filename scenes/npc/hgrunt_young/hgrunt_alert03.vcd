@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "npc_marine.alert03"
+    {
+      time 0.100000 0.904263
+      param "vo\npc\hgrunt_young.\hg_alert03.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough2"
+    {
+      time 0.033333 1.126667
+      param "humans\marine\marine"
+      param2 "Tough2"
+      event_ramp
+      {
+        0.0404 0.9167
+        0.8933 0.9375
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "94"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

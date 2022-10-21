@@ -1,0 +1,88 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "npc_marine.medic16"
+    {
+      time 0.060000 3.263129
+      param "vo\npc\hgrunt\hg_medic16.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Pain2"
+    {
+      time 0.129824 1.130873
+      param "humans\marine\marine"
+      param2 "Pain2"
+      event_ramp
+      {
+        0.0435 0.8646
+        0.9831 0.5313
+      }
+    }
+    event expression "Pain1"
+    {
+      time 0.964031 2.517906
+      param "humans\marine\marine"
+      param2 "Pain1"
+      event_ramp
+      {
+        0.0283 0.7396
+        1.4841 0.6771
+      }
+    }
+    event expression "Tough8"
+    {
+      time 2.287730 3.316535
+      param "humans\marine\marine"
+      param2 "Tough8"
+      event_ramp
+      {
+        0.0306 0.5000
+        0.9767 0.8646
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "Painful"
+    {
+      time 0.027829 3.218381
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_updown" range 15.0 -15.0 
+        {
+          0.0867 0.5700
+          0.4333 0.1100
+          2.2698 0.0400
+          2.4881 0.3700
+        }
+        "head_forwardback" range 0.2 -0.2 
+        {
+          1.5838 0.0800
+          2.2408 0.2400
+          2.5838 0.9406
+          2.7802 0.8700
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "24"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,81 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Sound"
+  {
+    event speak "vo\npc\barneys\docfreeman02.wav"
+    {
+      time 0.486667 0.796622
+      param "vo\npc\barneys\docfreeman02.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look"
+  {
+    event lookat "Look at !player"
+    {
+      time 0.040000 2.086667
+      param "!player"
+      event_ramp
+      {
+        0.1529 0.1806
+        0.4765 0.8472
+        0.6442 0.9931
+        1.1660 0.9931
+        1.3131 0.8403
+        1.8690 0.2222
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "flex01_eyebrows"
+    {
+      time 0.166667 1.926667
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_updown" range 15.0 -15.0 
+        {
+          0.1840 0.5100
+          0.4527 0.4300
+          0.8009 0.4900
+          0.8629 0.4900
+        }
+        "lid_tightener" combo 
+        {
+          0.4347 0.0900
+        }
+        {
+        }
+        "inner_raiser" combo 
+        {
+          0.2467 0.0800
+        }
+        {
+        }
+        "cheek_raiser" combo 
+        {
+          0.1187 0.3500
+          0.3707 0.2600
+        }
+        {
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "68"
+  "SceneRampTool" "100"
+  "ExpressionTool" "50"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

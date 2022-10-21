@@ -1,0 +1,81 @@
+// Choreo version 1
+actor "Guard01"
+{
+  channel "Guard01"
+  {
+    event speak "Guard01.IntroScene.Line02"
+    {
+      time 0.066667 2.876281
+      param "Guard01.IntroScene.Line02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Guard01.IntroScene.Line03"
+    {
+      time 4.126667 7.098821
+      param "Guard01.IntroScene.Line03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event gesture "Knock Knock"
+    {
+      time 0.406667 3.000000
+      param "doorPound"
+      sequenceduration 3.333333
+    }
+    event gesture "ANNOYED"
+    {
+      time 3.026667 6.000000
+      param "g_pinchnose"
+      absolutetags playback_time
+      {
+        "apex" 0.451461
+        "accent" 0.547622
+        "loop" 0.564326
+        "end" 1.000000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.270270
+        "accent" 0.337838
+        "loop" 0.337838
+        "end" 0.743243
+      }
+      sequenceduration 4.966667
+    }
+    event gesture "Point"
+    {
+      time 6.020000 8.320000
+      param "Gesture12"
+      absolutetags playback_time
+      {
+        "apex" 0.147059
+        "accent" 0.264706
+        "loop" 0.367647
+        "end" 0.514706
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147059
+        "accent" 0.264706
+        "loop" 0.367647
+        "end" 0.514706
+      }
+      sequenceduration 2.300000
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

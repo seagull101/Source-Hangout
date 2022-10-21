@@ -1,0 +1,124 @@
+// Choreo version 1
+actor "Guard03"
+{
+  channel "Talk"
+  {
+    event speak "Guard03.IntroScene.Line02"
+    {
+      time 5.483334 7.340930
+      param "Guard03.IntroScene.Line02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event gesture "wave"
+    {
+      time 0.004167 4.304166
+      param "g_wave_casual"
+      absolutetags playback_time
+      {
+        "in" 0.234375
+        "out" 0.781250
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.234375
+        "out" 0.781250
+      }
+      sequenceduration 4.300000
+    }
+    event gesture "eureka"
+    {
+      time 5.304166 7.437500
+      param "g_cb_thought"
+      absolutetags playback_time
+      {
+        "apex" 0.158730
+        "accent" 0.317460
+        "loop" 0.476191
+        "end" 0.555556
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.158730
+        "accent" 0.317460
+        "loop" 0.476191
+        "end" 0.555556
+      }
+      sequenceduration 2.133333
+    }
+    event face "Face KarenScientist"
+    {
+      time 2.270833 7.425001
+      param "KarenScientist"
+    }
+    event face "Face Locker"
+    {
+      time 6.934475 7.434476
+      param "Locker"
+    }
+  }
+  faceposermodel "models\humans\guard.mdl"
+}
+
+actor "KarenScientist"
+{
+  channel "Talk"
+  {
+    event speak "KarenScientist.IntroScene.Line01"
+    {
+      time 1.816666 5.009410
+      param "KarenScientist.IntroScene.Line01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event gesture "idk"
+    {
+      time 1.812500 5.445833
+      param "g_scratchhead"
+      absolutetags playback_time
+      {
+        "apex" 0.128889
+        "accent" 0.138889
+        "loop" 0.277778
+        "end" 0.583333
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.138889
+        "accent" 0.138889
+        "loop" 0.277778
+        "end" 0.583333
+      }
+      sequenceduration 3.633333
+    }
+    event lookat "Look at Locker"
+    {
+      time 6.954960 7.454960
+      param "Locker"
+    }
+    event lookat "Look at Guard03"
+    {
+      time 0.039682 6.904762
+      param "Guard03"
+    }
+  }
+  faceposermodel "models\humans\scientist.mdl"
+}
+
+actor "Locker"
+{
+}
+
+scalesettings
+{
+  "CChoreoView" "184"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

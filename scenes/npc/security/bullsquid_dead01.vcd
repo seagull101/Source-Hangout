@@ -1,0 +1,50 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "bullsquid_dead01"
+    {
+      time 0.146667 1.744059
+      param "vo\npc\barneys\bullsquid_dead01.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look"
+  {
+    event lookat "Look At Bullsquid"
+    {
+      time 0.033334 2.166667
+      param "!enemy"
+      event_ramp
+      {
+        0.0571 0.7805
+        0.1286 0.9756
+        1.7905 0.9756
+        2.0143 0.7439
+      }
+    }
+    active "0"
+  }
+  channel "Flex"
+  {
+  }
+  channel "Gesture"
+  {
+  }
+  faceposermodel "models\humans\guard.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "38"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "42"
+}
+fps 60
+snap off
+ignorePhonemes off

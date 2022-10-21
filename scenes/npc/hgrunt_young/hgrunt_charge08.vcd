@@ -1,0 +1,56 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "vo\npc\hgrunt_young\HG_CHARGE08_whatareyoudoing.wav"
+    {
+      time 0.073333 2.090340
+      param "vo\npc\hgrunt_young\HG_CHARGE08_whatareyoudoing.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough5"
+    {
+      time 0.020000 1.193334
+      param "humans\marine\marine"
+      param2 "Tough5"
+      event_ramp
+      {
+        0.0520 0.5122
+        0.5140 0.6463
+        0.5600 1.0000
+        1.0680 0.9878
+      }
+    }
+    event expression "Tough8"
+    {
+      time 0.926666 2.246666
+      param "humans\marine\marine"
+      param2 "Tough8"
+      event_ramp
+      {
+        0.1780 0.3659
+        0.4222 0.3902
+        0.4911 0.9024
+        1.1700 0.8049
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "168"
+  "RampTool" "90"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

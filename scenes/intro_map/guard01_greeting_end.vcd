@@ -1,0 +1,67 @@
+// Choreo version 1
+actor "guard01"
+{
+  channel "guard01"
+  {
+    event speak "Guard01.IntroScene.Line04"
+    {
+      time 0.193333 4.732834
+      param "Guard01.IntroScene.Line04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event gesture "crossarms"
+    {
+      time 0.020000 1.986666
+      param "g_crossarms"
+      absolutetags playback_time
+      {
+        "apex" 0.086207
+        "accent" 0.334828
+        "loop" 0.344828
+        "end" 0.689655
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.086207
+        "accent" 0.344828
+        "loop" 0.344828
+        "end" 0.689655
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "Introduction to who knows"
+    {
+      time 2.013333 4.713334
+      param "Gesture05NP"
+      absolutetags playback_time
+      {
+        "apex" 0.112963
+        "accent" 0.188272
+        "loop" 0.301235
+        "end" 0.401646
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.150000
+        "accent" 0.250000
+        "loop" 0.400000
+        "end" 0.533333
+      }
+      sequenceduration 2.033333
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

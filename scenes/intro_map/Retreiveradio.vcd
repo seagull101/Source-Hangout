@@ -1,0 +1,44 @@
+// Choreo version 1
+actor "Scientist01"
+{
+  channel "Talk"
+  {
+    event speak "Scientist01_WTF"
+    {
+      time 0.053333 1.388481
+      param "Scientist01_WTF"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Walk"
+  {
+    event lookat "YOU"
+    {
+      time 0.080000 1.386667
+      param "!player"
+    }
+    event moveto "Moveto Radio"
+    {
+      time 1.493334 2.713334
+      param "Radio"
+    }
+  }
+}
+
+actor "Radio"
+{
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

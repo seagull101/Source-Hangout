@@ -1,0 +1,77 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "npc_marine.medic12"
+    {
+      time 0.093333 2.409546
+      param "vo\npc\hgrunt\hg_medic12.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough2"
+    {
+      time 0.046667 1.806667
+      param "humans\marine\marine"
+      param2 "Tough2"
+      event_ramp
+      {
+        0.0630 0.5417
+        1.6259 0.8958
+      }
+    }
+    event expression "Tough8"
+    {
+      time 1.700000 2.493334
+      param "humans\marine\marine"
+      param2 "Tough8"
+      event_ramp
+      {
+        0.0444 0.5313
+        0.5778 0.8958
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "Yell"
+    {
+      time 0.041333 2.567333
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_updown" range 15.0 -15.0 
+        {
+          1.0375 0.3900
+          1.5356 0.0700
+          1.7308 0.5300
+        }
+        "head_forwardback" range 0.2 -0.2 
+        {
+          0.1375 0.2079
+          0.6250 0.0990
+          1.5330 0.2882
+          1.7510 0.8800
+          2.2308 0.8900
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "54"
+  "ExpressionTool" "32"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

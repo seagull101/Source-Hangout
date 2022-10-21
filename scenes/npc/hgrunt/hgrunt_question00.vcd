@@ -1,0 +1,78 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "question00"
+    {
+      time 0.066667 1.451837
+      param "vo\npc\hgrunt\hg_quest00.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough4 Alt"
+    {
+      time 0.660000 1.520000
+      param "humans\marine\marine"
+      param2 "Tough4 Alt"
+      event_ramp
+      {
+        0.1400 0.3855
+        0.7800 0.5833
+      }
+    }
+    event expression "Tough4"
+    {
+      time 0.046667 0.980000
+      param "humans\marine\marine"
+      param2 "Tough4"
+      event_ramp
+      {
+        0.0333 0.4167
+        0.8033 0.4583
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "Scan Area"
+    {
+      time 0.040000 1.593333
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_rightleft" range 30.0 -30.0 
+        {
+          0.3955 0.5200
+        }
+        "eyes_rightleft" range 30.0 -30.0 
+        {
+          0.1974 0.1963
+          0.8858 0.7200
+          1.3571 0.7228
+        }
+        "head_forwardback" range 0.2 -0.2 
+        {
+          0.1947 0.3000
+          1.3955 0.5400
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "60"
+  "ExpressionTool" "28"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

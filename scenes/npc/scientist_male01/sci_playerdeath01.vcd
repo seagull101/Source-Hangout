@@ -1,0 +1,76 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Sound"
+  {
+    event speak "vo\npc\sci_male\doingsomething04.wav"
+    {
+      time 0.745455 3.105772
+      param "vo\npc\scientist_male01\doingsomething04.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Look"
+  {
+    event lookat "Look at !friend"
+    {
+      time 0.080000 3.929091
+      param "!friend"
+      event_ramp
+      {
+        0.1529 0.1806
+        0.3147 0.6526
+        1.0085 0.9988
+        2.5424 1.0000
+        3.5020 0.5710
+        3.6715 0.2222
+      }
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Scared"
+    {
+      time 1.645455 3.887879
+      param "common_expressions"
+      param2 "Scared"
+      event_ramp
+      {
+        0.1062 0.5244
+        1.4576 0.5244
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "Head Back"
+    {
+      time 0.158799 3.112083
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_forwardback" range 0.2 -0.2 
+        {
+          0.6750 0.5800
+          1.2475 1.0000
+          1.6876 0.9600
+          2.0573 0.5600
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "44"
+  "RampTool" "32"
+  "SceneRampTool" "100"
+  "ExpressionTool" "40"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

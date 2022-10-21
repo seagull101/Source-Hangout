@@ -1,0 +1,88 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "npc_marine.clear04"
+    {
+      time 0.046667 3.166259
+      param "vo\npc\hgrunt\hg_clear04.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough7"
+    {
+      time 0.026667 3.146667
+      param "humans\marine\marine"
+      param2 "Tough7"
+      event_ramp
+      {
+        0.1267 0.8854
+        1.1200 0.9063
+        1.5267 0.3125
+        1.9667 0.2500
+        2.4133 0.8646
+        2.9733 0.8646
+      }
+    }
+    event expression "Tough4"
+    {
+      time 1.243563 2.401609
+      param "humans\marine\marine"
+      param2 "Tough4"
+      event_ramp
+      {
+        0.2021 0.8125
+        0.8666 0.7187
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "Scan Area"
+    {
+      time 0.086666 2.566667
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_rightleft" range 30.0 -30.0 
+        {
+          0.2035 0.3500
+          0.7873 0.3600
+          1.1622 0.8400
+          1.9294 0.9200
+        }
+        "eyes_rightleft" range 30.0 -30.0 
+        {
+          0.2154 0.1600
+          0.7262 0.0900
+          1.1509 0.7600
+          1.4529 0.2500
+          1.7529 0.8200
+        }
+        "head_forwardback" range 0.2 -0.2 
+        {
+          0.1333 0.3200
+          1.1471 0.0300
+          1.7235 0.0400
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "232"
+  "RampTool" "94"
+  "ExpressionTool" "34"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

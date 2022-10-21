@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "guard01"
+{
+  channel "GuardLines"
+  {
+    event speak "Guard01.IntroScene.Line01"
+    {
+      time -0.113334 3.882403
+      param "Guard01.IntroScene.Line01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event gesture "Oh"
+    {
+      time 0.020000 2.986667
+      param "g_cb_salute"
+      absolutetags playback_time
+      {
+        "apex" 0.113636
+        "accent" 0.568182
+        "loop" 0.602273
+        "end" 0.681818
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.113636
+        "accent" 0.568182
+        "loop" 0.602273
+        "end" 0.681818
+      }
+      sequenceduration 2.966667
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

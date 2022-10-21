@@ -1,0 +1,72 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Voice"
+  {
+    event speak "taunt04"
+    {
+      time 0.066667 1.994105
+      param "vo\npc\hgrunt\hg_taunt04.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Expression"
+  {
+    event expression "Tough7"
+    {
+      time 0.020000 1.306667
+      param "humans\marine\marine"
+      param2 "Tough7"
+      event_ramp
+      {
+        0.0422 0.7708
+        1.1933 0.7917
+      }
+    }
+    event expression "Tough Panic1"
+    {
+      time 1.140000 2.100000
+      param "humans\marine\marine"
+      param2 "Tough Panic1"
+      event_ramp
+      {
+        0.0467 0.5625
+        0.7978 0.8854
+      }
+    }
+  }
+  channel "Flex"
+  {
+    event flexanimation "Yell"
+    {
+      time 0.069111 2.055111
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "head_updown" range 15.0 -15.0 
+        {
+          0.2732 0.4400
+        }
+        "head_forwardback" range 0.2 -0.2 
+        {
+          0.1204 0.7700
+          0.9614 0.8200
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "90"
+  "ExpressionTool" "42"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
