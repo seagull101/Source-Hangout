@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "dk_cars/toyota/cruiser/plastik_5_24"
+	"$bumpmap" "dk_cars/shared/kraska_dk"
+	"$translucent" 0
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongboost" "1"
+	"$phongexponent" 2
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1.0"
+	"$phongfresnelranges" "[0.001 0.001 0.001]"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
