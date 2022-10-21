@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/pipe_bubbles/bubble"
+	"$model" 1
+	"$translucent" 1
+	"$additive" 1
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/sat_globe/green"
+	"$additive" 1
+	"$translucent" "1"
+	"$nocull" 1
+}

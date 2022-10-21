@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "models/forklift/fl_side"
+}
