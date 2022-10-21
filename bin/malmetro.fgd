@@ -1,0 +1,308 @@
+@include "base.fgd"
+
+@PointClass Webhook(Targetname) iconsprite("editor/disclogo.vmt") = discord_webhook : "Sends a webhook to the desired link"
+[
+//Fields
+targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+Message(string) 	: "Message"		: "Hello World"	: "Text to be sent in the webhook"
+WebhookURL(string) 	: "URL"		: ""	: "Where the message will be sent"
+// Inputs
+	input Send(void) : "SendMessage"
+
+	//BASECLASS
+// Inputs
+	input Kill(void) : "Removes this entity from the world."
+	input KillHierarchy(void) : "Removes this entity and all its children from the world."
+	input AddOutput(string) : "Adds an entity I/O connection to this entity. Format: <output name> <targetname>:<inputname>:<parameter>:<delay>:<max times to fire (-1 == infinite)>. Very dangerous, use with care."
+	input FireUser1(void) : "Causes this entity's OnUser1 output to be fired."
+	input FireUser2(void) : "Causes this entity's OnUser2 output to be fired."
+	input FireUser3(void) : "Causes this entity's OnUser3 output to be fired."
+	input FireUser4(void) : "Causes this entity's OnUser4 output to be fired."
+
+	// Outputs	
+	output OnUser1(void) : "Fired in response to FireUser1 input."
+	output OnUser2(void) : "Fired in response to FireUser2 input."
+	output OnUser3(void) : "Fired in response to FireUser3 input."
+	output OnUser4(void) : "Fired in response to FireUser4 input."
+]
+
+@NPCClass base(BaseNPC,Parentname, TalkNPC, PlayerCompanion ) studio() = npc_scientist : "Scientist"
+[
+
+	spawnflags(Flags) =
+	[
+		65536 : "Follow player on spawn" : 0
+		131072 : "Medic" : 0
+		262144 : "Random Head" : 1
+		524288 : "Ammo Resupplier" : 0
+		1048576 : "Not Commandable" : 0
+		2097152 : "Don't use Speech Semaphore - OBSOLETE" : 0
+		4194304 : "Random male head" : 0
+		8388608 : "Random female head" : 0
+		16777216 : "Use RenderBox in ActBusies" : 0
+	]
+
+	additionalequipment(choices) : "Weapons" : "0" =
+	[
+		"weapon_smg1" : "SMG1"
+		"weapon_ar2" : "AR2"
+		"weapon_stunstick" : "Stun Stick"
+		"weapon_crowbar" : "Crow Bar"
+		"weapon_shotgun" : "Shotgun"
+		"weapon_beerbottle" : "Beer Bottle"
+		"weapon_beerbottle2" : "Beer Bottle2"
+		"weapon_rpg" : "RPG"
+		"0"  : "Nothing"
+	]
+
+	ammosupply(choices) : "Ammo to Resupply (if spawnflag set)" : "SMG1" =
+	[
+		"Pistol" : "Pistol"
+		"SMG1" : "SMG1"
+		"SMG1_Grenade" : "SMG1 Grenade"
+		"AR2" : "AR2"
+		"Buckshot" : "Shotgun"
+		"RPG_Round" : "RPG"
+		"Grenade" : "Grenade"
+		"XBowBolt" : "Crossbow Bolt"
+	]
+	ammoamount(integer) : "Amount of ammo to give" : 1
+
+	citizentype(choices) : "Type" : "Default" =
+	[
+		0 : "Default"	 
+		1 : "Downtrodden"
+		2 : "Refugee"
+		3 : "Rebel"
+		4 : "Unique"
+	]
+
+	expressiontype(choices) : "Expression Type" : "Random" =
+	[
+		0 : "Random"
+		1 : "Scared"
+		2 : "Normal"
+		3 : "Angry"
+	]
+
+	//!!!BUGBUG - don't ship with these names
+	//!!!FIXME - don't ship with these names
+	model(choices) : "Model" : "models/humans/scientist.mdl" =
+	[
+		"models/humans/scientist.mdl" : "Scientist"
+	]
+
+	ExpressionOverride(string) : "Facial expression override"
+
+	notifynavfailblocked(choices) : "Fire output when Nav is blocked?" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	neverleaveplayersquad(choices) : "Permanent squad member?" : 0 : "A permanent squad member cannot leave the player's squad unless killed or explicity removed by entity I/O. Only use this if you're sure you want to override the default AI." =
+	[
+		0 : "No. This is default behavior."
+		1 : "Yes, stay in squad until death."
+	]
+
+	denycommandconcept(string) : "Deny command speech concept" : "" : "If you want your citizens to squad with the player but not obey commands the player gives to move the squad, put a concept here and this citizen will speak the concept instead of obeying the order."
+
+    //Inputs
+	input RemoveFromPlayerSquad(void) : "Remove from player squad, instantly."
+	input SetExpressionOverride(string) : "Set facial expression override"
+
+	input StartPatrolling(void) : "Patrol whenever I'm idle or alert."
+	input StopPatrolling(void) : "Stop patrolling when I'm idle or alert."
+	input SetCommandable(void) : "Make a previously uncommandable citizen commandable"
+	input SetMedicOn(void) : "Set the medic flag on. Will not change the model or skin of the citizen."
+	input SetMedicOff(void) : "Set the medic flag off. Will not change the model or skin of the citizen."
+	input SetAmmoResupplierOn(void) : "Set the ammo-resupplier flag on. Will not change the model or skin of the citizen."
+	input SetAmmoResupplierOff(void) : "Set the ammo-resupplier flag off. Will not change the model or skin of the citizen."
+
+	// Outputs
+	output OnJoinedPlayerSquad(void) : "Fires when joins player squad"
+	output OnLeftPlayerSquad(void) : "Fires when leaves player squad"
+	output OnFollowOrder(void) : "Fires when ordered to follow player"
+	output OnStationOrder(void) : "Fires when ordered to a location by player"
+	output OnPlayerUse(void) : "Fires when a player +USEs the citizen"
+	output OnNavFailBlocked(void) : "Fires when this Citizen's movement fails because he/she is blocked."
+]
+@NPCClass base(BaseNPC,Parentname, TalkNPC, PlayerCompanion ) studio() = npc_administrator : "Admin"
+[
+
+	spawnflags(Flags) =
+	[
+		65536 : "Follow player on spawn" : 0
+		131072 : "Medic" : 0
+		262144 : "Random Head" : 1
+		524288 : "Ammo Resupplier" : 0
+		1048576 : "Not Commandable" : 0
+		2097152 : "Don't use Speech Semaphore - OBSOLETE" : 0
+		4194304 : "Random male head" : 0
+		8388608 : "Random female head" : 0
+		16777216 : "Use RenderBox in ActBusies" : 0
+	]
+
+	additionalequipment(choices) : "Weapons" : "0" =
+	[
+		"weapon_smg1" : "SMG1"
+		"weapon_ar2" : "AR2"
+		"weapon_stunstick" : "Stun Stick"
+		"weapon_crowbar" : "Crow Bar"
+		"weapon_shotgun" : "Shotgun"
+		"weapon_beerbottle" : "Beer Bottle"
+		"weapon_beerbottle2" : "Beer Bottle2"
+		"weapon_rpg" : "RPG"
+		"0"  : "Nothing"
+	]
+
+	ammosupply(choices) : "Ammo to Resupply (if spawnflag set)" : "SMG1" =
+	[
+		"Pistol" : "Pistol"
+		"SMG1" : "SMG1"
+		"SMG1_Grenade" : "SMG1 Grenade"
+		"AR2" : "AR2"
+		"Buckshot" : "Shotgun"
+		"RPG_Round" : "RPG"
+		"Grenade" : "Grenade"
+		"XBowBolt" : "Crossbow Bolt"
+	]
+	ammoamount(integer) : "Amount of ammo to give" : 1
+
+	citizentype(choices) : "Type" : "Default" =
+	[
+		0 : "Default"	 
+		1 : "Downtrodden"
+		2 : "Refugee"
+		3 : "Rebel"
+		4 : "Unique"
+	]
+
+	expressiontype(choices) : "Expression Type" : "Random" =
+	[
+		0 : "Random"
+		1 : "Scared"
+		2 : "Normal"
+		3 : "Angry"
+	]
+
+	//!!!BUGBUG - don't ship with these names
+	//!!!FIXME - don't ship with these names
+	model(choices) : "Model" : "models/gman.mdl" =
+	[
+		"models/gman.mdl" : "Admin"
+	]
+
+	ExpressionOverride(string) : "Facial expression override"
+
+	notifynavfailblocked(choices) : "Fire output when Nav is blocked?" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	neverleaveplayersquad(choices) : "Permanent squad member?" : 0 : "A permanent squad member cannot leave the player's squad unless killed or explicity removed by entity I/O. Only use this if you're sure you want to override the default AI." =
+	[
+		0 : "No. This is default behavior."
+		1 : "Yes, stay in squad until death."
+	]
+
+	denycommandconcept(string) : "Deny command speech concept" : "" : "If you want your citizens to squad with the player but not obey commands the player gives to move the squad, put a concept here and this citizen will speak the concept instead of obeying the order."
+
+    //Inputs
+	input RemoveFromPlayerSquad(void) : "Remove from player squad, instantly."
+	input SetExpressionOverride(string) : "Set facial expression override"
+
+	input StartPatrolling(void) : "Patrol whenever I'm idle or alert."
+	input StopPatrolling(void) : "Stop patrolling when I'm idle or alert."
+	input SetCommandable(void) : "Make a previously uncommandable citizen commandable"
+	input SetMedicOn(void) : "Set the medic flag on. Will not change the model or skin of the citizen."
+	input SetMedicOff(void) : "Set the medic flag off. Will not change the model or skin of the citizen."
+	input SetAmmoResupplierOn(void) : "Set the ammo-resupplier flag on. Will not change the model or skin of the citizen."
+	input SetAmmoResupplierOff(void) : "Set the ammo-resupplier flag off. Will not change the model or skin of the citizen."
+
+	// Outputs
+	output OnJoinedPlayerSquad(void) : "Fires when joins player squad"
+	output OnLeftPlayerSquad(void) : "Fires when leaves player squad"
+	output OnFollowOrder(void) : "Fires when ordered to follow player"
+	output OnStationOrder(void) : "Fires when ordered to a location by player"
+	output OnPlayerUse(void) : "Fires when a player +USEs the citizen"
+	output OnNavFailBlocked(void) : "Fires when this Citizen's movement fails because he/she is blocked."
+]
+@PointClass base(Targetname) iconsprite("editor/ambient_generic.vmt") sphere() = ambient_generic : "Universal ambient sound. Use it to play and control a single sound."
+[
+	message(sound) : "Sound Name" : "" : "Name of the GameSound entry for the sound to play. Also supports direct .wav filenames."
+	health(integer) : "Volume" : 10 : "Sound volume, expressed as a range from 0 to 10, where 10 is the loudest."
+	preset(choices) :"Dynamic Presets" : 0 =						// NEEDHELP
+	[
+		0: "None"
+		1: "Huge Machine"
+		2: "Big Machine"
+		3: "Machine"
+		4: "Slow Fade in"  
+		5: "Fade in"
+		6: "Quick Fade in"
+		7: "Slow Pulse"
+		8: "Pulse"
+		9: "Quick pulse"
+		10: "Slow Oscillator"
+		11: "Oscillator"
+		12: "Quick Oscillator"
+		13: "Grunge pitch"
+		14: "Very low pitch"
+		15: "Low pitch"
+		16: "High pitch"
+		17: "Very high pitch"
+		18: "Screaming pitch"
+		19: "Oscillate spinup/down"
+		20: "Pulse spinup/down"
+		21: "Random pitch"
+		22: "Random pitch fast"
+		23: "Incremental Spinup"
+		24: "Alien"
+		25: "Bizzare"
+		26: "Planet X"
+		27: "Haunted"
+	]
+	preset(choices) :"Audio Type" : 0 = 
+	[
+		0: "Generic"
+		1: "Human/NPC"
+		2: "Explosion"
+		3: "Ambient"
+
+	]
+	volstart(integer) : "Start Volume" : 0							// NEEDHELP
+	fadeinsecs(integer) : "Fade in time in seconds (0-100)" : 0		// NEEDHELP
+	fadeoutsecs(integer) : "Fade out time in seconds (0-100)" : 0	// NEEDHELP
+	pitch(integer) : "Pitch" : 100 : "Sound pitch, expressed as a range from 1 to 255, where 100 is the sound's default pitch."
+	pitchstart(integer) : "Start Pitch" : 100						// NEEDHELP
+	spinup(integer) : "Spin up time (0-100)" : 0					// NEEDHELP
+	spindown(integer) : "Spin down time (0-100)" : 0				// NEEDHELP
+	lfotype(integer) : "LFO type 0)off 1)sqr 2)tri 3)rnd" : 0		// NEEDHELP
+	lforate(integer) : "LFO rate (0-1000)" : 0						// NEEDHELP
+	lfomodpitch(integer) : "LFO mod pitch (0-100)" : 0				// NEEDHELP
+	lfomodvol(integer) : "LFO mod vol (0-100)" : 0					// NEEDHELP
+	cspinup(integer) : "Incremental Spinup Count" : 0				// NEEDHELP
+	radius(string) : "Max Audible Distance" : "1250" : "Maximum distance at which this sound is audible."
+	spawnflags(flags) =
+	[
+		1: "Play everywhere" : 0
+		16:"Start Silent": 1
+		32:"Is NOT Looped": 1
+		64: "Legacy Sound" : 0
+		128: "Sound bounces off walls (requires Legacy Sound to be disabled)" : 1
+	]
+	SourceEntityName(target_destination) : "SourceEntityName" : : "If an entity is specified, sound will come from this named entity instead of the location of ambient_generic."
+
+	// Inputs
+	input Pitch(integer) : "Sets the sound pitch, expressed as a range from 1 to 255, where 100 is the sound's default pitch."
+	input PlaySound(void) : "Starts the sound."
+	input StopSound(void) : "Stops the sound if it is playing."
+	input ToggleSound(void) : "Toggles the sound between playing and stopping."
+	input Volume(integer) : "Sets the sound volume, expressed as a range from 0 to 10, where 10 is the loudest."
+	input FadeIn(integer) : "Fades the sound up to full volume over a specified number of seconds, with a range from 0 to 100 seconds."
+	input FadeOut(integer) : "Fades the sound to silence over a specified number of seconds, with a range from 0 to 100 seconds."
+]
+@PointClass base(Item) studio("models/mesaweapons/w_medkit.mdl") = item_healthkit : "Small Health Kit" []
