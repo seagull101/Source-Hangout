@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\world_models/medkit_classic/med_kit_D2"
+	"$bumpmap" "models\world_models/medkit_classic/med_kit_N2"
+	"$envmap" "env_cubemap"
+//	"$envmaptint" "[0.4 0.4 0.4]
+	"$basealphaenvmapmask" "0"
+//	"$normalmapalphaenvmapmask" "2"
+	"$selfillum" "1"
+	"$selfillummask"  "models\world_models/medkit_classic/med_kit_SI2"
+	"$selfillumtint"	"[1.5 1.5 1.5]"
+	"$selfillumFrensel" "1.5"
+	"$selfillumFrenselMinMaxEnp" "[0.1 2.0 3.0]"
+
+
+	"$nocull" 1
+	"$model" "1"
+	"$halflambert" "1"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+        $phong 1
+	$phongexponent "8"
+        $phongboost "1.8"
+        $phongfresnelranges "[0.5 2 4]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "5"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".5`"	               // Boost for ambient cube component of rim lighting
+}

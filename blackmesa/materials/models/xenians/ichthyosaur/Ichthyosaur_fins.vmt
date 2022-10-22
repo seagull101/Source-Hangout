@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/xenians/ichthyosaur/ichthyosaur_sheet"
+	"$bumpmap" "models/xenians/ichthyosaur/ichthyosaur_sheet_normals"
+	"$model" 1
+	"$translucent" 1
+	"$surfaceprop" "alienflesh"
+	"$multipass" 1
+	"$nocull" 0
+
+	// for iridescence "$halflambert" must be disabled and "$phongfresnelranges" values reversed.
+        
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" "10"
+	// "$phongexponenttexture"  "models/xenians/ichthyosaur/ichthyosaur_sheet_exponent"
+	"$phongfresnelranges" "[1 0.5 0]"
+	"$halflambert" "0"
+	"$phongwarptexture"  "models/effects/phongwarp_library/iridescence009"
+
+		$detail "decals/bms_bloodsplatterFloor_001b.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+
+}

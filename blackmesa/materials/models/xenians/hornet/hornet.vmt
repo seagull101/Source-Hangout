@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\xenians\hornet/hornet"
+	"$bumpmap" "models\xenians\hornet/hornet_normal"
+	"$surfaceprop" "flesh"
+	"$normalmapalphaenvmapmask" 1
+	"$envcontrast" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .48 .48 .40 ]"
+	"$multipass" 1
+	"$nocull" 1
+}

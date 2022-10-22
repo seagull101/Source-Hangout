@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\world_models\w_rpgammo"
+	"$bumpmap" "models\world_models\w_rpgammo_normal"
+       	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.075 0.075 0.075]"
+    	"$normalmapalphaenvmapmask" "1"
+	"$selfillum" 1
+	"$selfillumtint" "[0.12 0.12 0.12]"
+
+	"$phong" "1"
+	"$phongboost" "0.7"
+	"$phongexponent" "25"
+	"$phongfresnelranges" "[0.7 3 10]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "15"
+	"$rimlightboost" "0.75"
+}

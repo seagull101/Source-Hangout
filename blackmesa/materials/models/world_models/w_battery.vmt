@@ -1,0 +1,32 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+	"$baseTexture" "models/world_models/w_battery"
+	"$bumpmap" "models/world_models/w_battery_normal"
+
+	"$envmap" "env_cubemap"
+        "$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[0.8 0.8 0.8]"
+
+	"$selfillum" 1
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "2"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "5"
+"$phongboost" "5"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+"$phongalbedotint" "1"
+
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+}

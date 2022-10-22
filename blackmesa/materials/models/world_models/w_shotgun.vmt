@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\world_models/w_shotgun"
+	"$bumpmap" "models\world_models/w_shotgun_nm"
+       	"$normalmapalphaenvmapmask" "1"
+}

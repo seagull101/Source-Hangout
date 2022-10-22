@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\world_models\w_satchel"
+	"$bumpmap"	"models\world_models\w_satchel_n"
+
+	"$phong" "1"
+	"$phongboost" "0.5"
+	"$phongexponent" "25"
+	"$phongfresnelranges" "[0.1 5 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "20"
+	"$rimlightboost" "0.6"
+
+	$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

@@ -1,0 +1,36 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\zombies/ZGuard_h"
+        "$bumpmap" "models\zombies/ZGuard_h_normals"
+	"$model" 1
+	"$surfaceprop" "alienflesh"
+	"$multipass" 1
+
+        $detail detail\noise_detail_01 // e.g. for brickwork, concrete...
+        $detailscale 7.74
+        $detailblendfactor 0.8
+        $detailblendmode 0
+
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" 33
+	"$phongfresnelranges" "[.18 .4 1]"
+	"$halflambert" "1"
+//	"$phongwarptexture"  "models/xenians/ichthyosaur/iridescence"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "60"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".5"	               // Boost for ambient cube component of rim lighting
+
+		$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

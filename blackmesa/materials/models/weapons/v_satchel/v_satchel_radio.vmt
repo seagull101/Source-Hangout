@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_satchel\v_satchel_radio"
+	"$bumpmap" "models\weapons\v_satchel\v_satchel_radio_nm"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "4.8"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "25"
+	"$rimlightboost" "0.5"
+
+	$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

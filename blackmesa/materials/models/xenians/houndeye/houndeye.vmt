@@ -1,0 +1,45 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\xenians\houndeye/houndeye"
+	"$bumpmap" "models\xenians\houndeye/houndeye_normals"
+	"$model" 1
+	"$surfaceprop" "alienflesh"
+	"$multipass" 1
+
+        $detail detail\noise_detail_01 // e.g. for brickwork, concrete...
+        $detailscale 7.74
+        $detailblendfactor 0.8
+        $detailblendmode 0
+
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" 13
+	"$phongfresnelranges" "[1 .4 0]"
+	"$halflambert" "0"
+	"$phongwarptexture"  "models/effects/phongwarp_library/iridescence011"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "60"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".5"	               // Boost for ambient cube component of rim lighting
+
+	"$selfillum" 1
+	"$selfillumtint" "[ 0 0 0 ]"
+		
+	$detail "decals/bms_bloodsplatterFloor_001b.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+
+		"HoundeyeCharge"
+		{
+			"resultVar" "$selfillumtint"
+		}
+	}
+}

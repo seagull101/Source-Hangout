@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\xenians\snarkmine\webbing"
+	"$bumpmap" "models\xenians\snarkmine\webbing_normals"
+
+        "$translucent" "1"
+	"$model" 1
+	"$surfaceprop" "alienflesh"
+// for iridescence "$halflambert" must be disabled and "$phongfresnelranges" values reversed.
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "25"
+	"$phongfresnelranges" "[1 0.5 0]"
+	"$halflambert" "0"
+	"$phongwarptexture"  "models/effects/phongwarp_library/iridescence003"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "30"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"	               // Boost for ambient cube component of rim lighting
+
+        
+}

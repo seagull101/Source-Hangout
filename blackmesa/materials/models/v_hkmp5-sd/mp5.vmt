@@ -1,0 +1,53 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+	"$SHADERNAME" "model_standard"
+
+	"$baseTexture" "models\v_hkmp5-sd/mp5"
+	"$bumpmap" "models\v_hkmp5-sd/mp5_normals"
+
+//metal
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "0"
+	"$envmaptint" "[.1 .1 .1]"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "2.8"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "25"
+	"$rimlightboost" "0.5"
+
+	"$selfillum" 1
+	"$selfillumtint" "[ 0 0 0 ]"
+
+	"$tintA" "[5 3 1]"
+	"$tintB" "[0 0 0]"
+	
+
+	$detail "effects/models/model_blood_red.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+		"FlashyWeapon"
+		{
+			"resultVar" "$tintB"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$tintA"
+			"srcVar2" "$tintB"
+			"resultVar" "$selfillumtint"
+		}
+	}
+}

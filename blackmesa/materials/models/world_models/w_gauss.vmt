@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\world_models/w_gauss"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$selfillum" 1
+}

@@ -1,0 +1,40 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/xenians/ichthyosaur/ichthyosaur_sheet"
+	"$bumpmap" "models/xenians/ichthyosaur/ichthyosaur_sheet_normals"
+        "$alphatest" 1
+	"$model" 1
+	"$surfaceprop" "alienflesh"
+	"$multipass" 1
+
+        $detail detail\noise_detail_01 // e.g. for brickwork, concrete...
+        $detailscale 7.74
+        $detailblendfactor 0.8
+        $detailblendmode 0
+
+	// for iridescence "$halflambert" must be disabled and "$phongfresnelranges" values reversed.
+
+	"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" "10"
+	// "$phongexponenttexture"  "models/xenians/ichthyosaur/ichthyosaur_sheet_exponent"
+	"$phongfresnelranges" "[1 0.5 0]"
+	"$halflambert" "0"
+	"$phongwarptexture"  "models/effects/phongwarp_library/iridescence009"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "60"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".5"	               // Boost for ambient cube component of rim lighting
+
+		$detail "decals/bms_bloodsplatterFloor_001b.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}

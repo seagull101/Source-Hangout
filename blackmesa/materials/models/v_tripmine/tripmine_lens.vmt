@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\v_tripmine/tripmine"
+	"$bumpmap" "models\v_tripmine/tripmine_normal"
+        $envmap env_cubemap
+        $envmapcontrast .25
+}

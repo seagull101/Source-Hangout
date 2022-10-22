@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"_rt_special"
+	"$bumpmap"				"models/v_crossbow/xbow_scope_normal"
+	"$model" 				1
+	"$selfillum" 			1
+
+	"$multipass" 1
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+       //"$envmaptint" "[.6 .6 .6]"
+       "$envmapfalloff" "1"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" 40
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[.1 5 1]"
+
+
+	"Proxies"
+	{
+		"CrossbowCameraProxy"
+		{
+			"envZoom"		".0 .0 .0"
+			"envDefault"    "0.5 0.5 0.5"
+
+			"fullbrightZoom"		"1 1 1"
+			"fullbrightDefault"		".3 .3 .3"
+		}
+	}
+}

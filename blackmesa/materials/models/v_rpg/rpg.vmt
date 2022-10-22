@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\v_rpg/Rocket_d2"
+	"$bumpmap" "models\v_rpg/Rocket_n"
+	"$multipass" 1
+
+      "$phong" "1"
+      "$phongexponent" "20"
+      "$phongboost"	"2.5"
+      "$phongfresnelranges"	"[1 2 4]"
+
+	"$halflambert" "1"
+
+         // Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "50"		// Exponent for phong component of rim lighting
+	"$rimlightboost" "2"			// Boost for ambient cube component of rim lighting
+	
+}

@@ -1,0 +1,38 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\xenians\controller/Controller_Head_D"
+	"$bumpmap" "models\xenians\controller/Controller_Head_N"
+	"$model" 1
+	"$surfaceprop" "alienflesh"
+
+        "$lightwarptexture" "models\humans\base_male\Base_M_caucasian_wrp"
+
+	"$multipass" 0
+
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "0"
+	"$envmaptint" "[.15 .15 .15]"
+
+	"$phong" "1"
+	"$phongboost" "5"
+        "$phongexponent" "5"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[.18 .4 1]"
+	"$nodecal" "1"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "10"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".3"	               // Boost for ambient cube component of rim lighting
+
+		$detail "decals/bms_bloodsplatterFloor_001b.vtf"
+	$detailscale 5
+	$detailblendfactor 0.0
+	$detailblendmode 0
+	Proxies
+	{
+		ModelDetailFx
+		{
+		}
+	}
+}
