@@ -1,0 +1,15 @@
+LightmappedGeneric
+{
+	"$basetexture"	"brick/FIFTIES_W12B"
+	"$surfaceprop" "brick"
+	"$bumpmap" "brick/FIFTIES_W12_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.03 .03 .03]"
+	"$normalmapalphaenvmapmask" 1
+
+	$detail detail\bm_paint_detail_04
+        $detailscale 5
+        $detailblendfactor .95
+        $detailblendmode 0
+	"%keywords" "bms, Andrea"
+}

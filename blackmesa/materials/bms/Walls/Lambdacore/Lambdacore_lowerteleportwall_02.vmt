@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "bms/walls/lambdacore/lambdacore_lowerteleportwall02"
+	"$bumpmap" "bms/walls/lambdacore/lambdacore_lowerteleportwall02_norm"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap" 
+	"$normalmapalphaenvmapmask" 1
+   	"$envmaptint" "[.3 .3 .3]"
+	"%keywords" "bms"
+}

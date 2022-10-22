@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "bms/bluetile16x"
+	"$bumpmap" "bms/bluetile16x_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "tile"
+	"$envmaptint" "[.3 .3 .3]"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 1.6
+	"$detailblendmode" 0
+
+	"%keywords" "bms,jeanpaul"
+}

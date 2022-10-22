@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/brickwall040e"
+
+	"$surfaceprop" "brick"
+
+        "$detail" "detail\bm_cinderblock_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms"
+}

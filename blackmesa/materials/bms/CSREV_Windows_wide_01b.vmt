@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture"		"bms\CSREV_Windows_wide_01B"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 		"bms\CSREV_Windows_wide_01_mask"
+	"$surfaceprop" 		"glass"
+	"$selfillum" 		"1"
+	"%keywords"		"bms, CSREV"
+	
+}

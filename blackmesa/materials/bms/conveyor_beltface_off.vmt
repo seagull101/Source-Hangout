@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "bms/conveyor_beltface"
+	"$bumpmap" "bms/conveyor_beltface_normal"
+	"$nodecal"	"1"
+
+	"$phong" "1"
+	"$phongexponent" 5
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[1 2 4]"
+
+	"$surfaceprop" "rubber"
+	"%keywords" "bms"
+}

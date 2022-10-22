@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "brick\OC_cafeteria_wall"
+	"$bumpmap" "brick\OC_cafeteria_wall_normal"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.20 .20 .20]"
+	"$envmapcontrast"	1
+	"$normalmapalphaenvmapmask" 1
+
+	$detail detail\bm_paint_detail_04
+        $detailscale 5
+        $detailblendfactor .87
+        $detailblendmode 0	
+	"%keywords" "bms, Andrea"
+
+}

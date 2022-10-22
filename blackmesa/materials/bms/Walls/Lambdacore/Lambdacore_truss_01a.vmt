@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "bms/walls/lambdacore/lambdacore_truss_01a"
+	"$bumpmap" "bms/walls/lambdacore/lambdacore_truss_01a_norm"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap" 
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "bms"
+}
