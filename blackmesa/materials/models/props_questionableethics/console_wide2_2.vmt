@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/console_wide2_2"
+	"$model" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .5 .5 .5 ]"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "1.5"
+		}
+
+	}
+}

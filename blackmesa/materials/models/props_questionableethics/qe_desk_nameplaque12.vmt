@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics/qe_desk_nameplaque12"
+	"$surfaceprop" "metal"
+}

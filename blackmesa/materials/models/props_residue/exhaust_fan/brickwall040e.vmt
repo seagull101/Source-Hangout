@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "brick/brickwall040e"
+
+	"$surfaceprop" "brick"
+
+
+	"%keywords" "bms"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_sewer/ichthyosaurcage"
+	"$bumpmap" "models/props_sewer/ichthyosaurcage_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .2 .2 .2 ]"
+
+
+        "$detail" "detail\bm_concrete_detail_02"
+	"$detailscale" "7"
+	"$detailblendfactor" 1.0
+	"$detailblendmode" 0
+}

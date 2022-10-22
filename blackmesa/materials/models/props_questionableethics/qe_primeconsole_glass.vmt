@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/qe_primeconsole_glass"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .7 .7 .7]"
+	"$translucent" "1"
+	"$nocull"	"1"
+}

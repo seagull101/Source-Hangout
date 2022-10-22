@@ -1,0 +1,24 @@
+"UnLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_tv_plasma_screen5"
+
+	"$envmap"		"env_cubemap"
+//	"$envmapmask"		"models/props_questionableethics/qe_tv_plasma_screen_spec"
+	"$envmaptint"		"[.9 .9 1]"
+//	"$envmapcontrast" 	"1"
+//	"$envmapsaturation" 	"1"
+
+	"$selfillum"	"1"
+	"$nodecal" "1"
+	"%keywords" "bms"
+
+   "Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" 0.7
+      }
+   }
+}

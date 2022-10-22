@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_pipes/gaspipe01_xparts"
+	"$bumpmap" "models/props_pipes/gaspipe01_xparts_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "0.25"
+	"$envmapsaturation" "1.0"
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"	
+	"$multipass" "1"
+}

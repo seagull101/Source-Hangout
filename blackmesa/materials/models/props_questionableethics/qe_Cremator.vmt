@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_Cremator"
+	"$bumpmap"	"models/props_questionableethics/qe_Cremator_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1	
+   	"$envmaptint" "[.3 .2 .2]"
+	"$envmapsaturation" 	"1"
+	"$selfillum"	"1"
+    $phong 1
+        $phongexponent 7
+        $phongboost 2
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".3"	               // Boost for ambient cube component of rim lighting
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms"
+}

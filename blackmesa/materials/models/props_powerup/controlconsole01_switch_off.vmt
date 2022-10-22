@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture" "Models/props_powerup/controlconsole01_switch_off"
+	"$envmap" "env_cubemap"
+	"$selfillum" 1
+	"$bumpmap" "models\props_powerup/controlconsole01_switch_normal"
+	"$normalmapalphaenvmapmask" 1
+}

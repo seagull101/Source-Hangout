@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_openedbysign"
+	"$bumpmap"	"models/props_questionableethics/qe_openedbysign_norm"
+
+	"$envmap"			"env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+   	"$envmaptint" "[.7 .7 .65]"
+
+
+	"%keywords" "bms"
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_silo/surface_rails.vtf"
+	"$bumpmap" "models/props_silo/surface_rails_normal.vtf"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 4
+        $detailblendfactor .5
+        $detailblendmode 0
+
+	$phong 1
+	$phongexponent 20
+	$phongboost	20
+	$phongfresnelranges	"[0.05 0.5 1]"
+}

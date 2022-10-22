@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/containment_cabinet_glass"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props_questionableethics/containment_cabinet_glass_ref"
+	"$translucent" "1"
+}

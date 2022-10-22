@@ -1,0 +1,24 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+	"$basetexture" "models/props_pipes/gaspipe01_chrome"
+	"$envmap" "env_cubemap"
+//	"$bumpmap" "models/props_pipes/gaspipe01_chrome_normal"
+	"$envmapcontrast" "0.9"
+	"$envmapsaturation" "0.1"
+	"$envmaptint" "[ 0.025 0.025 0.05 ]"
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "5"
+"$phongboost" "3"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+}

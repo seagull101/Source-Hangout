@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_residue/underwater_light01"
+	"$bumpmap" "models\props_residue/underwater_light01_normal"
+   	"$envmap" "env_cubemap"
+	"$envmaptint" "[.75 .75 .75]"
+        "$normalmapalphaenvmapmask" 1
+}

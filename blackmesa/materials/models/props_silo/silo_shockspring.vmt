@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_silo/silo_shockspring_D.vtf"
+	"$bumpmap" "models/props_silo/silo_shockspring_N.vtf"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	//"$envmapcontrast" [0.3 0.3 0.3]
+	//"$envmaptint" [1.0 1.0 1.0]
+	"$model" 1
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/metal_notches"
+	"$surfaceprop" "metal"
+}

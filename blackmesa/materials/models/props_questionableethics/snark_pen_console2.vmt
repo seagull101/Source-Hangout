@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics/snark_pen_console2"
+	"$bumpmap"	"models/props_questionableethics/snark_pen_console1_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$selfillum"	"1"
+	"$surfaceprop" "metal"
+"$phong" "1"
+"$phongexponent" "25"
+"$phongboost" "2"
+"$phongfresnelranges"	"[0.4 0.6 1.6]"
+"$phongalbedotint" "1"
+
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "15"
+"$rimlightboost" "0.2"
+}

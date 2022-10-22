@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+   $basetexture "models/props_residue/c2a4_vent_support_01"
+   $model 1
+}

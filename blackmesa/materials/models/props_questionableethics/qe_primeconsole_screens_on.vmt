@@ -1,0 +1,17 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/qe_primeconsole_screens_on"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .5 .5 .5 ]"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	-.07
+			"textureScrollAngle"	90
+		}
+	}
+}

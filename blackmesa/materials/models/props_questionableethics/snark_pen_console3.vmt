@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics/snark_pen_console3"
+	"$bumpmap"	"models/props_questionableethics/snark_pen_console1_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$selfillum"	"1"
+	"$surfaceprop" "metal"
+"$phong" "1"
+"$phongexponent" "25"
+"$PhongWarpTexture"	"models\props_am\am_ams_phongwarp"
+"$phongboost" "2"
+"$phongfresnelranges"	"[0.4 0.6 1.6]"
+"$phongalbedotint" "1"
+
+"$lightwarptexture"	"models\props_am\am_ams_lightwarp"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "15"
+"$rimlightboost" "0.2"
+}

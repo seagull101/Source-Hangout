@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" 	"metal/metal_duct_wall_dirty_02"
+	"$bumpmap"	"metal/metal_duct_wall_02_normal"
+	"$surfaceprop"			"metalvent"
+	"$envmap"			"env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"	
+   	"$envmaptint"			"[0.3 0.3 0.3]"
+
+
+	"%keywords" "bms, jenn0,"
+}

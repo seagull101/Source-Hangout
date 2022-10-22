@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/dissection_array02_screens"
+	"$selfillum"	"1"
+"Proxies"
+    {
+    "AnimatedTexture"
+                      {
+                      "animatedTextureVar" "$basetexture"
+                      "animatedTextureFrameNumVar" "$frame"
+                      "animatedTextureFrameRate" "1.5"
+                      }
+    }
+
+}

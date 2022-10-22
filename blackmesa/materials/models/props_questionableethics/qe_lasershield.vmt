@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics\qe_lasershield"
+	"$bumpmap" "models\props_questionableethics\qe_lasershield_normal"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"$model"	"1"
+
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .3 .3]"
+	"$normalmapalphaenvmapmask" 1	
+	"%keywords" "bms, Jenn0"
+}

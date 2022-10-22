@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/dissection_array01_screens"
+	"$selfillum"	"1"
+
+}

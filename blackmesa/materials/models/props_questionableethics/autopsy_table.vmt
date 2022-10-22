@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/autopsy_table"
+	"$bumpmap" "models\props_questionableethics/autopsy_table_nm"
+
+
+
+
+	"$envmap" "env_cubemap"
+	"$normalmapenvmapmask" "1"
+	"$envmaptint" "[.1 .1 .1]"
+	"$envmapcontrast" "0"
+	"$envmapsaturation" "0" 
+
+	"$phong" "1"
+	"$phongboost"	"2"
+	  $phongfresnelranges "[.4 .8 30]"
+
+	"$halflambert" 1
+	"$multipass" 1
+	"$model" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "25"		// Exponent for phong component of rim lighting
+	"$rimlightboost" ".2"			// Boost for ambient cube component 
+}

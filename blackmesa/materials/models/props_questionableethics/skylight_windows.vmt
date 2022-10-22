@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics/skylight_windows"
+	"$translucent" 	"1"
+	"$surfaceprop" "glass"
+	"$nocull" 1
+}

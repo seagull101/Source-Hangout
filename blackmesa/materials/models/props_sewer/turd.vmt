@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_sewer\turd"
+	"$bumpmap" "models\props_sewer\turd_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .8 .8 .8 ]"
+	"$envmapcontrast" "0.8"
+	"$envmapsaturation" "0.6"
+}

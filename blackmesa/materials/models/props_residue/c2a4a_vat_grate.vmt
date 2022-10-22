@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_residue/c2a4a_vat_grate"
+	"$alphatest"	"1"
+	"$surfaceprop"	"metal"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 6
+        $detailblendfactor 1
+        $detailblendmode 0	
+}

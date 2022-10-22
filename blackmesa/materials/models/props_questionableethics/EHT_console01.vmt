@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/EHT_console01"
+	"$surfaceprop" "metal"
+	//"$envmap" "env_cubemap"
+	//"$envmapsaturation" "0.8"
+	//"$envmaptint" "[.3 .3 .3]"
+"$phong" "1"
+"$phongexponent" "25"
+"$PhongWarpTexture"	"models\props_am\am_ams_phongwarp"
+"$phongboost" "2"
+"$phongfresnelranges"	"[0.4 0.6 1.6]"
+"$phongalbedotint" "1"
+
+"$lightwarptexture"	"models\props_am\am_ams_lightwarp"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "15"
+"$rimlightboost" "0.2"
+}

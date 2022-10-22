@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/bioscanner_screen_big_02"
+	"$selfillum"	"1"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$selfillumtint"
+			"sineperiod" "0.01"
+			"sinemin"	"0.85"
+			"sinemax" "1"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics/qe_portraitframe2"
+	
+	"$envmapmask" "models\props_questionableethics/qe_portraitframe_spec"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.6 .6 .6]"
+
+}

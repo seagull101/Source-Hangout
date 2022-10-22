@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/bioscanner"
+	"$bumpmap"	"models/props_questionableethics/bioscanner_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$selfillum"	"1"
+}

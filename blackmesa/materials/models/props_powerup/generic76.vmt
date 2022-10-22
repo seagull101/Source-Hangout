@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+    "$basetexture" "metal/generic76"
+    "$surfaceprop" "metal"
+    "$bumpmap" "metal/generic76_normal"
+
+
+	"%keywords" "bms, andrea"
+
+}

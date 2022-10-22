@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_silo\t2icbm_s1_4"
+	"$bumpmap" "models/props_silo/t2icbm_s1_4_n.vtf"
+	"$surfaceprop" "Metal"
+	"$normalmapalphaenvmapmask" "1"
+	"$model" 1
+"$phong" "1"
+	"$phongboost" "2"
+	"$phongexponent" "10"
+	"$phongfresnelranges" "[1 0.5 0]"
+	"$halflambert" "0"
+	"$phongwarptexture"  "models/effects/phongwarp_library/iridescence009"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "60"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".5"	               // Boost for ambient cube component of rim lighting
+}

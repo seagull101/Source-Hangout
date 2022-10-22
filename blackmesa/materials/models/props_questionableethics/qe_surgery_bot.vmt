@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_surgery_bot"
+	"$bumpmap" "models/props_questionableethics/qe_surgical_bot_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint"		"[.25 .25 .35]"
+	"$envmapcontrast" 	"1"
+	"$envmapsaturation" 	"1"
+	"$phong" "1"
+	"$phongexponent" 33
+//	"$phongexponenttexture" "models/Alyx/alyx_head_exponent"
+	"$phongboost"	"6"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+
+}

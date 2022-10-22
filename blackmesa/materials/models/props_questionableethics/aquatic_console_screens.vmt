@@ -1,0 +1,14 @@
+"UnLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/aquatic_console_screens_on"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	.05
+			"texturescrollangle"   180
+		}
+	}
+}

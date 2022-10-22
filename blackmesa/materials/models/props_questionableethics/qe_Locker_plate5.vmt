@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics/qe_Locker_plate5"
+	"$surfaceprop" "metal"
+}

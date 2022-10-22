@@ -1,0 +1,32 @@
+"VertexLitGeneric"
+{
+
+   	"$basetexture" 	"models\props_residue\c2a4b_poopriver"
+	"$color" "{128 255 38}"
+    	"$model"	"1"
+
+	"$bumpmap" 	"models\props_residue\c2a4b_poopriver_normal"
+	"$surfaceprop" "slime"
+
+	"$envmap"	"env_cubemap"
+        "$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.5 .4 .25]"
+	"$envmapcontrast" ".5"
+	"$envmapsaturation" "[.9 .9 .9]"
+
+	"Proxies"
+
+	{
+
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+
+			"texturescrollrate" .20
+
+			"texturescrollangle" 90.00
+		}
+
+	}
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_sewer/sewergrate01"
+	"$bumpmap" "models/props_sewer/sewergrate01_normal"
+
+        "$detail" "detail\bm_concrete_detail_02"
+	"$detailscale" "7"
+	"$detailblendfactor" 1.0
+	"$detailblendmode" 0
+}
+

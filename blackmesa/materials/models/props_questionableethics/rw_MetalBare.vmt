@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/rw_MetalBare"
+	//"$envmapmask" "models/props_questionableethics/autopsyhammer_spec"
+	//"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+
+        	"$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" 1.0
+	"$detailblendmode" 0
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_tv_plasma_screen_P"
+	"$alphatest"	"1"
+	"$nodecal" "1"
+	"%keywords" "bms"
+
+}

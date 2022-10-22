@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics/ripcutters"
+	"$envmapmask" "models/props_questionableethics/ripcutters_spec"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+}

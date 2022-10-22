@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\props_residue/c2a4a_console01"
+	"$bumpmap"	"models\props_residue/c2a4a_console01_normal"
+   	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[0.25 0.25 0.25]"
+        "$normalmapalphaenvmapmask" "1"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0        
+}

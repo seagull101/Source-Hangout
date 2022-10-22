@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_snarkpitcher_glass"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.7 .7 .7]"
+	"$envmapsaturation" 	"1"
+	"$translucent"	"1"
+	"$nocull"	"1"
+	"$nodecal"	"1"
+
+	"%keywords" "bms"
+}

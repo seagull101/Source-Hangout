@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics\qe_laserimpact"
+	"$model"	"1"
+	"$selfillum"	"1"
+
+	
+	"%keywords" "bms, Jenn0"
+}

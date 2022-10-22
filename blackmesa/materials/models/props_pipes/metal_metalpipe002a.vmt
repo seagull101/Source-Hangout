@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models/props_pipes/metal_metalpipe002a.vtf"
+	"$bumpmap"			"models/props_pipes/metal_metalpipe00_Normal"
+	"$envmap" 			"env_cubemap"
+   	"$envmaptint" 			"[.5 .5 .5]"
+	"%keywords" 			"bms"
+}

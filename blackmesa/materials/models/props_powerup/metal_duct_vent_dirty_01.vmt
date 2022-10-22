@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture" 	"metal/metal_duct_vent_dirty_01"
+	"$surfaceprop"			"metalvent"
+
+	"$nodecal"	"1"
+
+
+	"%keywords" "bms, jenn0,"
+}

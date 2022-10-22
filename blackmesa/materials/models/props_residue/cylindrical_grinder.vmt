@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\props_residue\cylindrical_grinder"
+	"$bumpmap"	"models\props_residue\cylindrical_grinder_normal"
+   	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[0.75 0.75 0.75]"
+	"$envmapsaturation"	"[0.2 0.2 0.2]"
+	"$envmapcontrast"	"1"
+}

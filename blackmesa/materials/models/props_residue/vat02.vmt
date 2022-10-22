@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_residue\vat02"
+	"$bumpmap"	"models\props_residue\vat01_normal"
+   	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[0.5 0.5 0.5]"
+	"$envmapcontrast"	"1"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 12
+        $detailblendfactor 1
+        $detailblendmode 0
+
+}

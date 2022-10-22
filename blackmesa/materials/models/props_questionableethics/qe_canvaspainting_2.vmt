@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_canvaspainting_2"
+
+	"$detail" "detail/dt_carpet1"
+	"$detailscale" "6"
+	"$detailblendfactor" .5
+	"$detailblendmode" 0
+}

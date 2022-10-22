@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics/qe_necropsy_machine"
+	"$bumpmap" "models\props_questionableethics/qe_necropsy_machine_nm"
+	"$envmap" "env_cubemap"
+	"$normalmapenvmapmask" "1"
+
+	"$surfaceprop" "metal"
+
+	"$envmaptint"		"[.35 .35 .35]"
+	"$envmapcontrast" 	"1"
+	"$envmapsaturation" 	"1"
+}

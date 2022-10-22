@@ -1,0 +1,9 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models\props_questionableethics\qe_laserimpact_splash"
+	"$additive"	"1"
+	"$translucent"	"1"
+	"$model"	"1"
+	
+	"%keywords" "bms, Jenn0"
+}

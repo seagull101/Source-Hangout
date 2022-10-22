@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_snarksplat"
+	"$translucent"	"1"
+
+	"%keywords" "bms"
+}

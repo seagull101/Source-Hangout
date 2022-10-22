@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/qe_primeconsole_auxpannel_off"
+	"$selfillum"	"1"
+	"$surfaceprop" "metal"
+}

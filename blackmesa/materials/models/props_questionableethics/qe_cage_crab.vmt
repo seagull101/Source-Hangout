@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/qe_cage_crab"
+"$bumpmap" "models/props_questionableethics/qe_cage_crab_nm"
+	"$model"			"1"
+	"$surfaceprop"			"metal"
+	"$envmap"			"env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmapcontrast" 		"0.1"	
+   	"$envmaptint"			"[1 1 1]"
+	"$envmapsaturation"		"1"
+	"$alphatest" "1"
+	"$nocull"			"1"
+}

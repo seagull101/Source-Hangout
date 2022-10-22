@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/qe_primeconsole_screens_on"
+	"$surfaceprop" "metal"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	-.07
+			"textureScrollAngle"	90
+		}
+	}
+}

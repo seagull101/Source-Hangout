@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+   $basetexture "models/props_residue/c2a4_pipe_small_01"
+   $model 1
+}

@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "concrete\cinderblock1_stripes"
+	"$bumpmap" "concrete\cinderblock1_n"
+	"$surfaceprop" "concrete"
+
+	
+	"%keywords" "bms"
+}

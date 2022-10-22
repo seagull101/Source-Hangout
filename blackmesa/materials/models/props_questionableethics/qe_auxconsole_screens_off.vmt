@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_questionableethics/qe_primeconsole_screens_off"
+	"$surfaceprop" "metal"
+}

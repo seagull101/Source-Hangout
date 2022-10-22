@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_residue/industrial_lamp01"
+	"$bumpmap" "models\props_residue/industrial_lamp01_normal"
+   	"$envmap" "env_cubemap"
+	"$envmaptint" "[.35 .35 .35]"
+        "$normalmapalphaenvmapmask" 1
+}

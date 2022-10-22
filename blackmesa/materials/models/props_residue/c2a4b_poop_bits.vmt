@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+///delete this plzkthx
+   	"$basetexture" 	"models\props_residue\c2a4b_poop_bits_alt"
+    	"$model"	"1"
+    	"$alphatest" "1"
+	"$surfaceprop" "slime"
+}

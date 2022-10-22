@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_residue/compost_mixer_grinder"
+	"$nocull"	"1"
+}

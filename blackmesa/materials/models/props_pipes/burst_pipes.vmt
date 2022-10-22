@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_pipes/burst_pipes"
+	"$bumpmap" "models/props_pipes/burst_pipes_Normal"
+	"$envmap" "env_cubemap"
+	"$selfillum" 1
+   	"$envmaptint" "[.05 .05 .05]"
+	"$normalalphaenvmapmask" 1	
+	"%keywords" "bms"
+}

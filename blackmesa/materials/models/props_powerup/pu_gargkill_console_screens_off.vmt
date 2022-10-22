@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_powerup/pu_gargkill_console_screens_off"
+	"$surfaceprop" "metal"
+"$selfillum" "1"
+}

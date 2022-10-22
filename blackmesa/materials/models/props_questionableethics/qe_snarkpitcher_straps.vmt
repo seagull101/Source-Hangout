@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/qe_snarkpitcher_glass"
+	"$nocull"	"1"
+	"$nodecal"	"1"
+
+	"%keywords" "bms"
+}

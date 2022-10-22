@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/bonesaw"
+	"$envmapmask" "models/props_questionableethics/bonesaw_spec"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+}

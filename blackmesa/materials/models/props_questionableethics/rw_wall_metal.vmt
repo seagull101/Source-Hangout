@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/wall_metal01c"
+	//"$envmapmask" "models/props_questionableethics/autopsyhammer_spec"
+	//"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+}

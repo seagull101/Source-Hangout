@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_questionableethics/bioscanner_screens1"
+	"$selfillum"	"1"
+"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	.04
+			"texturescrollangle" 90.00
+		}
+	}
+}
