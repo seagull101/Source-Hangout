@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"concrete\CSREV_concretewall011h_blue"
+	"$surfaceprop" "concrete"
+	"$bumpmap"	"concrete\CSREV_concretewall011h_plain_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.1 .1 .1]"
+	"$normalmapalphaenvmapmask" 1	
+	"$detail" "detail\bm_concrete_detail_05"
+	"$detailscale" 5
+	"$detailblendfactor" .3
+	"$detailblendmode" 0
+	"%keywords" "bms, CSREV, Andrea"
+}

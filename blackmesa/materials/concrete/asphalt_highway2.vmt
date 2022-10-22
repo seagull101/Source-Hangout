@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "concrete/asphalt_highway2"
+        "$bumpmap" "concrete/asphalt_highway1_normal"	
+
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmapsaturation" 1
+	"$envmapcontrast" 1
+	"$envmaptint" "[ .45 .45 .45 ]"
+        "$normalmapalphaenvmapmask" 1
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"$surfaceprop" "concrete"
+	"%keywords" "bms"
+}

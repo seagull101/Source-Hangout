@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\CSREV_ConcreteWall_02a"
+	"$bumpmap" "concrete\CSREV_ConcreteWall_02_Normal"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.35 .35 .35]"
+	"$normalmapalphaenvmapmask"	"1"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+		
+	"%keywords" "bms, CSREV, Jenn0"
+}

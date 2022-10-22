@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete\concretefloor038b"
+	"$surfaceprop" "concrete"
+	"%keywords" "c17downtown,bms"
+	"$bumpmap" "concrete\concretefloor038b_normal"
+ 	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+"$envmaptint" "[.1 .1 .1]"
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"$normalmapalphaenvmapmask" "1"
+}

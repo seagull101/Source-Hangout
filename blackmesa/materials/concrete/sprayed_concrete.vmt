@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "concrete/sprayed_concrete"
+    "$surfaceprop" "concrete"
+//    "$bumpmap" "concrete/sprayed_concrete_normal"
+	"%keywords" "bms, Andrea"
+}

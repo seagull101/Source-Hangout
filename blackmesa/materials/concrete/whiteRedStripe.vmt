@@ -1,0 +1,12 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "concrete\whiteRedStripe"
+	"$surfaceprop" "concrete"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "3.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms"
+}

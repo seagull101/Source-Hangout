@@ -1,0 +1,7 @@
+"lightmappedgeneric" 
+{
+	"$basetexture" "concrete/tnnl_w4a"
+	"$bumpmap" "concrete/tnnl_w4a_normal"
+	"$surfaceprop" "concrete"
+	"%keywords" "bms, Andrea"
+}

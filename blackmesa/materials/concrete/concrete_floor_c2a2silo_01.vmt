@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "concrete/concrete_floor_c2a2silo_01"
+    "$surfaceprop" "concrete"
+    "$bumpmap" "concrete/concrete_floor_c2a2silo_01_normal"
+
+	"$detail" "detail\bm_concrete_detail_05"
+	"$detailscale" 5
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	"%keywords" "bms, Andrea"
+}

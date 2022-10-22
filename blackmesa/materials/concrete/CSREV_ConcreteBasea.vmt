@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\CSREV_ConcreteBasea"
+	"$surfaceprop" "concrete"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "3.14"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms, CSREV, Jenn0"
+
+}

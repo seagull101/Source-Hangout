@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\concrete_wall_c2a2egshell_tunnel"
+	"$bumpmap" "concrete\concrete_wall_c2a2egshell_tunnel_normal"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.20 .20 .20]"
+	"$normalmapalphaenvmapmask" 1	
+	"%keywords" "bms"
+
+}

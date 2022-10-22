@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\inbound_panel_crete1"
+	"$bumpmap" "concrete\inbound_panel_crete1_normal"
+	"$surfaceprop" "concrete"
+//	"$envmap" "env_cubemap"
+//   	"$envmaptint" "[.005 .005 .005]"
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	"%keywords" "bms"
+}

@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\crete_wall_silo2_wet3"
+	"%keywords" "bms,Silo2"
+	"$surfaceprop" "concrete"
+//	"$envmap" "env_cubemap"
+//   	"$envmaptint" "[.07 .07 .07]"
+	
+	"$envmapsaturation" 1
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+}

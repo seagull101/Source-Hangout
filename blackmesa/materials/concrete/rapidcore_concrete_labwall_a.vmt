@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\rapidcore_concrete_labwall_a"
+	"$bumpmap" "concrete\rapidcore_concrete_labwall_normal"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.2 .2 .2]"
+	"$normalmapalphaenvmapmask" 1
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+		
+	"%keywords" "bms, Jenn0"
+
+}

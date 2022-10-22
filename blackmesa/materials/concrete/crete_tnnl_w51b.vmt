@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/crete_tnnl_w51a"
+	"$surfaceprop" "concrete"
+	"%keywords" "generic cinderblock,bms,schwenz"
+	"$bumpmap" "concrete/crete_tnnl_w51a_normal"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+}

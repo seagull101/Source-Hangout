@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "concrete/TNNL_W12C2_trim"
+    "$surfaceprop" "concrete"
+    "$bumpmap" "concrete/TNNL_W12C2_trim_normal"
+
+        $detail detail\bm_paint_detail_03
+        $detailscale 3.5
+        $detailblendfactor 1.33
+        $detailblendmode 0
+
+	"%keywords" "bms, Andrea"
+	
+}

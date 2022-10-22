@@ -1,0 +1,12 @@
+LightmappedGeneric
+
+{
+	"$basetexture"	"concrete\CSREV_milwall001"
+	"$bumpmap"		"concrete\CSREV_milwall001_normal"
+	"$detail"		"detail\bm_concrete_detail_05"
+	"$detailscale" 6.283
+	"$detailblendfactor" .25
+	"$detailblendmode" 0
+	"$surfaceprop"	"concrete"
+	"%keywords" "bms, CSREV"
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	
+	"$basetexture" "Decals/decalconcretedrain001a"
+	"$surfaceprop" "concrete"
+	"$detailscale" "7.345"
+	"$detailblendfactor" .6
+	"$detailblendmode" 0
+	
+}

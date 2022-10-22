@@ -1,0 +1,12 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "concrete\c1a4b_silowall01"
+	"$surfaceprop" "concrete"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms"
+}

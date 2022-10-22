@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "cement/C1A4_SILO4_Pillar_b"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "cement/C1A4_SILO4_Pillar_ssbump"
+	"$ssbump"       "1"
+	"$detail" "detail\metal_detail_01"
+	"$detailscale" "4.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" "0"
+	//"$fresnelranges" "[ 0 0 2 ]"
+	"%keywords" "bms"
+}
+
+
+

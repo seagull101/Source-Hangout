@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "carpet\CSREV_offflrb"
+	"$surfaceprop" "carpet"
+
+	"$detail" "detail/dt_carpet1"
+	"$detailscale" "16"
+	"$detailblendfactor" 2
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0, CSREV"	
+}

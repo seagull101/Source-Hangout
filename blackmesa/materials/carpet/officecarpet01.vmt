@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "carpet/officecarpet01"
+	"$surfaceprop" "carpet"
+
+	"$detail" "detail/dt_carpet1"
+	"$detailscale" "12"
+	"$detailblendfactor" 2
+	"$detailblendmode" 0
+
+	"%keywords" "bms"
+}

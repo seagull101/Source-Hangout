@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "concrete/asphalt_highway2b"
+	"$basetexture2" "nature/faf_dirtground2"
+	"%tooltexture" "nature/faf_dirtground2"
+	"$bumpmap2" "nature/faf_dirtground2_normal"
+	"$surfaceprop" "concrete"
+	"$surfaceprop2" "sand"
+	"%detailtype" "desert_roadside"
+
+	"$blendmodulatetexture" "concrete/asphalt_highway_modulate"
+	
+	"%keywords" "bms"
+}

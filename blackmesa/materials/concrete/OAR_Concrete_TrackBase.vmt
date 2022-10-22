@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "concrete/OAR_Concrete_TrackBase"
+	"$bumpmap" "concrete/OAR_Concrete_TrackBase_normal"
+	"$surfaceprop"  "concrete"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+
+        "$detail" "detail\noise_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+	
+	"%keywords" "bms, Jenn0"
+}

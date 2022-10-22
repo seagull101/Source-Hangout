@@ -1,0 +1,11 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "concrete\cinderblock1_dirt"
+	"$bumpmap" "concrete\cinderblock1_n"
+	"$detail" "detail\bm_cinderblock_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	"$surfaceprop" "concrete"
+	"%keywords" "bms"
+}

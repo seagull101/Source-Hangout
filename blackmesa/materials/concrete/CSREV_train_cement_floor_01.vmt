@@ -1,0 +1,12 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "concrete/CSREV_train_cement_floor_01"
+	"$bumpmap" "concrete/CSREV_train_cement_floor_01_normal"
+	"$surfaceprop" "concrete"
+	
+	"$detail" "detail\bm_concrete_detail_05"
+	"$detailscale" 6.83
+	"$detailblendfactor" .68
+	"$detailblendmode" 0 
+	"%keywords" "bms, CSREV, Andrea"
+}

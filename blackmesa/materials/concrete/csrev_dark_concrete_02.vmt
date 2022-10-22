@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "concrete/csrev_dark_concrete_02"
+	"$surfaceprop" "concrete"
+	"$bumpmap"	"concrete/csrev_dark_concrete_01_normal"
+	"%keywords" "bms, CSREV, Andrea"
+}

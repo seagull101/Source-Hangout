@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "material_css"
+	"$selfillum" "1"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$selfillumtint"
+			"sineperiod"	"1"
+			"sinemin"		"0.10"
+			"sinemax"	"1"
+		}
+	}
+}

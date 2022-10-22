@@ -1,0 +1,13 @@
+"lightmappedgeneric" 
+{
+	"$basetexture" "concrete/tnnl_w5f"
+	"$bumpmap" "concrete/tnnl_w5f_normal"
+	"$surfaceprop" "concrete"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms"
+}

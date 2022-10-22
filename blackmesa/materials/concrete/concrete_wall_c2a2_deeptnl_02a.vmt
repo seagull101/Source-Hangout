@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\concrete_wall_c2a2_deeptnl_02a"
+	"$bumpmap" "concrete\concrete_wall_c2a2_deeptnl_01_normal"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.18 .18 .18]"
+	"$basealmapalphaenvmapmask" 1
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+		
+	"%keywords" "bms, Jenn0"
+
+}

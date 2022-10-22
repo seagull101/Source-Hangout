@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\CSREV_officeceiling"
+	"$surfaceprop" "concrete"
+	"%keywords" "bms, CSREV"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+
+}

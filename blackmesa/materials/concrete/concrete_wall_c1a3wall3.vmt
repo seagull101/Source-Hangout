@@ -1,0 +1,18 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\concrete_wall_c1a3wall3"
+	"$bumpmap" "Brick/cinderblock_pink_01a_normal"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.20 .20 .20]"
+	"$envmapcontrast"	1
+	"$normalmapalphaenvmapmask" 1	
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms"
+
+}

@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/tnnl_flr8_grime"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "concrete/tnnl_flr8_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.07 .07 .07]"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"$envmapcontrast"	"1"
+}

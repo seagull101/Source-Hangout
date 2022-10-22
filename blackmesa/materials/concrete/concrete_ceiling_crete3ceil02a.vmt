@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\concrete_ceiling_crete3ceil02a"
+	"$bumpmap" "concrete\concrete_ceiling_crete3ceil02a_ssbump"
+	"$ssbump"  "1"
+	"$surfaceprop" "concrete"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "3.14"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms, Jenn0"
+
+}

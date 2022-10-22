@@ -1,0 +1,8 @@
+LightmappedGeneric
+
+{
+	"$basetexture"	"concrete\CSREV_nukconcretewallb"
+	"$surfaceprop" "concrete"
+	"$bumpmap"	"concrete\CSREV_nukconcretewallb_normal"
+	"%keywords" "bms, CSREV, Andrea"
+}

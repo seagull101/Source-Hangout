@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\crete_ceiling_silo2_c2gray"
+	"%keywords" "bms,babtech"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "concrete\crete_ceiling_silo2_c2_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.15 .15 .15]"
+	"$normalmapalphaenvmapmask" 1	
+	"$envmapsaturation" 1
+}

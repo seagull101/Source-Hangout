@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/out_wall4c"
+	"$surfaceprop" "concrete"
+	//"$bumpmap" "concrete/out_wall4c_normal"
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[.07 .07 .07]"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms,schwenz"
+}

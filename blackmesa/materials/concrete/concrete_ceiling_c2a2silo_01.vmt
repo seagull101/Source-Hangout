@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\concrete_ceiling_c2a2silo_01"
+	"$bumpmap" "concrete\concrete_ceiling_c2a2silo_01_Normal"
+	"$surfaceprop" "concrete"
+	"%keywords" "bms, Andrea"
+
+}

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"concrete\concretefloor016a_stripes"
+	"$surfaceprop"  "concrete"
+	"$bumpmap"	"concrete\concretefloor016a_stripes_normal"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms"
+}

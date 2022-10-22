@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "concrete\concrete_floor_c1a1flr2c"
+	"$surfaceprop" "concrete"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "3.14"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+	"%keywords" "bms"
+
+}

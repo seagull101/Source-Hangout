@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "concrete/concrete_ceiling_wetceil01"
+    "$surfaceprop" "concrete"
+    "$bumpmap" "concrete/concrete_ceiling_wetceil01_normal"
+
+	"$detail" "detail\bm_concrete_detail_05"
+	"$detailscale" 5
+	"$detailblendfactor" 1.25
+	"$detailblendmode" 0 
+	"%keywords" "bms, Andrea"
+}

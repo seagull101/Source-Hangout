@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "concrete/crete_wall_c1ac_w2a"
+	"$surfaceprop" "brick"
+	"%keywords" "generic cinderblock,bms,schwenz"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+}

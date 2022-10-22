@@ -1,0 +1,12 @@
+"Cable"
+{
+	"$basetexture"			"cable\steel"
+	"$bumpmap"			"cable\elecwire_normal"
+	"$vertexcolor"			1
+	"$nocull"			1
+	"$MinLight"			25
+	"$MaxLight"			255
+
+	//"$envmap" "env_cubemap"
+	//"$envmaptint" "[.4 .4 .4]"
+}

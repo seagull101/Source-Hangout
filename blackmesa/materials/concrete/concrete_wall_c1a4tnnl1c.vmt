@@ -1,0 +1,13 @@
+"lightmappedgeneric" 
+{
+	"$basetexture" "concrete/concrete_wall_c1a4tnnl1c"
+	"$bumpmap" "concrete/concrete_wall_tnnl7e_normal"
+	"$surfaceprop" "concrete"
+
+	"$detail" "detail\bm_concrete_detail_03"
+	"$detailscale" 4.3
+	"$detailblendfactor" .8
+	"$detailblendmode" 0	
+	
+	"%keywords" "bms, Andrea"
+}
