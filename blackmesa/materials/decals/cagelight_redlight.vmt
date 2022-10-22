@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture" "decals\cagelight_redlight"
+	"$additive" "1"
+	"$decal" "1"
+	"$decalscale" "0.2"
+	"%keywords" "bms"
+}

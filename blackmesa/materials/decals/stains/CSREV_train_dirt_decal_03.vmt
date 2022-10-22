@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/stains/CSREV_train_dirt_decal_03"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+	"%keywords" "bms, Andrea"
+}

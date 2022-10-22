@@ -1,0 +1,14 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\pipewrap\pipewrap_blu_exhaustintake"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.25"
+	"%keywords" "bms"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+
+}

@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture" "decals\walllight_lightcast01"
+	"$additive" "1"
+	"$decal" "1"
+	"$decalscale" "0.25"
+	"%keywords" "bms"
+}

@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\safety_firstaidstation"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.1"
+	"%keywords" "bms"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 2
+        $detailblendfactor 1.0
+        $detailblendmode 0
+}

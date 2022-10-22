@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/SlidingDoor_Handle"
+	"$decal" 1
+	"$translucent" 1
+	"$decalscale" 0.125
+	"%keyworkds"	"bms"
+}

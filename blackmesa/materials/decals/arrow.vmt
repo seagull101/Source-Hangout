@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/arrow"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$modelmaterial" "Decals/arrow"
+	"%keywords" "bms"
+}

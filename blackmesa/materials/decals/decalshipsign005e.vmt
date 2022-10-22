@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	"$basetexture" "decals\decalshipsign005e"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.25"
+	//"$distancealpha" "1"
+	//"$softedges" "1"
+	//"$edgesoftnessstart" "0.48"
+	//"$edgesoftnessend" "0.46"
+	//"$scaleedgesoftnessbasedonscreenres" "1"
+	"%keywords" "bms"
+}

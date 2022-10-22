@@ -1,0 +1,8 @@
+"bms_flare_modulate"
+{
+	"$basetexture" "_rt_SmallFB0"
+		"$dirttexture" "dev\xbow_lens_dirt.vtf"
+	//"$additive" "1"
+	"%keywords" "bms"
+	"$MODULATE_INTENSITY" "1.2"
+}

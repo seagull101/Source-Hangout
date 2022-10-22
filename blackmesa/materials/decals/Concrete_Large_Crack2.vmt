@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"Decals/Concrete_Large_Crack2"
+	"$decal" 1
+	"$decalscale" 	0.25
+	"$translucent"	"1"
+	"%keywords" "bms"
+}

@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/slime_splat_02"
+	"$decal" 1
+	"$decalscale" 0.30
+        "$additive" 1
+        "$selfillum" 1
+
+	"%keywords" "bms"
+	"$modelmaterial" "decals/slime_splat_model_02"
+}

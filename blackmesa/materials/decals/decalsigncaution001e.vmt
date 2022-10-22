@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\decalsigncaution001e"
+	"$translucent" "1"
+	"$decal" "1"
+	"%keywords" "bms"
+	"$decalscale" "0.25"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 2
+        $detailblendfactor 1
+        $detailblendmode 0
+}

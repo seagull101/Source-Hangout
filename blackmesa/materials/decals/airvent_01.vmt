@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/airvent_01"
+	"$decal" 1
+	"$decalscale" 0.15
+	"$translucent" 1
+	"%keywords" "bms, Andrea"
+}

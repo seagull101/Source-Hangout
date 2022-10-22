@@ -1,0 +1,13 @@
+"bms_flare"
+{
+	"$BASETEXTURE" "_rt_SmallFB1"
+	"$ignorez" 1
+	"%noToolTexture" 1
+
+	"$FLARE_DISPERSAL"					"1"
+	"$FLARE_HALO_WIDTH"					"0.75"
+	"$FLARE_CHROMA_DISTORTIONX"			"0.45"
+	"$FLARE_CHROMA_DISTORTIONY"			"0.45"
+	"$FLARE_CHROMA_DISTORTIONZ"			"0.45"
+	"$STEPS"							"12" // max for ps2 is 6, max for ps2b is 12
+}

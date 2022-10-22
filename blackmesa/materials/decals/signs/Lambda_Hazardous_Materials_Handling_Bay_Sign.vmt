@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/signs/Lambda_Hazardous_Materials_Handling_Bay_Sign"
+	"$decal" 1
+	"$translucent" 1
+	"$decalscale" 0.25
+	%keywords "Lambda Core, jenn0_Bing,bms"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+	
+}

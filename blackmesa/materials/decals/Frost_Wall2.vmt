@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+
+    	"$basetexture" 	"decals/Frost_Wall2"
+	"$decal"	"1"
+	"$decalscale" 	"0.25"
+	"$translucent"	"1"
+	"%keyworkds"	"bms"    
+}

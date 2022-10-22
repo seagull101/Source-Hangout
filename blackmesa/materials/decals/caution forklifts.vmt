@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/caution forklifts"
+	"$decal" 1
+	"$decalscale" 0.1
+	"$modelmaterial" "Decals/caution forklifts"
+	"%keywords" "bms"
+}

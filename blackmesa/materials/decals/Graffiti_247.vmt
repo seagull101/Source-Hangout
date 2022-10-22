@@ -1,0 +1,8 @@
+"DecalModulate"
+{
+	"$basetexture" 	"Decals/Graffiti_247"
+	"$decal" 1
+	"$decalscale" 0.25
+	"%keywords" "BMS"
+}
+

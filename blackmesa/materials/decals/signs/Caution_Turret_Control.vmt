@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/signs/Caution_Turret_Control"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" 0.1
+
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+	
+}

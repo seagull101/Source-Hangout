@@ -1,0 +1,28 @@
+"BMS_PostProcess"
+{
+	"$basetexture"						"_rt_FullFrameFB"
+
+	//Chromatic
+	"$CHROMATIC_ENABLE"					"1"
+	"$CHROMATIC_LENS_DISTORTION"		"0.00"
+	"$CHROMATIC_CUBIC_DISTORTION"		"0.00"
+	"$CHROMATIC_STRENGTH"				"0"
+	"$CHROMATIC_DISPERTIONRC"			"0.5"
+	"$CHROMATIC_DISPERTIONBY"			"0.5"
+	"$CHROMATIC_SCALE"					"0.94"
+
+	//Noise
+	"$NOISE_ENABLE"						"1"
+	"$NOISE_STRENGTH"					"0"
+	"$NOISE_RANGE"						"0.25" // -0.15 to 0.15
+	"$NOISE_LUMINANCE_WEIGHT"			"0.2"
+	"$NOISE_TEXTURE"					"dev/postprocess_noise" 
+
+	Proxies
+	{
+		BMSPostProcessProxy
+		{
+
+		}
+	}
+}

@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/signs/Coolant_System_Sign_02_ORANGE"
+	"$decal" 1
+	"%keywords" "bms"
+	"$decalscale" 0.25
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+	
+}

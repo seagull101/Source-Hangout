@@ -1,0 +1,8 @@
+LightMappedGeneric
+{
+	"$basetexture" "decals\ceilingsentry_grid"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.205"
+	"%keywords" "bms"
+}

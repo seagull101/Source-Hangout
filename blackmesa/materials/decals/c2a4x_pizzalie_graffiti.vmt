@@ -1,0 +1,7 @@
+"DecalModulate"
+{
+	"$basetexture" "Decals/c2a4x_pizzalie_graffiti"
+	"$decal" 1
+	"$decalscale" 0.25
+	"%keywords" "BMS, Jenn0"
+}

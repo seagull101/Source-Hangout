@@ -1,0 +1,9 @@
+"DecalModulate"
+
+{
+	"$basetexture" "Decals/handprint_single_01r"
+	"$decal" 1
+	"$decalscale" 0.25
+	"%keywords" "BMS"
+}
+

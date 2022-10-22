@@ -1,0 +1,19 @@
+"BMS_Scanlines"
+{
+	"$additive"					"1"
+	"$BLURTEXTURE"				"_rt_SmallFB0"
+	"$SOLIDTEXTURE"				"_rt_special"
+	"$SCANLINETEXTURE"			"dev/hud_scanline"
+	"$SCANLINESIZERATIO"		"128"
+	"$SCANLINEVERTICALSCROLL"	"0"
+	"$SCANLINEVERTICALSCALE"	"1"
+	"$SCANLINECOLORBOOST"		"1.5"
+	"$DARKPASSDIMSCALE"			"1.5"
+	"$DARKPASSLUMINANCEPOW"		"0.8"
+	"$ignorez"					"1"
+	"$nocull"					"1"
+
+	// debug
+	"$lightpass"		"1"
+	"$darkpass"			"1"
+}

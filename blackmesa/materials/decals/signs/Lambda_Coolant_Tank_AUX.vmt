@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/signs/Coolant_Tank_AUX"
+	"$decal" 1
+	"$translucent" 1
+	"$decalscale" 0.25
+	"%keywords" "bms"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+	
+}

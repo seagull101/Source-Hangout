@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/flammable metal sign"
+	"$decal" 1
+	"$decalscale" 0.05
+	"$modelmaterial" "Decals/flammable metal sign"
+	"%keywords" "bms"
+}

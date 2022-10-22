@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/crate caution"
+	"$decal" 1
+	"$decalscale" 0.50
+	"$modelmaterial" "Decals/crate caution"
+	"%keywords" "bms"
+}

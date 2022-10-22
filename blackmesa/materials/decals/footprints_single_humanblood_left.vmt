@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/footprint_single_humanblood_left"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+	"%keywords" "bms"
+}

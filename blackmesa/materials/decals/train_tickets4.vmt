@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"decals\train_tickets4"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.10"
+	"%keywords" "bms"
+}

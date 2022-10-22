@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\stencil_no_photo"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.1500"
+	"%keywords" "bms"
+
+}

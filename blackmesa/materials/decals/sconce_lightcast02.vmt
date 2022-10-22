@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture" "decals\sconce_lightcast02"
+	"$additive" "1"
+	"$decal" "1"
+	"$decalscale" "0.105"
+	"%keywords" "bms"
+}

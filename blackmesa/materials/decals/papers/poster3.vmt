@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\papers\poster3"
+    "$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.15"
+	"%keywords" "bms"
+
+}

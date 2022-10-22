@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\WGH_StorageArea_02"
+	"$translucent" "1"
+	"$decal" "1"
+	"%keywords" "bms, Jenn0"
+	"$decalscale" "0.25"
+
+}

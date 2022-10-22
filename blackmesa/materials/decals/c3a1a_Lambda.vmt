@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/c3a1a_Lambda"
+	"$decal" 1
+	"$translucent" 1
+	"$decalscale" 0.25
+	"%keywords" "bms"
+}

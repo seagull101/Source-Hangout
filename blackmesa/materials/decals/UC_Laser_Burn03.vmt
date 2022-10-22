@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/UC_Laser_Burn03"
+	"$decal" 1
+	"$decalscale" 0.25 
+	"$translucent" "1"
+	"%keywords" "bms"
+}

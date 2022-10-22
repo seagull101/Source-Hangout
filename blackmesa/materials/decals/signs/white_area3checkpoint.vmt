@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\white_area3checkpoint"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.1"
+	"%keywords" "bms"
+
+}

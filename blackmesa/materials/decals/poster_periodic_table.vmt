@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"decals\poster_periodic_table"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.15"
+	"%keywords" "bms"
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/stains/c1a4f_decal_05"
+	"$decal" 1
+	"$decalscale" 0.5
+	"$translucent" 1
+	"%keywords" "bms"
+}

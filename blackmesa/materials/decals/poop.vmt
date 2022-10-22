@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\poop"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.5"
+	"%keywords" "bms"
+
+}

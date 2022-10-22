@@ -1,0 +1,8 @@
+LightMappedGeneric
+{
+	"$basetexture" "decals\ductpanel02"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.125"
+	"%keywords" "bms"
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/Blood_splatter_02"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+	"%keywords" "bms"
+	//"$envmap" "env_cubemap" 
+	//"$almapalphaenvmapmask" 1
+}

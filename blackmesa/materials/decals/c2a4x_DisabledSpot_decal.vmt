@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\c2a4x_DisabledSpot_decal"
+	"$decal" "1"
+	"$translucent" "1"
+	"%keywords" "bms, Jenn0"
+	"$decalscale" "0.25"
+
+}
