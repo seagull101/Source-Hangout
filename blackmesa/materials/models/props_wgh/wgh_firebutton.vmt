@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+$baseTexture "models/Props_wgh/WGH_FireButton"
+$bumpmap "models/Props_wgh/WGH_FireButton_Normal"
+
+$selfillum 1
+
+$phong 1
+$phongboost "1"
+$phongexponent 20
+$phongfresnelranges "[0.05 2 60]"
+
+$detail "detail\bm_metal_detail_01"
+$detailscale 12
+$detailblendfactor ".5"
+$detailblendmode 0
+
+
+}

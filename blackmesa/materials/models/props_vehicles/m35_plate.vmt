@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+"$baseTexture" "models\props_vehicles/m35_plate"
+        "$nocull" 1
+	"$nodecal" "1"
+
+}

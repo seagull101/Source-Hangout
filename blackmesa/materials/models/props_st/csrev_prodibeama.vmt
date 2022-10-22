@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/csrev_prodibeama"
+	"$bumpmap" "metal/csrev_prodibeama_normal"
+	"$surfaceprop" "metal"
+
+	
+	"%keywords" "bms, csrev, andrea"
+}

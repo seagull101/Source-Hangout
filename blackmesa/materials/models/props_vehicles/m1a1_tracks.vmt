@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"models/props_vehicles/m1a1_tracks"
+	"$phong"				1
+	"$phongexponent"		1
+	"$phongboost"			1.0
+	"$phongfresnelranges"	"[0 0.5 1]"
+
+
+}

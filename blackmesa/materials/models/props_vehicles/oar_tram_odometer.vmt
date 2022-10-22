@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_vehicles/oar_tram_odometer"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.9 .9 .9]"
+   	$selfillum 1
+}

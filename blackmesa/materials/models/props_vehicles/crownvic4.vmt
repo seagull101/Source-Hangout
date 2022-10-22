@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_vehicles/crownvic4"
+ 	"$bumpmap" "models/props_vehicles/crownvic_normal"
+      "$envmap" "env_cubemap"
+      "$normalmapalphaenvmapmask" 1
+      "$envmaptint" "[0.5 0.5 0.5]"
+      "$envmapcontrast" ".5"
+"$surfaceprop" "metal"
+      
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .6
+	"$detailblendmode" 0
+
+	
+	"$multipass" 0
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "2.5"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "25"
+	"$rimlightboost" "0.5"
+      
+}

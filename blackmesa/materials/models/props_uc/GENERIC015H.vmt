@@ -1,0 +1,6 @@
+vertexlitGeneric
+{
+	"$basetexture"	"concrete\c3a2e_cfloor"
+	"$surfaceprop" "concrete"
+	"%keywords" "bms"
+}

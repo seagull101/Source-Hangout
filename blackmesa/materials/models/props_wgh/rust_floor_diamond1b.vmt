@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture" "metal/rust_floor_diamond1b"
+	"$surfaceprop" "metal"
+	"$bumpmap" "metal/rust_floor_diamond1a_normal"
+	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.2 .2 .2]"
+	"$envmapcontrast"	"1"
+}

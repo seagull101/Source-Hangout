@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_vehicles/inbound_welder_body"
+//	"$bumpmap" "models\props_vehicles/loader_body_normal"
+	$phong			1
+	$phongexponent		5
+	$phongboost		1.0
+	$phongfresnelranges	"[0 0.5 1]"
+}

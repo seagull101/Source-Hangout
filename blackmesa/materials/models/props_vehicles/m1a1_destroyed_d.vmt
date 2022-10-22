@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models/props_vehicles/m1a1_destroyed_d"
+	"$bumpmap"					"models/props_vehicles/m1a1_destroyed_n"
+
+    "$detail					"detail\bm_rustymetal_detail_01"
+    "$detailscale				"5"
+    "$detailblendfactor			"1"
+    "$detailblendmode			"0"
+    "$nocull"					"1"
+}

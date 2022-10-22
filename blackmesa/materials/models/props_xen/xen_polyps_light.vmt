@@ -1,0 +1,7 @@
+"unLitGeneric"
+{
+	"$basetexture" 			"models/props_xen/xen_polyps_light"
+	"$translucent" 1
+	"$nocull"	1
+ "$additive" 1
+}

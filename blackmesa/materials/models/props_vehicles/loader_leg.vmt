@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_vehicles/loader_leg"
+	"$bumpmap" "models\props_vehicles/loader_leg_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+   	"$envmaptint" "[.3 .3 .3]"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"$nodecal" "1"
+	"$multipass" 0
+
+"$phong" "1"
+	"$phongexponent" 35
+	"$phongboost"	"2.5"
+	"$phongfresnelranges"	"[1 2 4]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "50"		// Exponent for phong component of rim lighting
+	"$rimlightboost" "2"			// Boost for ambient cube component of rim lighting
+
+}

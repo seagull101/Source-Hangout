@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{	
+   	"$basetexture" 		"models/props_vehicles/inbound_tram_decals"
+	"$model" 		"1"
+	"$surfaceprop" 		"metal"
+	"$translucent"		"1"
+	
+	$detail detail\bm_metal_detail_02c
+	$detailscale 4.283
+	$detailblendfactor .65
+	$detailblendmode 0
+}
+
+

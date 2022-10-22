@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	"$basetexture" "concrete/concrete_wall_crete4w"
+	"$bumpmap" "concrete/concrete_wall_crete4w_normal"
+
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+//	"$envmaptint" "[1 1 1]"
+//	"$envmapcontrast" "0.8"
+//	"$envmapsaturation" "0.6"
+
+
+	"$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" 1.15
+	"$detailblendmode" 0
+}

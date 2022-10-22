@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/c1a4d_generator_grate_brush"
+	"$alphatest"	"1"
+	"$alphatestreference"	"0.4"
+	"$nodecal"	"1"
+	"$nocull"	"1"
+
+	"%keywords" "bms"
+
+}

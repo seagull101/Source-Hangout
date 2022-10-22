@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_vehicles/glass_inner"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "8.0"
+	"$envmapsaturation" "0.5"
+	"$translucent" "1"
+	 "$nocull" "1"
+}

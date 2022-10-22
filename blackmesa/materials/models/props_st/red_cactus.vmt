@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props_st\red_cactus"
+	"$envmap" 	"env_cubemap"
+	//"$envmapmask"	"models\props_st\red_cactus_spec"
+	"$bumpmap" 	"models\props_st\red_cactus_normal"
+	"$envmaptint"	"[.25 .25 .25]"
+	//"$surfaceprop" "metal" 
+
+
+}

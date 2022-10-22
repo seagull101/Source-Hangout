@@ -1,0 +1,29 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_vehicles\v_22_texture"
+	"$bumpmap" "models/props_vehicles/v_22_texture_normal"
+	"$envmap" "env_cubemap"
+      	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .6 .6 .6 ]"
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongexponent" "30"
+	 $phongfresnelranges "[0.05 0.5 1]"
+	"$halflambert" 1
+	"$multipass" 1
+	"$model" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "45"		// Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"			// Boost for ambient cube component 
+
+        "$detail" "detail\bm_rustymetal_detail_01"
+        "$detailscale" "5"
+        "$detailblendfactor" ".5"
+        "$detailblendmode" "0"
+
+    	"$nocull" "1"
+	"$selfillum"	"1"
+
+}

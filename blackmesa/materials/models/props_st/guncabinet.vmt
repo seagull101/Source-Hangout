@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+    "$basetexture" "metal/guncabinet"
+    "$surfaceprop" "metal"
+    "$bumpmap" "metal/c1a4f_lift_nobar_normal"
+
+	"%keywords" "bms"
+}

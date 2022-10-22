@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_vehicles\v_22_pilot_port"
+    "$nocull" 1
+     // "$alpha" 0.2
+      $translucent 1
+     // $alphatest 1
+}

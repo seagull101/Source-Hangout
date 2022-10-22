@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+   "$basetexture" "models/props_vehicles/lav_damaged"
+   "$bumpmap" "models/props_vehicles/lav_normal"
+   "$surfaceprop" "metal"
+
+        "$detail					"detail\bm_rustymetal_detail_01"
+        "$detailscale				"5"
+        "$detailblendfactor			"1"
+        "$detailblendmode			"0"
+}

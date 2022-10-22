@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_st/vista_river"
+	"$bumpmap"	"models/props_st/vista_river_normal"
+	"$envmap" 	"env_cubemap"
+	"$envmapcontrast" 	1
+	"$envmaptint"	"[.55 .6 .4]"
+	"$translucent" 1
+	"$model"	"1"
+
+	"Proxies"
+
+
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"	
+
+			"texturescrollrate" .015
+
+			"texturescrollangle" 90.00
+		}
+
+	}
+}

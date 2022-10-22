@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"_rt_camera"
+	"$surfaceprop"	"computer"
+	"$selfillum"	"1"
+	"$selfillumtint"	 "[0 0 0]"
+}

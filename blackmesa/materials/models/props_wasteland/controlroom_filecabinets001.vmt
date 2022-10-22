@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 		"models\props_wasteland\controlroom_filecabinets001"
+	"$surfaceprop" 		"metal"
+	"$envmap" 		"env_cubemap"
+	"$basealphaenvmapmask"	"1"
+	"$envmaptint" 		"[0.05 0.1 0.05]"
+	
+        "$detail" "detail\bm_rustymetal_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" 1.0
+	"$detailblendmode" 0	
+}

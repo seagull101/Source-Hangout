@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"xen/xen_rock_cliff_001a"
+	"$bumpmap" 			"xen/xen_rock_cliff_001a_normal"
+	"$surfaceprop" 			"rock"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmap" 			"env_cubemap"
+	"$envmaptint" 			"[.2 .3 .3]"
+
+        "$detail" 			"xen/detail/xen_detailmap_rock001"
+	"$detailscale" 			"9"
+	"$detailblendfactor" 		.8
+	"$detailblendmode" 		0
+}

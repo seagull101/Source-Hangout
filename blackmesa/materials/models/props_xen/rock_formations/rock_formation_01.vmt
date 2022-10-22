@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$baseTexture 	"models/Props_xen/rock_formations/rock_formation_01_diffuse"
+	$bumpmap 	"models/Props_xen/rock_formations/rock_formation_01_normals"
+
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+//	"$envmaptint" "[1 1 1]"
+//	"$envmapcontrast" "0.8"
+//	"$envmapsaturation" "0.6"
+
+	$detail "detail\bm_metal_detail_01"
+	$detailscale 12
+	$detailblendfactor ".5"
+	$detailblendmode 0
+
+}

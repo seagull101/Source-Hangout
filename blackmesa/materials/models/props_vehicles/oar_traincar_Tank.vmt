@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_vehicles/OAR_traincar_Tank"
+	"$surfaceprop" "metal"
+	"$model" 1
+   
+	"$envmapmask" "models/props_vehicles/OAR_traincar_Tank_Specular"
+	"$bumpmap" "models/props_vehicles/OAR_traincar_Tank_Normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .3 .3 .3 ]"
+}
+

@@ -1,0 +1,8 @@
+ "VertexLitGeneric"
+{
+	"$basetexture" "models/props_vehicles/cargo_tram_2"
+	"$bumpmap" "models/props_vehicles/Cargo_tram_n"
+   	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.2 .2 .2]"
+   	"$normalmapalphaenvmapmask" 1
+}

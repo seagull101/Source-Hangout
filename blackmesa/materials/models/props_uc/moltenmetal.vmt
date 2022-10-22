@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_uc/moltenmetal"
+	"%keywords" "blackmesa"
+	"$selfillum" "1"
+}

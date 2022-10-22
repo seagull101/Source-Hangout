@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props_st\cactus_needle"
+
+	
+	//"$surfaceprop" "metal"
+	$translucent 1
+	$nocull 1
+
+}

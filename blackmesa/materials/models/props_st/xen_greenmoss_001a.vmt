@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{	
+	"$basetexture" 			"xen/xen_greenmoss_001a"
+	"$bumpmap" 			"xen/xen_greenmoss_001a_normal"
+	"$surfaceprop" 			"slipperyslime"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmap" 			"env_cubemap"
+	"$envmaptint" 			"[.3 .5 .2]"
+
+	
+	"%keywords" 			"bms, jenn0, mark, foreman, xen"
+}
