@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props/rot_door/rot_door"
+	"$surfaceprop"	"metal"
+}

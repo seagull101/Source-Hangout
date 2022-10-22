@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+
+ 	"$basetexture" "skybox/bts_custom_cubemapbk.vtf"
+	"$hdrbasetexture" "skybox/bts_custom_cubemapbk.vtf"
+ 	$ignorez 1
+}

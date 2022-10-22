@@ -1,0 +1,31 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Concrete/concrete_modular_ceiling001a"
+	"$surfaceprop" "concrete"
+	"%keywords" "portal"
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$bumpmap" "concrete/concrete_modular_floor001_height-ssbump"
+		"$ssbump" "1"
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "concrete/concrete_modular_floor001_height-ssbump"
+		"$ssbump" "1"
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$bumpmap" "Concrete/concrete_modular_ceiling001a_normal"
+		"$nodiffusebumplighting" 1
+		"$normalmapalphaenvmapmask" 1
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basetexture" "Concrete/concrete_modular_ceiling001a"
+		"$basealphaenvmapmask" 1
+	}
+}

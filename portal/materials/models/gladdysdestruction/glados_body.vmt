@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/glados_body"
+	"envmap" "env_cubemap"
+        "$selfillum" 1
+
+
+
+
+
+
+}

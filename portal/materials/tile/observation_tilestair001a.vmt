@@ -1,0 +1,36 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "Tile/observation_tilestair001a"
+	"$surfaceprop" "tile"
+	"%keywords" "portal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .25 .25 .25 ]"
+
+	"LightmappedGeneric_HDR_DX9"
+	{
+		"$bumpmap" "tile/observation_tilestair001a_height-ssbump"
+		"$ssbump" "1"
+	}
+
+	"LightmappedGeneric_DX9"
+	{
+		"$bumpmap" "tile/observation_tilestair001a_height-ssbump"
+		"$ssbump" "1"
+	}
+
+	"LightmappedGeneric_DX8"
+	{
+		"$bumpmap" "tile/observation_tilestair001a_normal"
+		"$nodiffusebumplighting" 1
+	}
+
+	"LightmappedGeneric_NoBump_DX8"
+	{
+		"$basetexture" "tile/observation_tilestair001a"
+		"$basealphaenvmapmask" 1
+	}
+}

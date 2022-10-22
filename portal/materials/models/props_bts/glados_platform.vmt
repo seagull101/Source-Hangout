@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_bts/glados_platform"
+	"envmap" "env_cubemap"
+		"%noportal" 1
+	
+        //"$selfillum" 1
+
+}

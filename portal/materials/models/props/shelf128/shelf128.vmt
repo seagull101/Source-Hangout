@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props/shelf128/shelf128"
+	"$surfaceprop"	"metal"
+}

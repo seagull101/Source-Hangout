@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+
+ 	"$basetexture" "skybox/sky_escape_01_rt.vtf"
+	"$hdrbasetexture" "skybox/sky_escape_01_rt.vtf"
+ 	"$nofog" 1
+ 	$ignorez 1
+}

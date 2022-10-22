@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/slideshow/glados/glados_screens_blackmesa001"
+	//"$selfillum" 1
+	"%keywords" "dumb"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_bts/glados_screenborder"
+	"envmap" "env_cubemap"
+
+
+}

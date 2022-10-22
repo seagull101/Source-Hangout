@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Concrete/observationwall_001a"
+	"envmap" "env_cubemap"
+        "$selfillum" 1
+
+
+
+
+
+
+}

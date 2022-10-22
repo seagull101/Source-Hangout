@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/slideshow/glados/glados_screens_pig001"
+	//"$selfillum" 1
+	"%keywords" "test1, test2, animal, pig"
+}
