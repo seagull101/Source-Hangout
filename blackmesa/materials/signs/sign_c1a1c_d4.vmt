@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "signs\sign_c1a1c_d4"
+	"$surfaceprop"  "metal"
+	"%keywords"	"bms"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+}

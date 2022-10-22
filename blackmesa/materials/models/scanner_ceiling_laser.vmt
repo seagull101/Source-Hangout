@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\scanner_ceiling_laser"
+	"$model" "1"
+	"$translucent" "1"
+	"$nocull" "1"
+}

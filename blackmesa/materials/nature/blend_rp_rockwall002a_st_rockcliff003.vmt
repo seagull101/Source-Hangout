@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/rp_rockwall002a"
+	"$basetexture2" "nature/rp_rockwall001"
+	"%tooltexture" "Nature/rp_rockwall002a"
+	"$bumpmap" "Nature/st_rockcliff003_2_normal"
+	"$bumpmap2" "nature/st_rockcliff003_normal"
+	"$surfaceprop" "rock"
+	"$surfaceprop2" "rock"
+	"%keywords" "bms,c2a4"
+}

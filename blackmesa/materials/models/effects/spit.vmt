@@ -1,0 +1,12 @@
+"UnlitGeneric"
+{
+	"$basetexture" "Models/effects/spit"
+	"$bumpmap" 	"Models/effects/spit_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ 1.0 1.0 1.0]"
+	"$surfaceprop"	"alienflesh"
+	"$selfillum"	1
+	"$model" "1"
+	"$translucent" "1"
+}

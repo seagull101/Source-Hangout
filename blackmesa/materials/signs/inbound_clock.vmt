@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "signs\inbound_clock"
+	"$selfillum" "1"
+	"%keywords" "bms"
+
+	"Proxies"
+    {
+    "AnimatedTexture"
+                      {
+                      "animatedTextureVar" "$basetexture"
+                      "animatedTextureFrameNumVar" "$frame"
+                      "animatedTextureFrameRate" "1.5"
+                      }
+    }
+	
+}

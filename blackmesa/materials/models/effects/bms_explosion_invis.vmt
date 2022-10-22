@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "Models/effects/bms_explosion_invis"
+	"$alphatest" "1"
+}

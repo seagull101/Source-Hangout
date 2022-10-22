@@ -1,0 +1,8 @@
+"sky"
+{
+	"$hdrbaseTexture" "skybox\bm_sky_underground_00HDR"
+	"$nofog" "1"
+	"$ignorez" "1"
+	"$basetexture" "skybox\bm_sky_underground_00"
+	"%keywords" "bms"
+}

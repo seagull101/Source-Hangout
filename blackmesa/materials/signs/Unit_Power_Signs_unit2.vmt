@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "signs\Unit_Power_Signs_unit2"
+	"$bumpmap" "signs\Unit_Power_Signs_unit1_Normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.3 .3 .3]"
+	"$normalmapalphaenvmapmask" 1	
+	"%keywords" "bms"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+
+}

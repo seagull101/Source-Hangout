@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "Nature/rp_rockwall001a"
+	"$basetexture2" "nature/faf_dirtground2"
+	"%tooltexture" "Nature/faf_dirtground2"
+	"$bumpmap" "Nature/rp_rockwall001a_normal"
+	"$bumpmap2" "nature/faf_dirtground2_normal"
+	"%keywords" "bms,c2a4"
+}

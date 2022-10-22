@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"signs\no_smoking_01"
+	"$surfaceprop"  "metal"
+	"%keywords" "bms, Andrea"
+
+        $detail detail\bm_paint_detail_01b
+        $detailscale .8
+        $detailblendfactor .8
+        $detailblendmode 0
+	
+}

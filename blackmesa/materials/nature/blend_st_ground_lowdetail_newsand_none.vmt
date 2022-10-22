@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/sand_wavey_1_lowdetail"
+	"$basetexture2" "nature/rp_rockwall001_lowdetail"
+	"%tooltexture" "nature/faf_dirtground2"
+//	"$bumpmap" "nature/faf_dirtground2_normal"
+//	"$bumpmap2" "nature/st_rockcliff003_normal"
+	"$lightwarptexture" "effects/light_warp"
+	"$blendmodulatetexture" "nature/sandfloor_01_blendtexture"
+// 	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0  translate 0 0"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "rock"
+	"%keywords" "bms"
+}

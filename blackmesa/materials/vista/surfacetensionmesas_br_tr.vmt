@@ -1,0 +1,13 @@
+"UnlitGeneric"
+
+{
+	"$basetexture" "vista/surfacetensionmesas_br_tr"
+	"$basetexture2" "vista/SurfaceTension_RiverSand"
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+	"$surfaceprop" "dirt"
+	"$detail" "Vista/surfacetensionmesas_Detail" 
+	"$detailScale" 7
+	"%keywords" "Surface, Tension, Vista, Black, Mesa, bms"
+
+}

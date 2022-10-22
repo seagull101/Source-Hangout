@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/checkerboard-green"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .21 .21 .21 ]"
+	"$envmapmask" "tile/checkerboard-base_mask" 
+	"$bumpmap" "tile/checkerboard-base_normal"
+	"$surfaceprop" "tile"
+	"%keywords" "bms"
+}

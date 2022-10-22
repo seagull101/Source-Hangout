@@ -1,0 +1,19 @@
+unlittwotexture
+{
+$baseTexture "Models/Effects/vol_mask_02"
+$texture2 "Models/Effects/vol_lightrays_c0a0b"
+$nocull 1
+$additive 1
+$translucent 1
+$model 1
+$no_fullbright 1
+Proxies
+{
+TextureScroll
+{
+texturescrollvar $texture2transform
+texturescrollrate 0.02
+texturescrollangle -135
+}
+}
+}

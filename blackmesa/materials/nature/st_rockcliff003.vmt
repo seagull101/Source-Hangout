@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "nature/st_rockcliff003"
+	"$surfaceprop" "rock"
+	"%keywords" "bms"
+	"$bumpmap" "nature//st_rockcliff003_normal"
+
+$detail detail\rock_lg
+        $detailscale 15
+        $detailblendfactor 0.9
+        $detailblendmode 0
+
+}

@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "tile\OC_tilefloor"
+	"%keywords" "bms, Andrea"
+	"$surfaceprop" "tile"
+	"$bumpmap" "tile\OC_tilefloor_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .4 .4]"
+	"$normalmapalphaenvmapmask" 1
+
+	$detail detail\bm_metal_detail_02
+        $detailscale 6.283
+        $detailblendfactor .58
+        $detailblendmode 0
+}

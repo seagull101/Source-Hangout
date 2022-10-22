@@ -1,0 +1,22 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/screens/tram/vgui_accel_level"
+	"$translucent" 1
+	"$alpha" 1
+	"$ignorez"     "1"
+	"$no_fullbright" "1"	
+
+	"srgb?$color2" "[2.5 2.5 2.5]"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$alpha"
+			"sineperiod" .1
+			"sinemin" .99
+			"sinemax" 1
+		}
+	}
+
+}

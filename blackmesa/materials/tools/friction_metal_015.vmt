@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Tools/friction_metal_015"
+	"%compilenodraw" 1
+	"%compilepassbullets" 1
+	"%compileDetail" 1
+	"%keywords" "Tools,bms"
+	"$surfaceprop"  "friction_metal_15"
+}

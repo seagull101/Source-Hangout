@@ -1,0 +1,36 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/screens/tram/vgui_tram_background"
+	"$ignorez"     "1"
+	"$no_fullbright" "1"	
+
+	"srgb?$color2" "[2.5 2.5 2.5]"
+
+	"Proxies"
+	{
+
+		"Sine"
+		{
+			"resultVar" "$color[0]"
+			"sineperiod" .1
+			"sinemin" .234			
+			"sinemax" .24
+		}
+		"Sine"
+		{
+			"resultVar" "$color[1]"
+			"sineperiod" .1
+			"sinemin" .304			
+			"sinemax" .31
+		}
+		"Sine"
+		{
+			"resultVar" "$color[2]"
+			"sineperiod" .1
+			"sinemin" .264
+			"sinemax" .27
+		}
+
+	}
+
+}

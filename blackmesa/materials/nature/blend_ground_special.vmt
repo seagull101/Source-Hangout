@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/faf_dirtground2"
+	"$basetexture2" "concrete/hl2rev_concretewall065b"
+	"%tooltexture" "concrete/wall_concrete01"
+//	"$bumpmap" "nature/faf_dirtground2_normal"
+//	"$bumpmap2" "concrete/wall_concrete01_bump"
+// 	"$basetexturetransform" "center .5 1 scale 2 2 rotate 0 translate 0 0"
+	"$blendmodulatetexture" "concrete/asphalt_highway_modulate"
+//	"%detailtype" "short_redgrass_bms_ltrev"
+	"$surfaceprop" "dirt"
+	"$surfacepro2" "concrete"
+	"%keywords" "bms,c2a5h"
+}

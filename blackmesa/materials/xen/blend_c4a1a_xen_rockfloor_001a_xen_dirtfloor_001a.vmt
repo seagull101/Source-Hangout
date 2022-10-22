@@ -1,0 +1,25 @@
+"WorldVertexTransition"
+{	
+	"$basetexture" 			"xen/xen_rockfloor_001a"
+	"$basetexture2"			"xen/xen_dirtfloor_001a"
+
+	"$bumpmap"			"xen/xen_rockcoral_001a_ssbump"
+
+	"%tooltexture" 			"xen/xen_rockfloor_001a"
+
+	"$surfaceprop" 			"rock"
+	"$surfaceprop2" 		"dirt"
+
+	"$ssbump"	                "1"
+	"$normalmapalphaenvmapmask" 	"1"
+
+	"$envmap" 			"env_cubemap"
+
+	"$envmaptint" 			"[.2 .2 .2]"
+
+	"$blendmodulatetexture" 	"xen/blend/xen_modulate_001"
+
+	"%keywords" 			"bms, Xen, seamless, blend"
+
+	"$seamless_scale" 		 "0.005"
+}

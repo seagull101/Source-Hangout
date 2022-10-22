@@ -1,0 +1,17 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "signs/pictureframe03"
+	"$bumpmap" "signs/pictureframe03_normal"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[0.6 0.6 0.6]"
+	//"$envmapcontrast" 1.0000
+	"%keywords" "bms"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+	
+}

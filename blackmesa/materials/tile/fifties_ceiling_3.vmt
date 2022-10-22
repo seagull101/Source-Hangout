@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/fifties_ceiling_3"
+	"$bumpmap" "tile/fifties_ceiling_2_normal"
+	"%keywords" "bms"
+}

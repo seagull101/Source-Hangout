@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/screens/tram/standby"
+	"$surfaceprop" "glass"
+	"$translucent" 1
+	"$alpha" 1
+	"$ignorez"     "1"
+	"$no_fullbright" "1"	
+}
+

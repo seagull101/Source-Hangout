@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/ceilingtiles01"
+	"$bumpmap" "tile/ceilingtiles01_normal"
+	"$surfaceprop" "ceiling_tile"
+	"%keywords" "bms"
+}

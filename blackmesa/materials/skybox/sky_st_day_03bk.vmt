@@ -1,0 +1,8 @@
+"sky"
+{
+	$hdrcompressedTexture "skybox\sky_st_day_03_HDR_bk"
+	"$nofog" "1"
+	"$ignorez" "1"
+	"$basetexture" "skybox\sky_st_day_03_bk"
+	"%keywords" "bms"
+}

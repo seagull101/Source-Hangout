@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "signs\Lightup_StatusSign_off"
+	"$bumpmap" "signs\Lightup_StatusSign_Normal"
+	"%keywords" "bms"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 3
+        $detailblendfactor 1
+        $detailblendmode 0
+	
+}

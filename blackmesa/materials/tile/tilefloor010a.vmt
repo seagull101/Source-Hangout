@@ -1,0 +1,11 @@
+"lightmappedGeneric"
+{
+	"$basetexture" "tile/tilefloor010a"
+	"$bumpmap" "tile/tilefloor010a_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+	"$envmaptint" "[ .56 .56 .56 ]"
+	"$surfaceprop" "tile"
+}

@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/sandfloor_01"
+	"$basetexture2" "nature/faf_dirtground2"
+	"%tooltexture" "nature/sandfloor_01"
+	"$bumpmap" "nature/sandfloor_01_normal"
+	"$bumpmap2" "nature/faf_dirtground2_normal"
+ 	"$basetexturetransform" "center .5 .5 scale 0.5 0.5 rotate 0  translate 0 0"
+	"%detailtype" "desert_sand_ripple"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "gravel"
+	"%keywords" "bms"
+}

@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/faf_dirtground3"
+	"$basetexture2" "nature/rock4"
+	"%tooltexture" "nature/faf_dirtground3"
+	"$bumpmap2" "nature/rock4_NRM"
+// 	"$basetexturetransform" "center 2 0 scale 0.5 0.5 rotate 0  translate 0 0"
+//	"%detailtype" "short_redgrass_bms_ltrev"
+	"$surfaceprop" "dirt"
+	"$surfacepro2" "rock"
+	"%keywords" "bms,c2a5"
+//	"$seamless_scale" "0.005"
+//	"$lightwarptexture" "effects/light_warp"
+	"$blendmodulatetexture" "nature/sandfloor_01_blendtexture"
+	"%detailtype" "desert_sand_ripple"
+}

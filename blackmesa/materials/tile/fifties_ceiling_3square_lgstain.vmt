@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/fifties_ceiling_3square_lgstain"
+	"$bumpmap" "tile/fifties_ceiling_2squarenorm"
+	"%keywords" "bms"
+	"$normalmapalphaenvmapmask" 1
+}

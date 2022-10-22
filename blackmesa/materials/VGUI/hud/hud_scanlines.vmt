@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	$basetexture	vgui\hud\hud_scanlines
+	$translucent	1
+
+	$no_fullbright	1
+	$ignorez	1
+}

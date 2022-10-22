@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+$basetexture "particle/roach/roach.vtf"
+$translucent 1
+$vertexcolor 1
+$color2 "[1 1 1]"
+
+
+
+
+}

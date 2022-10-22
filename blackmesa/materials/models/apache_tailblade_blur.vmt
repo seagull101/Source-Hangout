@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/apache_tailblade_blur"
+	"$translucent" "1"
+	"$nodecal" "1"
+	"$nocull" "1"
+}

@@ -1,0 +1,21 @@
+"UnlitTwoTexture_DX6"
+{	
+	"$basetexture" "sprites/turret_laserbeam"
+	"$texture2"	"sprites/turret_laserbeam_volume"
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$additive"	"1"
+
+
+
+
+    "Proxies"
+    {
+        "TextureScroll"
+        {
+            "textureScrollVar" "$texture2transform"
+            "textureScrollRate" 0.125
+            "textureScrollAngle" 240
+        }
+    }
+}

@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	$basetexture "particle/fly/fly.vtf"
+	$translucent 1
+	$vertexcolor 1
+	$overbrightfactor 1
+}

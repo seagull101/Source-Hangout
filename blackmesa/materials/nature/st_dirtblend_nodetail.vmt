@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/faf_dirtground2"
+	"$basetexture2" "nature/rp_rockwall001"
+	"$bumpmap" "nature/faf_dirtground2_normal"
+//	"$bumpmap2" "nature/st_rockcliff003_normal"
+	"$lightwarptexture" "effects/light_warp"
+	"$blendmodulatetexture" "nature/sandfloor_01_blendtexture"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "rock"
+	"%keywords" "bms"
+}

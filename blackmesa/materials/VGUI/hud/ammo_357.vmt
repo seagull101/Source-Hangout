@@ -1,0 +1,18 @@
+UnlitGeneric
+{
+	$basetexture	vgui\hud\ammo_357
+	$translucent	1
+	$distancealpha	1
+
+	$softedges		1
+	$edgesoftnessstart	.5
+	$edgesoftnessend	.25
+	$scaleedgesoftnessbasedonscreenres 1
+
+	$vertexcolor	1
+	$vertexalpha	1
+	$no_fullbright	1
+	$ignorez	1
+}
+
+

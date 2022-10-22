@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"signs\secD_admin3"
+	"$surfaceprop"  "metal"
+	"%keywords" "bms, Andrea"
+
+        $detail detail\bm_metal_detail_02b
+        $detailscale 1.75
+        $detailblendfactor .85
+        $detailblendmode 0
+
+}

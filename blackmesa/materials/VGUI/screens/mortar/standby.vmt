@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/screens/mortar/standby.vmt"
+	"$ignorez"     "1"
+	"$no_fullbright" "1"	
+}

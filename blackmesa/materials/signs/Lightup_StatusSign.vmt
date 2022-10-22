@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{   
+   "%keywords" "bms"
+   "$baseTexture" "signs/Lightup_StatusSign"
+   "Proxies"
+   {
+      "ToggleTexture"
+      {
+         "toggleTextureVar" "$baseTexture"
+                     "toggleTextureFrameNumVar" "$frame"
+                     "toggleTextureShouldWrap" "0"
+      }
+   }
+}

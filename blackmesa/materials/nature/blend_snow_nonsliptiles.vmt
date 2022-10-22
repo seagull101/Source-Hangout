@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/snow01a"
+	"$basetexture2" "metal/metal_nonsliptiles"
+	"$bumpmap2" "metal/Metal_NonslipTiles_Normal"
+	"$lightwarptexture" "effects/light_warp"
+	"$blendmodulatetexture" "nature/nonsliptiles_blendtexture"
+	//"%tooltexture" "dev/blendgeneric"
+	"$surfaceprop" "snow"
+	"$surfaceprop2" "metal"
+	"%keywords" "bms"
+}

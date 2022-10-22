@@ -1,0 +1,18 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "plaster\CSREV_officewall01b"
+	"$bumpmap" "plaster\CSREV_officewall01b_normal"
+	"$surfaceprop" "concrete"
+
+	$phong 1
+	$phongexponent 5
+	$phongboost	4
+	$phongfresnelranges	"[0.05 0.5 1]"
+
+        $detail detail\bm_paint_detail_04
+        $detailscale 5
+        $detailblendfactor .95
+        $detailblendmode 0
+
+	"%keywords" "bms, Andrea, Jenn0"	
+}
