@@ -1,0 +1,33 @@
+"UnlitTwoTexture_DX6"
+{
+
+    	"$basetexture" 	"effects\lc_reactoreffect"
+    	"$texture2" 	"effects\lc_reactoreffect_mask"
+	"$additive"	"1"
+	"$model"	"1"
+	"$nodecal"	"1"
+
+
+	"Proxies"
+
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "16"
+		}
+
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$Texture2Transform"
+		
+			"texturescrollrate" .2
+			
+			"texturescrollangle" 10.00
+		}
+
+	}
+	
+}

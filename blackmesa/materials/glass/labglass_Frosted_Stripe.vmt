@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Glass/labglass_Frosted_Stripe"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"$envmapmask" "glass/glasswindowbreak070a_mask"
+	"$envmaptint" "[1 1 1]"
+//	"$envmapsphere" 1
+	"$translucent" 1
+	"$nocull" 1
+	"$crackmaterial" "glass/labglass_c2a4_2windowbreak070b"
+	"%keywords" "c17industrial,bms, c2a4"
+}

@@ -1,0 +1,10 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\c2a4_Sign_aquaticsflow"
+	"$bumpmap" "lab\c2a4_Sign_aquaticsflow_normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.3 .3 .3]"
+	"$normalalphaenvmapmask" 1	
+	"%keywords" "bms, Jenn0"
+}

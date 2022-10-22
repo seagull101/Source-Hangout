@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "lambda/lambda_beams_2"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0"
+
+}

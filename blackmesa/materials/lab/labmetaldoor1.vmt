@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lab/labmetaldoor1"
+	"$bumpmap" "lab/labmetaldoor1_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .25 .25 .25 ]"
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"%keywords" "bms"
+
+	"$selfillum"	"1"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+}

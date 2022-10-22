@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"lab\CSREV_LabSlideA"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "lab\CSREV_LabSlideA_spec"
+	"$surfaceprop" "metal"
+	"%keywords" "bms, CSREV, Jenn0"
+
+}

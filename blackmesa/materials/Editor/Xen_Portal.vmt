@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+    "$basetexture" "Editor/Xen_Portal"
+    "$translucent" "1"
+	"%keywords" "bms"
+  
+}

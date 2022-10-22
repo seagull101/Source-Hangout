@@ -1,0 +1,13 @@
+LightmappedGeneric
+{
+	"$basetexture"	"lab\c2ax_lasertrim"
+	"$surfaceprop" "metal"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0"
+
+}

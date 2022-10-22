@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab/white8x8tile"
+	"$surfaceprop" "metal"
+	"$bumpmap" "lab/white8x8tilenormal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.3 .3 .3]"
+   	"$envmapsaturation" "[.25 .25 .25]"
+	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "bms,c2a4"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "7"
+	"$detailblendfactor" .6
+	"$detailblendmode" 0
+}

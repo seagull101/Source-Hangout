@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"liquids/c2a5_water_green_fake"
+	"$bumpmap"	"dev/water_normal"
+	"%keywords"	"bms"
+	"$surfaceprop"	"water"
+//	"$envmap"	"env_cubemap"
+}

@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\c3a2lab_metalwall01a"
+	"%keywords" "bms,c3a2,lambda"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "7"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"$surfaceprop" "metal"
+}

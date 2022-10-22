@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lab/floor_rubber01a"
+	"$bumpmap" "lab/floor_rubber01a_bump"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.333 .333 .333]"
+	"$envmapsaturation" "..5"
+	"$envmapcontrast" "0.667"
+	"$normalmapalphaenvmapmask" 1
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .5
+	"$detailblendmode" 0
+	"$surfaceprop" "rubber"	
+	"%keywords" "bms"
+}

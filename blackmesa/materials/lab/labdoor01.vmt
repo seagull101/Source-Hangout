@@ -1,0 +1,22 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labdoor01"
+	"$bumpmap" "lab\labdoor01_ssbump"
+	"$ssbump" "1"
+
+	"$surfaceprop" "metal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1	
+   	"$envmaptint" "[.25 .2 .2]"
+
+	"$selfillum"	"1"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+
+	"%keywords" "bms,c1a0"
+}

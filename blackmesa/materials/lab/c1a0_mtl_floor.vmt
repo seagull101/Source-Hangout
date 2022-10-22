@@ -1,0 +1,18 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\c1a0_mtl_floor"
+	"$bumpmap" "lab\c2a4_ceiling_ssbump"
+	$ssbump		1
+	
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.6 .6 .6]"
+	"$normalmapalphaenvmapmask" 1
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "7"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0"
+}

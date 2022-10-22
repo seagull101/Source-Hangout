@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\grayquartz"
+	"%keywords" "bms"
+	"$surfaceprop" "rock"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.2 .2 .2]"
+ $detail detail\marblenoise
+        $detailscale 5
+        $detailblendfactor 0.9
+        $detailblendmode 0
+}

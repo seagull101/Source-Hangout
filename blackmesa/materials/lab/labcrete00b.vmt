@@ -1,0 +1,13 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labcrete00b"
+	"%keywords" "bms,c1a0"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "lab\labcrete00b_normal"
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+
+}

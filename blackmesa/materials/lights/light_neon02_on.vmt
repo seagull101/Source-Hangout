@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lights/light_neon02_on"
+	"$surfaceprop" "Metal"
+	"$selfillum" 1
+	"%keywords" "bms"
+}

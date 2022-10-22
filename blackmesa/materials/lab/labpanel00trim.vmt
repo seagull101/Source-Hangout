@@ -1,0 +1,14 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labpanel00trim"
+	"%keywords" "bms,c1a0, CSREV"
+	"$surfaceprop" "metal"
+	"$bumpmap" "lab\labpanel00trim_ssbump"
+	"$ssbump"	"1"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "7"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+}

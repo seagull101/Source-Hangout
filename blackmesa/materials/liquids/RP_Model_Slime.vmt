@@ -1,0 +1,43 @@
+"UnlitTwoTexture"
+{
+	"$basetexture"	"liquids/Toxic_Slime_Anim"
+	"$texture2" 	"liquids/Toxic_Slime_Base"
+	"$texture2scale" "1"
+
+	"%keywords" "bms"
+	$underwateroverlay "effects/Causticswater_warp"
+
+
+	"$tex2offset"	"[0 0]"
+
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"resultVar" "$tex2offset[0]"
+			"rate" 0.001
+		}
+		"LinearRamp"
+		{
+			"resultVar" "$tex2offset[1]"
+			"rate" -0.01
+		}
+		"TextureTransform"
+		{
+			"translateVar"	"$tex2offset"
+			"resultVar"	"$texture2transform"
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 8
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 10.00
+		}
+	}
+}

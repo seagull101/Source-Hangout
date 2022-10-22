@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labtwo_metaltrim02"
+	"%keywords" "bms,c1a0"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.2 .2 .15]"
+	"$basealphaenvmapmask" 1
+	"$envmapsaturation" 1
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "3"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+}

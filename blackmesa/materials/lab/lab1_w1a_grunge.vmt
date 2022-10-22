@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab/lab1_w1a_grunge"
+	"%keywords" "bms, Andrea"
+	"$surfaceprop" "metal"
+	"$bumpmap" "lab/lab1_w1a_grunge_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.3 .3 .3]"
+	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 1
+
+	$detail detail\bm_paint_detail_01
+        $detailscale 5
+        $detailblendfactor .45
+        $detailblendmode 0
+}

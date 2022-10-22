@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/infblindsa"
+	"$bumpmap" "Glass/blinds_long_nm"
+     	"$envmap" "env_cubemap"
+    	 "$normalmapalphaenvmapmask" "1"
+	"%keywords" "BMS"
+}

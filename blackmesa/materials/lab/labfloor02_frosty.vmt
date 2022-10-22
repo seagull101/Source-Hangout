@@ -1,0 +1,20 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labfloor02_frosty"
+	"$bumpmap" "lab\labfloor02_frosty_normal"
+
+	"$surfaceprop" "snow"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+   	"$envmaptint" "[.9 .9 .95]"
+
+
+	"%keywords" "bms,c1a0"	
+
+        "$detail" "detail\bm_cinderblock_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" 0.6
+	"$detailblendmode" 0
+
+}

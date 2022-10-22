@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labvent1"
+	"%keywords" "bms,c1a0"
+	"$surfaceprop" "metal"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "7"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+}

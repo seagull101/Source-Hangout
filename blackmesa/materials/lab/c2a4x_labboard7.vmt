@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\c2a4x_labboard7"
+	"%keywords" "bms,c2a4x"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.2 .2 .2]"
+	"$envmapmask"  "lab\c2a4x_labboard7_spec"
+}

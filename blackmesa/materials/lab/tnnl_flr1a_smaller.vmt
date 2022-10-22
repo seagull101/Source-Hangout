@@ -1,0 +1,12 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "lab/tnnl_flr1a_smaller"
+	"$surfaceprop" "metal"
+	"%keywords" "bms"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "7"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+}

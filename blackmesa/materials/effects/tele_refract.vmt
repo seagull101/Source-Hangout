@@ -1,0 +1,18 @@
+"Refract"
+{
+ 	"$refractamount" 	"0.02"
+	"%keywords" "bms"
+ 	"$bluramount" 		.5
+	"$scale" 			"[1 1]"
+	"$normalmap" 		"effects/tele_refract"
+//	"$nocull" 			1
+//	"$ignorez" 			1
+	"Refract_DX80"
+	{
+		"$fallbackmaterial" "null"
+	}
+	"Refract_DX60"
+	{
+		"$fallbackmaterial" "null"
+	}
+}

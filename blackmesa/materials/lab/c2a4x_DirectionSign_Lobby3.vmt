@@ -1,0 +1,17 @@
+LightmappedGeneric
+{
+	"$basetexture"	"lab\c2a4x_DirectionSign_Lobby3"
+	"$bumpmap" "lab\c2a4x_DirectionSign_normal1"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.7 .7 .7]"
+	"$normalmapalphaenvmapmask" 1	
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0"
+
+}

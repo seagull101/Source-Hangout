@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "dev/water_moving_beneath"
+	"$bumpmap" 		"Liquids/CoolantWater_Normal"
+//	"$additive" "1"
+	"$translucent" "1"
+	"$surfaceprop" "water"
+	"%keywords" "wasteland"
+	"%compilewater" 1
+	"$abovewater" 0
+	"$underwateroverlay" "effects/water_warp01"
+
+	"$color" "[0.25 0.25 0.25]" 
+}

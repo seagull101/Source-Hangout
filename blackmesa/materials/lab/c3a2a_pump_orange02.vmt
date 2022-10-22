@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lab/c3a2a_pump_orange02"
+	"$surfaceprop" "metal"
+	"$bumpmap" "lab/c3a2a_pump_orange02_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.01 .01 .01]"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms"
+}

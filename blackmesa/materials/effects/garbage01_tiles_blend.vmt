@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "effects/garbage01"
+	"$baseTexture2" "concrete/tnnl_flr8"
+	"$surfaceprop" "concrete"
+	"$lightwarptexture" "effects/light_warp"
+	"$blendmodulatetexture" "effects/garbage01_blendtexture"
+	"%keywords" "bms"
+}

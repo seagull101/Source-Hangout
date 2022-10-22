@@ -1,0 +1,11 @@
+//"UnlitGeneric"
+"LightMappedGeneric"
+{
+
+    	"$basetexture" 	"effects\lc_redfade"
+	"$translucent"	"1"
+	"$nodecal"	"1"
+//	"$selfillum"	"1"
+	"$additive"	"1"
+
+}

@@ -1,0 +1,22 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labscreen1"
+	"%keywords" "bms,c1a0"
+	"$surfaceprop" "glass"
+	"$bumpmap" "lab\labscreen_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+	"$envmaptint" "[.8 .8 .8]"
+	"$selfillum" 1
+"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$selfillumtint"
+			"sineperiod" "0.01"
+			"sinemin"	"0.85"
+			"sinemax" "1"
+		}
+	}
+}

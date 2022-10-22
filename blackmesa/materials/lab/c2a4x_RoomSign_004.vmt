@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	"$basetexture"	"lab\c2a4x_RoomSign_004"
+	"$bumpmap" "lab\c2a4x_RoomSign_normal2"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.7 .7 .7]"
+	"$normalmapalphaenvmapmask" 1	
+	"%keywords" "bms, Jenn0"
+
+}

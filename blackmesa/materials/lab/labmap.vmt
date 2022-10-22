@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labmap"
+	"%keywords" "bms,c1a0"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.7 .7 .8]"
+	"$bumpmap" "lab\labmap_normal"
+	"$normalmapalphaenvmapmask" 1	
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+}

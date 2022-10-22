@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\officefloor01"
+	"$bumpmap" "lab\officefloor01_nm"
+   	"$envmaptint" "[.4 .4 .4]"
+	"$normalmapalphaenvmapmask" 1
+
+
+        "$detail" "detail\bm_concrete_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" 0.6
+	"$detailblendmode" 0
+	"$surfaceprop" "rubber"	
+	"%keywords" "bms,c1a0"
+}

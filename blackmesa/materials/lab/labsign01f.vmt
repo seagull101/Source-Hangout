@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\labsign01f"
+	"%keywords" "bms,c1a0"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+}

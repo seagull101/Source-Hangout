@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\LabTwo_PreChamberDoorFront"
+	"$bumpmap" "lab\LabTwo_PreChamberDoorFront_normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.3 .3 .3]"
+	"$normalmapalphaenvmapmask" "1"
+	"%keywords" "bms, Jenn0"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+}

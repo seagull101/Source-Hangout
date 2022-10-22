@@ -1,0 +1,19 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\Insulation_Ceiling01"
+	"$bumpmap" "lab\Insulation_Ceiling01_Normal"
+	"$surfaceprop" "ceiling_tile"
+
+	$phong			1
+	$phongexponent		5		// either/or
+	$phongboost		10.0
+	$phongfresnelranges	"[[1 3 8]]"
+
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+		
+	"%keywords" "bms, Jenn0"
+}

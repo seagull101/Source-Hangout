@@ -1,0 +1,15 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "lab\c3a2b_reac1e"
+	"$bumpmap" "lab\c3a2b_reac1e_ssbump"
+	"$ssbump" "1"
+
+	"$detail" "detail/c2a4_metal_detail" 
+	"$detailscale"	"8"
+
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .4 .4]"
+	"$normalmapalphaenvmapmask" 1	
+	"%keywords" "bms"
+}

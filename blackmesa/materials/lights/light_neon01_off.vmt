@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "lights/light_neon01_off"
+	"$bumpmap" "lights/light_neon01_bump"
+	"$surfaceprop" "Metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .35]"
+	"$envmapsaturation" .5
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "bms"
+}
