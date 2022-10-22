@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_apprehension/grate_c2a3b.vtf"
+	"$surfaceprop" "metal"
+}

@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+    "$basetexture" "models/props_am/crystal_sheet"
+    "$translucent" "1"
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+"$basetexture" "Models/props_am/elevator01uv_floor"
+"$bumpmap" "Models/props_am/elevator01uv_floor_nm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+"$surfaceprop" "metal"
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_nuke\light_wall"
+	"$envmap" "env_cubemap"
+	"$envmapmask"	"models\props\de_nuke\light_wall_spec"
+}

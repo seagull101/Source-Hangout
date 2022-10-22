@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_office/stereosystem"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_nuke\electric_box_clean"
+
+	"$envmap" 	"env_cubemap"
+	"$bumpmap" "models\props\de_nuke\electric_box_clean2_NRM"
+	"$normalmapalphaenvmapmask" 1
+
+}

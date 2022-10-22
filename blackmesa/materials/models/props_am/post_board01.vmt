@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_am\post_board01"
+	"$surfaceprop" "cardboard"
+}

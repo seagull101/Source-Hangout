@@ -1,0 +1,36 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+"$basetexture" "models\props_am\am_ams_basebody"
+//"$basetexture" "models\props_am\am_ams_testgrey"
+"$bumpmap" "models\props_am\am_ams_basebody_norm"
+
+//metal
+"$normalmapalphaenvmapmask" "1"
+"$envmap" "env_cubemap"
+"$envmaptint" "[.3 .3 .2]"
+//"$envmapfalloff" "1"
+
+// Phong Schtuff
+"$phong" "1"
+//"$phongexponent" "25"
+"$phongexponenttexture" "models\props_am\am_ams_basebody_exponent"
+"$PhongWarpTexture"	"models\props_am\am_ams_phongwarp"
+"$phongboost" "7"
+"$phongfresnelranges"	"[0.4 0.6 1.6]"
+"$phongalbedotint" "1"
+
+"$lightwarptexture"	"models\props_am\am_ams_lightwarp"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+
+$detail "detail/bm_abusedmetal_detail_01.vtf"
+$detailscale 16
+$detailblendfactor .7
+$detailblendmode 0
+}

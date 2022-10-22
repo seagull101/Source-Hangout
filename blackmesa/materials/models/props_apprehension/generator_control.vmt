@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_apprehension/generator_control"
+	"$bumpmap" "models/props_apprehension/generator_control_Normal"
+	"$normalalphaenvmapmask" 1
+	"$selfillum" 1
+	"$envmap" "env_cubemap"	
+   	"$envmaptint" "[.4 .4 .4]"		
+	"%keywords" "bms"
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost"	"1"
+	  $phongfresnelranges "[.4 .8 30]"
+
+	"$halflambert" 1
+	"$multipass" 1
+	"$model" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "35"		// Exponent for phong component of rim lighting
+	"$rimlightboost" ".2"			// Boost for ambient cube component 
+}

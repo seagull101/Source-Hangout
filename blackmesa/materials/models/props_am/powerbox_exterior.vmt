@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_am/powerbox_exterior"
+"$envmap" "env_cubemap"
+	"$bumpmap" "models\props_am\powerbox_exterior_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[1 1 1]"
+	"$envmapsaturation" "0.3"
+	"$model" 1
+       	"$surfaceprop" "Metal"
+}

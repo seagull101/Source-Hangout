@@ -1,0 +1,6 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models/props_am/am_tc_screens"
+	"$model" 1
+	"$surfaceprop" "metal"
+}

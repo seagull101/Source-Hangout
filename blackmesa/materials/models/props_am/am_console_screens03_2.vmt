@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/props_am/am_console_screens03_2"
+	"$model" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .5 .5 .5 ]"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" ".5"
+		}
+
+	}
+}

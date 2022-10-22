@@ -1,0 +1,22 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_nuke\electric_box_dirty"
+	"$envmap" 	"env_cubemap"
+	"$bumpmap" "models\props\de_nuke\electric_box_clean2_NRM"
+	"$normalmapalphaenvmapmask" 1
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost"	"1"
+	  $phongfresnelranges "[.4 .8 30]"
+
+	"$halflambert" 1
+	"$multipass" 1
+	"$model" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "15"		// Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"			// Boost for ambient cube component 
+
+
+}

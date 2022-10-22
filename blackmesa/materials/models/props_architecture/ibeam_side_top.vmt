@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_architecture/ibeam_side_top"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+   	"$envmaptint" "[.2 .2 .2]"
+	"$envmapmask" "models/props_architecture/ibeam_side_top_Spec"	
+	
+        "$detail" "detail\bm_metal_detail_02"
+	"$detailscale" 18
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Andrea"
+	
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_am\Nameplate16"
+	"$surfaceprop" "metal"
+}

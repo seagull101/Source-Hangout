@@ -1,0 +1,17 @@
+"unlitgeneric"
+{
+	"$basetexture" 			"models\props_am\ion_machine_screen2"
+	"$model"			"1"
+	"$selfillum" 1
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "1.5"
+		}
+
+	}
+}

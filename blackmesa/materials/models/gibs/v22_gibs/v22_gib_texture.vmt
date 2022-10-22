@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\gibs\v22_gibs\v22_gib_texture"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+	"$envmaptint" "[ .5 .5 .5 ]"
+}

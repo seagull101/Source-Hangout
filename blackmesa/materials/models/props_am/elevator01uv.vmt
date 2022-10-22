@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+"$basetexture" "Models/props_am/elevator01uv"
+"$bumpmap" "Models/props_am/elevator01uv_bump"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+"$surfaceprop" "metal"
+
+  $detail detail\noise_detail_01 // e.g. for brickwork, concrete...
+        $detailscale 10
+        $detailblendfactor 0.4
+        $detailblendmode 0
+}

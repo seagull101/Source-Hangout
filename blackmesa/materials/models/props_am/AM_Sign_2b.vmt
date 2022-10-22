@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\props_am\AM_Sign_2b"
+	"$bumpmap" 			"Models\props_am\AM_Sign_2_normal"
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmaptint" 			"[0.6 0.6 0.6]"
+	"$selfillum"			"1"
+}

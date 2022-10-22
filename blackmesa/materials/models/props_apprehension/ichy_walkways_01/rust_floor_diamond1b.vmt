@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/rust_floor_diamond1b"
+	"$surfaceprop" "metal"
+	"$bumpmap" "metal/rust_floor_diamond1a_normal"
+	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.1 .1 .1]"
+//	"$envmapcontrast"	"1"
+	"%keywords" "bms,schwenz"
+
+}

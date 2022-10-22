@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\cs_assault\pylon"
+	"$bumpmap"	"models\props\cs_assault\pylon_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[.3 .3 .3]"
+   	"$normalmapalphaenvmapmask" 1
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 4
+        $detailblendfactor 1
+        $detailblendmode 0
+}

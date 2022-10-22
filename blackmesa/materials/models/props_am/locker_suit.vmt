@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models/props_am/locker_suit"
+    "$surfaceprop" "Default"
+}

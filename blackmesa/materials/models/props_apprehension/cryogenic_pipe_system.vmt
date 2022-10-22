@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_apprehension\cryogenic_pipe_system"
+	"$bumpmap" "models\props_apprehension\cryogenic_pipe_system_normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[0.6 0.6 0.6]"
+	"$normalmapalphaenvmapmask" 1	
+}

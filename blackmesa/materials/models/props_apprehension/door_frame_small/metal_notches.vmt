@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/metal_notches"
+	"$surfaceprop" "metal"
+	"%keywords" "bms"
+}

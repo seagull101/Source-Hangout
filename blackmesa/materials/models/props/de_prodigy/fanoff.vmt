@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_prodigy\fanoff"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"models\props\de_prodigy\fanoff_spec"
+	"$envmaptint"	"[.4 .4 .4]"
+
+}

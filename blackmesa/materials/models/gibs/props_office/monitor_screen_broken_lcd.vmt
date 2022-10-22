@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/gibs/props_office/monitor_screen_broken_lcd"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+}

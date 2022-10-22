@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	"$basetexture" 			"models\props_am\ion_machine_screen"
+	"$model"			"1"
+	"$selfillum" 1
+
+}

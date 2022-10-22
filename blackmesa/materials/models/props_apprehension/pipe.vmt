@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_apprehension/pipe"
+    "$detail" "detail\bm_concrete_detail_02"
+	"$detailscale" "10"
+	"$detailblendfactor" 1.0
+	"$detailblendmode" 0
+}

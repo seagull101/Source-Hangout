@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\props\de_prodigy\fanhousing"
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[.1 .1 .1]"
+}

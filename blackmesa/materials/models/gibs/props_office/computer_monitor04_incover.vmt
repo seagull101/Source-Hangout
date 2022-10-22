@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/gibs/props_office/computer_monitor04_incover"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+}

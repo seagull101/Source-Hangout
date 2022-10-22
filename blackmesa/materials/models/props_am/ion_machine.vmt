@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\props_am\ion_machine"
+	"$bumpmap" 			"Models\props_am\ion_machine_normal"
+	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmaptint" 			"[.3 .3 .3]"
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongboost"	"1"
+	  $phongfresnelranges "[.4 .8 30]"
+
+	"$halflambert" 1
+	"$multipass" 1
+	"$model" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "35"		// Exponent for phong component of rim lighting
+	"$rimlightboost" ".2"			// Boost for ambient cube component 
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "0.5"
+		}
+
+	}
+}

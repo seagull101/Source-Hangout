@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_apprehension/apprehension_walkways"
+	"$bumpmap" "models/props_apprehension/apprehension_walkways_normal"
+	"$envmap" "env_cubemap"	
+	"$envmaptint" "[.8 .8 .5]"
+	"$normalmapalphaenvmapmask" 1
+
+	"%keywords" "bms, Andrea"	
+}

@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	"$basetexture"	"metal\ibeam_whiteb"
+	"$surfaceprop" "solidmetal"
+
+
+	"%keywords" "bms, jenn0,"
+}

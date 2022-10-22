@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/ba_elevator0000_03d"
+	"$bumpmap" "metal/ba_elevator0000_03d_normal"
+//	"$bumpscale" 4
+	"$surfaceprop" "metal"
+	"%keywords" "bms"
+}

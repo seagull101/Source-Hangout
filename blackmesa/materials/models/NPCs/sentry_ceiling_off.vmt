@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\npcs\sentry_ceiling"
+	"$bumpmap" "models\npcs\sentry_ceiling_normal"
+       	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$normalmapalphaenvmapmask" 1
+	"$model" "1"
+	"$nodecal" "1"
+}

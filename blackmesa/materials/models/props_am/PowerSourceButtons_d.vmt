@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 			"models\props_am\PowerSourceButtons_d"
+	"$selfillum"			"1"
+}

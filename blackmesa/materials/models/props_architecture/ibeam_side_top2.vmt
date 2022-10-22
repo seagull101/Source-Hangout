@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/props_architecture/ibeam_side_top2"
+	"$surfaceprop" 	"metal"
+	
+	$detail detail\bm_rustymetal_detail_02
+        $detailscale 14.5
+        $detailblendfactor .85
+        $detailblendmode 0
+
+	"%keywords" "bms, Andrea"
+
+}

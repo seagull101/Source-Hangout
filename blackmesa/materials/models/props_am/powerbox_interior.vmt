@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_am/powerbox_interior"
+	"$envmaptint" "[1 1 1]"
+	"$envmapsaturation" "0.3"
+	"$model" 1
+       	"$surfaceprop" "Metal"
+       	"$alphatest" 1
+}

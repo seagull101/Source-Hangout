@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_am/mixer_lid"
+	"$envmapmask" "models/props_am/mixer_lid_mask"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.8 0.8 0.8]"
+	"$envmapsaturation" "0.3"
+	"$surfaceprop" "metal"
+}

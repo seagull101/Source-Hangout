@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_apprehension/c2a3_stairs"
+	"$alphatest" "1"
+	"$nolod" "1"
+}

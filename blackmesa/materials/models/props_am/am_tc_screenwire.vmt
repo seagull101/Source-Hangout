@@ -1,0 +1,16 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models/props_am/am_tc_screenwire"
+	"$model" 1
+	"$surfaceprop" "metal"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "0.4"
+		}
+	}
+}
