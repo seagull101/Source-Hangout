@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\metal_wall_babtech_wall01"
+	"%keywords" "bms,Silo2"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "metal\metal_wall_babtech_wall01_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.17 .17 .17]"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapsaturation" 1
+}

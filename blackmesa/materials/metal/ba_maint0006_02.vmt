@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/ba_maint0006_02"
+	"$bumpmap" "metal/ba_maint0006_02_normal"
+//	"$bumpscale" 4
+	"$surfaceprop" "metal"
+	"%keywords" "bms"
+}

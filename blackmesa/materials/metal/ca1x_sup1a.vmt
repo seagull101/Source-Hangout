@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal/ca1x_sup1a"
+	"%keywords" "bms, Andrea"
+	"$surfaceprop" "metal"
+	"$bumpmap" "metal/ca1x_sup1a_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.1 .1 .1]"
+	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 1
+}

@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\Rusted_Yellow_Metal"
+	"$bumpmap" "metal\Rusted_Yellow_Metal_Normal"
+	"$detail" "detail\dt_Rusted_Metal"
+	"$detailscale"	"5"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .3 .3]"
+	"$normalmapalphaenvmapmask" 1	
+
+	"%keywords" "bms, Jenn0,"
+}

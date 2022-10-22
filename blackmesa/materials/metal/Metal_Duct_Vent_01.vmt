@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"metal/Metal_Duct_Vent_01"
+	"$surfaceprop"			"metalvent"
+
+	"$nodecal"	"1"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0,"
+}

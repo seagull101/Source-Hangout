@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\c2a2_metaltunnelwall_001b"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+		
+	"%keywords" "bms, Jenn0"
+}

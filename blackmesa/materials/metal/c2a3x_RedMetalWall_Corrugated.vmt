@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\c2a3x_RedMetalWall_Corrugated"
+	"$bumpmap" "metal\c2a3x_RedMetalWall_Corrugated_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.1 .1 .1]"
+//	"$envmapcontrast" ".5"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 6
+        $detailblendfactor 1
+        $detailblendmode 0
+
+	"%keywords" "bms, Jenn0"
+}

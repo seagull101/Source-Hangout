@@ -1,0 +1,14 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\CSREV_metaltruss01"
+	"$surfaceprop" "metal"
+	"%compilepassbullets" 1
+	"$alphatest" 1
+
+        "$detail" "detail\bm_rustymetal_detail_01"
+	"$detailscale" "3"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0, CSREV"	
+}

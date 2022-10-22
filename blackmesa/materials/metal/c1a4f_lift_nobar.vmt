@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "metal/c1a4f_lift_nobar"
+    "$surfaceprop" "metal"
+    "$bumpmap" "metal/c1a4f_lift_nobar_normal"
+
+	$detail detail\bm_rustymetal_detail_02b
+        $detailscale 3
+        $detailblendfactor .36
+        $detailblendmode 0
+	"%keywords" "bms"
+}

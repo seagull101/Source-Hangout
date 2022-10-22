@@ -1,0 +1,20 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 		"metal/-0c2a4_cor2b3"
+	"$surfaceprop" 		"metal"
+
+	"$bumpmap" 		"metal/-0c2a4_3_ssbump"
+	"$ssbump"		"1"
+	
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" 		"env_cubemap"
+	"$envmaptint" 		"[.7 .75 .7]"
+	"$envmapcontrast"	"1"
+
+        "$detail" "detail\bm_abusedmetal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+	"%keywords" 		"bms, schwenz, Jenn0"
+}

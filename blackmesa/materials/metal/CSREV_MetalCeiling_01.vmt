@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\CSREV_MetalCeiling_01"
+	"$surfaceprop" "metal"
+
+        "$detail" "detail\bm_rustymetal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0, CSREV"	
+}

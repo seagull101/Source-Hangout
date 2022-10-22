@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"metal\c1a4_support_truss_001"
+	"$surfaceprop"  "metal"
+	"%keywords" "bms"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+}

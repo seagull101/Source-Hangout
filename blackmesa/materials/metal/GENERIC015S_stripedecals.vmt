@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\GENERIC015S_stripedecals"
+	"$surfaceprop" "metal"
+	"$bumpmap"	"metal\GENERIC015S_normal"
+	"%keywords" "bms, Andrea"
+}

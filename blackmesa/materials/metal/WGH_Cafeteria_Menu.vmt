@@ -1,0 +1,11 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\WGH_Cafeteria_Menu"
+
+	"$surfaceprop" "metal"
+
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.1 .1 .2]"
+		
+	"%keywords" "bms, Jenn0"
+}

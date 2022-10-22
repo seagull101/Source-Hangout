@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\CSREV_small_metalbeam"
+	"$surfaceprop" "solidmetal"	
+	"%keywords" "bms, CSREV"
+}

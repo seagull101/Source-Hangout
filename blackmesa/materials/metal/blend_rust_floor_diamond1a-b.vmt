@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "metal/rust_floor_diamond1a"
+	"$basetexture2" "metal/rust_floor_diamond1b"
+	"%tooltexture" "metal/rust_floor_diamond1b"
+	"$bumpmap" "metal/rust_floor_diamond1a_normal"
+	"$bumpmap2" "metal/rust_floor_diamond1a_normal"
+	"$surfaceprop" "metal"
+	"$surfaceprop2" "metal"
+	"%keywords" "bms"
+}

@@ -1,0 +1,13 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "metal/CSREV_prodcaution"
+	"$bumpamp" "metal/CSREV_prodcaution_normal"
+	"$surfaceprop" "metal"
+	
+	$detail detail\bm_rustymetal_detail_02
+        $detailscale 8
+        $detailblendfactor .85
+        $detailblendmode 0
+
+	"%keywords" "bms, CSREV, Andrea"
+}

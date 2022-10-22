@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"metal\silo2_w2b"
+	"$surfaceprop"  "metal"
+	"$bumpmap"	"metal\silo2_w2b_normal"
+
+	$detail detail\bm_rustymetal_detail_02
+        $detailscale 8
+        $detailblendfactor .85
+        $detailblendmode 0
+
+	"%keywords" "bms, Andrea"
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/metalwall_corrugated01_blu"
+	"$bumpmap" "metal/metalwall_corrugated01_bump"
+	"$surfaceprop" "Metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "bms"
+}

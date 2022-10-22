@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/rust_floor_diamond1b"
+	"$surfaceprop" "metal"
+	"$bumpmap" "metal/rust_floor_diamond1a_normal"
+	"$normalmapalphaenvmapmask" "1"
+	//"$envmap" "env_cubemap"
+    	//"$envmaptint" "[.4 .4 .4]"
+	"$envmapcontrast" ".5"    	
+	"%keywords" "bms,schwenz"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 6
+        $detailblendfactor 1
+        $detailblendmode 0
+}

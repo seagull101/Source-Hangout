@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\CSREV_stairsafront"
+	"$surfaceprop" "metal"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0, CSREV"	
+}

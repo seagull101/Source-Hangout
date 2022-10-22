@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"metal\SILO2_WALL2b"
+	"$surfaceprop"  "metal"
+	"$bumpmap"	"metal\SILO2_WALL2b_normal"
+	"$envmap" "env_cubemap" 
+   	"$envmaptint" "[.2 .2 .2]"
+	"$normalmapalphaenvmapmask" "1"
+	"%keywords" "bms"
+}

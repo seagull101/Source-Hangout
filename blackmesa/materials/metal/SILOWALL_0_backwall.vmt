@@ -1,0 +1,15 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal\SILOWALL_0_backwall"
+	"$bumpmap" "metal\SILOWALL_0_backwall_normal"
+	"$surfaceprop" "metal" 
+   	"$envmap" "env_cubemap" 
+   	"$envmaptint" "[.37 .37 .37]"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$detail" "detail\bm_rustymetal_detail_03"
+	"$detailscale" 11
+	"$detailblendfactor" .68
+	"$detailblendmode" 0
+	"%keywords" "bms, Andrea"
+}

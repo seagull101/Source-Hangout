@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/rc_blmetalsill_01"
+	"$surfaceprop" "metal"
+	"%keywords" "bms"
+}

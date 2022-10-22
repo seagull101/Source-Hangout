@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/metal_securedoor"
+	"$bumpmap" "metal/metal_securedoor_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"$envmaptint" "[ .25 .25 .25 ]"
+	"%keywords" "bms"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal\c3a2e_dplates"
+	"$bumpmap" "metal\c3a2e_dplates_nm"
+	"$surfaceprop" "metal"
+	"%keywords" "c3a2e,bms"
+}

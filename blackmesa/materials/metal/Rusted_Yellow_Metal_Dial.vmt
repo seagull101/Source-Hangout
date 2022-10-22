@@ -1,0 +1,17 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\Rusted_Yellow_Metal_Dial"
+	"$bumpmap" "metal\Rusted_Yellow_Metal_Dial_Normal"
+	"$Selfillum"	1
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .3 .3]"
+	"$normalmapalphaenvmapmask" 1	
+
+	"$detail" "detail\dt_Rusted_Metal"
+	"$detailscale"	"5"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .3 .3]"
+	"$normalmapalphaenvmapmask" 1	
+
+	"%keywords" "bms, Jenn0,"
+}

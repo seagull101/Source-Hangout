@@ -1,0 +1,9 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "metal/slidedoor01"
+	"$bumpmap" "metal/slidedoor01_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"%keywords" "bms"
+}

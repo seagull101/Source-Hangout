@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "metal/generic76"
+    "$surfaceprop" "metal"
+    "$bumpmap" "metal/generic76_normal"
+
+	$detail detail\bm_rustymetal_detail_03b
+        $detailscale 4.65
+        $detailblendfactor .625
+        $detailblendmode 0
+
+	"%keywords" "bms, Andrea"
+
+}

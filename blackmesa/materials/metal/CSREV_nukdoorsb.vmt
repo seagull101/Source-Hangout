@@ -1,0 +1,17 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\CSREV_nukdoorsb"
+	"$surfaceprop" 	"metal"
+	"$bumpmap"	"metal\CSREV_nukdoorsb_normal"
+	"$envmap" 	"env_cubemap"
+	"$envmaptint" 	"[.35 .35 .35]"
+	"$envmapcontrast" .6
+	"$normalmapalphaenvmapmask" 1
+
+	"$detail" "detail\bm_metal_detail_02"
+	"$detailscale" 6.5
+	"$detailblendfactor" .65
+	"$detailblendmode" 0
+	"%keywords" "bms, CSREV, Andrea"
+
+}

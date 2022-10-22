@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\Rough_Metalwall_waterstained"
+	"$bumpmap" "metal\Rough_Metalwall_waterstained_normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.65 .65 .65]"
+	"$normalmapalphaenvmapmask"	"1"	
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "8"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0,"
+}

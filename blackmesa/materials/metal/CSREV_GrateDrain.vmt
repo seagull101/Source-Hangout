@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\CSREV_GrateDrain"
+	"$surfaceprop" 	"metal"
+	"$translucent" 	"1"
+	"%keywords"	"CSREV, bms"
+}

@@ -1,0 +1,18 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"metal\bms_metaldoor_office_1"
+	"$bumpmap"	"metal\bms_metaldoor_4_normal"
+
+	"$surfaceprop"  "metal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .3 .3 .3 ]"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, door, Jenn0"
+
+}

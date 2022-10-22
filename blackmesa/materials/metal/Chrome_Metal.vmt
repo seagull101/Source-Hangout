@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/Chrome_Metal"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+	"%keywords" "bms"
+}

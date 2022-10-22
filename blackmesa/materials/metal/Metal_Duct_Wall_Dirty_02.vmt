@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"metal/Metal_Duct_Wall_Dirty_02"
+	"$bumpmap"	"metal/Metal_Duct_Wall_02_Normal"
+	"$surfaceprop"			"metalvent"
+	"$envmap"			"env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"	
+   	"$envmaptint"			"[0.3 0.3 0.3]"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0,"
+}

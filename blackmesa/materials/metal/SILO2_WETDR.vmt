@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "metal/SILO2_WETDR"
+    "$surfaceprop" "metal"
+    "$bumpmap" "metal/SILO2_WETDR_normal"
+	"%keywords" "bms, Andrea"
+}

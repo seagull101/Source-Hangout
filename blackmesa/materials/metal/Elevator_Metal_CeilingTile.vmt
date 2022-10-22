@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\Elevator_Metal_CeilingTile"
+	"$bumpmap" "metal\Elevator_Metal_CeilingTile_Normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .4 .4]"
+	"$normalmapalphaenvmapmask" 1	
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "7"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+	"%keywords" "bms, Jenn0,"
+}

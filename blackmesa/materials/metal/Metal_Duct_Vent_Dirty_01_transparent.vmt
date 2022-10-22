@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" 	"metal/Metal_Duct_Vent_Dirty_01"
+	"$surfaceprop"	"metalvent"
+	"$Translucent" 	"1" 
+
+	"$nodecal"	"1"
+
+	"%keywords" "bms, Jenn0,"
+}

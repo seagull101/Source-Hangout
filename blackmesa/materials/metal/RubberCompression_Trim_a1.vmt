@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\RubberCompression_Trim_a1"
+	"$bumpmap" "metal\RubberCompression_Trim_a1_normal"
+	"%keywords" "bms"
+
+}

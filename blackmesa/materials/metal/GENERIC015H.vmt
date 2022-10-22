@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\GENERIC015H"
+	"$bumpmap"	"metal\GENERIC015H_normal"
+	//"$envmap" "env_cubemap"
+   	//"$envmaptint" "[.1 .1 .1]"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$surfaceprop" "metal"
+	"%keywords" "bms, Andrea"
+}

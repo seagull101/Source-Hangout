@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\CSREV_MetalTrims_01"
+	"$surfaceprop" "metal"	
+	"$bumpmap" "lab\labpanel00trim_ssbump"
+	"$ssbump"	"1"
+	"$envmapmask" "metal\CSREV_MetalTrims_01_spec"
+	"%keywords" "bms, CSREV"
+}

@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Metal/metal_grate_c2a2_rusty1"
+	"$surfaceprop" "metalgrate"
+	"%keywords" "bms,schwenz"
+	"$envmap" 	"env_cubemap"
+	"$alphatest" "1"
+	"$envmaptint" "[ .50 .50 .50 ]"
+	"$envmapcontrast"	"1"
+	"$alphaenvmapmask"	"1"
+}

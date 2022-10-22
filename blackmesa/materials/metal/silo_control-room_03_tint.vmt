@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal\silo_control-room_03"
+	"$bumpmap" "metal\silo_control-room_03_normal"
+	"$surfaceprop" "metal" 
+   	"$envmap" "env_cubemap" 
+   	"$envmaptint" "[.03 .03 .03]"
+	"$normalmapalphaenvmapmask" "1"
+	"%keywords" "bms"
+}

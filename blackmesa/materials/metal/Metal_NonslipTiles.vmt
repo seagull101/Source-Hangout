@@ -1,0 +1,10 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\Metal_NonslipTiles"
+	"$bumpmap" "metal\Metal_NonslipTiles_Normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.35 .35 .35]"
+	"$normalmapalphaenvmapmask" 1	
+	"%keywords" "bms"
+}

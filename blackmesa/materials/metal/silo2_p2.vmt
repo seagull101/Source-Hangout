@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal\silo2_p2_nec_d"
+	"$bumpmap" "metal\silo2_p2_nec_n"
+	"$surfaceprop" "metal" 
+   	"$envmap" "env_cubemap" 
+   	"$envmaptint" "[.7 .7 .7]"
+	"$normalmapalphaenvmapmask" "1" 
+	"%keywords" "bms, Andrea"
+}

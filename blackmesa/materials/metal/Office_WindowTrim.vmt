@@ -1,0 +1,12 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\Office_WindowTrim"
+	"$surfaceprop" "metal"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6.283"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+		
+	"%keywords" "bms, Jenn0"
+}

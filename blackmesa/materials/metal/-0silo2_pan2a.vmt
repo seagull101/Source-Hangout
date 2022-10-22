@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+    	"$basetexture" "metal/-0silo2_pan2a"
+   	"$bumpmap" "metal/-0silo2_pan2a_normal"
+    	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.4 .4 .4]"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast"	".25"
+
+   	"$surfaceprop" "metal"
+	"%keywords" "bms,schwenz"
+
+	"$detail" "detail\detail_concrete01_bm"
+	"$detailscale" "5.48"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+}

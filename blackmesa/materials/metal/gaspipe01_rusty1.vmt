@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/props_pipes/gaspipe01_rusty1"
+	"$bumpmap" "models/props_pipes/gaspipe01_rusty_normal"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "0.65"
+	"$envmapsaturation" "0.8"
+	"$envmaptint" "[ 0.57 0.5 0.35 ]"
+	"$normalmapalphaenvmapmask" 1
+	"%keywords" "bms"
+}

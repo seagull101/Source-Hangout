@@ -1,0 +1,12 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/sign_area3a"
+	"%keywords" "bms,c0a0"
+	"$bumpmap" "metal/sign_sectorB_bump"
+	"$surfaceprop" "Metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.35 .35 .35]"
+	"$envmapsaturation" .5
+	"$envmapcontrast" .75
+	"$normalmapalphaenvmapmask" 1
+}

@@ -1,0 +1,16 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "metal\CSREV_Largemetaldoor_02"
+	"$bumpmap" "metal/CSREV_Largemetaldoor_02_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.01 .01 .01]"
+	"$normalmapalphaenvmapmask" "1"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"$surfaceprop" "metalvent"
+	"%keywords" "bms, Jenn0, CSREV"
+}

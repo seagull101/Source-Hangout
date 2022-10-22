@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"metal\c1a4_door_orange"
+	"$surfaceprop"  "metal"
+	"$bumpmap"	"metal\c1a4_door_orange_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+	"$normalmapalphaenvmapmask" 1	
+	"$envmapcontrast" 0.8
+
+	"$detail" "detail\bm_metal_detail_02c"
+	"$detailscale" 4.5
+	"$detailblendfactor" .75
+	"$detailblendmode" 0
+	"%keywords" "bms, Andrea"
+}
