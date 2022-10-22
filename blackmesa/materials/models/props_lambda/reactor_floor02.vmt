@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lambda/reactor_floor02"
+	"$bumpmap" "models/props_lambda/reactor_floor02_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.8 .8 .8]"
+	"$normalalphaenvmapmask" 1
+	"%keywords" "bms"
+}

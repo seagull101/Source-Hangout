@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_office/copy_machine"
+//	"$bumpmap" "models/props_office/copy_machine_normal"
+}

@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal\elevator_metal_ceilingtile"
+	"$bumpmap" "metal\elevator_metal_ceilingtile_normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .4 .4]"
+	"$normalmapalphaenvmapmask" 1	
+
+
+	"%keywords" "bms, jenn0,"
+}

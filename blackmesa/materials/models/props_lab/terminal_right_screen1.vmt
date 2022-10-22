@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\props_office\monitor_screen_on2"
+	"$model" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .75 .75 .75 ]"
+	"$envmapcontrast" "1"
+	}

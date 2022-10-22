@@ -1,0 +1,8 @@
+vertexlitgeneric
+{
+	"$basetexture"	"de_nuke\csrev_nukibeama"
+	"$surfaceprop" "metal"
+
+
+	"%keywords" "bms, csrev"
+}

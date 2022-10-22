@@ -1,0 +1,27 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+   	"$basetexture" "models/props_lambda/valve_wheel"
+	"$bumpmap" "models/props_lambda/valve_wheel_normal"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.15 .15 .15]"
+	
+	"%keywords" "bms"
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "15"
+"$phongboost" "5"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+"$phongalbedotint" "1"
+
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\props_marines/Missile_CrateTOW"
+	"$bumpmap"	"models/props_marines/Missile_CrateTOW_Normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.65 .65 .65]"
+	"$normalmapalphaenvmapmask" 1	
+	"%keywords" "bms"
+}

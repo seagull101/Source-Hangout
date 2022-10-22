@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_marines/cot_canvas"
+	"$bumpmap" "models\props_marines/cot_canvas_normal"
+
+	"$phong" "1"
+	"$phongexponent" 15
+	"$phongboost"	"2.5"
+	"$phongfresnelranges"	"[.5 1 2]"
+	"$halflambert" 1
+	"$multipass" 1
+	"$model" "1"
+
+	"$alphatest" 1
+	"$nocull" 1
+}

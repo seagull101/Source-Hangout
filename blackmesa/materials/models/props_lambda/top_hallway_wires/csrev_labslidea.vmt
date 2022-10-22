@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"	"lab\csrev_labslidea"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "lab\csrev_labslidea_spec"
+	"$surfaceprop" "metal"
+	"%keywords" "bms, csrev, jenn0"
+
+}

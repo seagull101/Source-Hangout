@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_oar\exitsign"
+	"$selfillum"	"1"
+	"$surfaceprop"	"plastic"
+	"$selfillumtint"	"[1.4 .8 .8]"
+}

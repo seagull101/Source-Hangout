@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/props_marines/broken_granade_box"
+//	"$bumpmap"	"models/props_marines/broken_granade_box_Normal"
+//	"$envmap" "env_cubemap"
+//   	"$envmaptint" "[.02 .02 .02]"
+//	"$normalalphaenvmapmask" 1
+	"$model" "1"
+
+	"%keywords" "bms"
+        "$phong" "1"
+	"$phongboost"	"1"
+	"$phongexponent" "30"
+	 $phongfresnelranges "[0.05 0.5 1]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "45"		// Exponent for phong component of rim lighting
+	"$rimlightboost" ".3"			// Boost for ambient cube component
+}

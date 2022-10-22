@@ -1,0 +1,11 @@
+vertexlitgeneric
+{
+	"$basetexture"	"metal\csrev_wide_metaldoor_01"
+	"$envmapmask" "metal\csrev_wide_metaldoor_01_ref"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+
+
+	"%keywords" "bms, jenn0, bms"
+
+}

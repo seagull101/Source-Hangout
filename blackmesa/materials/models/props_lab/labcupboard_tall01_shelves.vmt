@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/labcupboard_tall01_shelves"
+	"$envmap" "env_cubemap"
+	"$translucent" "1"
+}

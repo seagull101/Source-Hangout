@@ -1,0 +1,10 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models/props_lambda/c3a2e_ljs_console_screens"
+	"$model" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .5 .5 .5 ]"
+
+	"$selfillum"	"1"
+	"$selfillumtint" "[1 1 1]"
+}

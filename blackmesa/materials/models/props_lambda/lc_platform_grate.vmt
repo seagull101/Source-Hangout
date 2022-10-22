@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_lambda/lc_platform_grate"
+	"$alphatest"	"1"
+
+	"%keywords" "bms"
+}

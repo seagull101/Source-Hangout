@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_junk/PopCan02a"
+	"$envmapmask" "Models/props_junk/PopCan_mask"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "popcan"
+}
+

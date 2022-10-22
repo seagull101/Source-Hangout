@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_lambda/c3a2a_lambda_elevator"
+	"$selfillum"	"1"
+	"$selfillumtint" "[.5 .5 .4]"
+}

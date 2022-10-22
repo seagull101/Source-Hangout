@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_junk/coffeemug01b_skin4"
+"$bumpmap" "models/props_junk/coffemug_nm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .2 .2 .2 ]"
+
+"$phong" "1"
+	"$phongexponent" 35
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 2 4]"
+	"$halflambert" 1
+	"$multipass" 1
+	"$model" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "25"		// Exponent for phong component of rim lighting
+	"$rimlightboost" ".25"			// Boost for ambient cube component of rim lighting
+}

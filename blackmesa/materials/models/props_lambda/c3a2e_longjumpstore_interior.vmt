@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_lambda/c3a2e_longjumpstore_interior"
+	"$bumpmap" "models/props_lambda/c3a2e_longjumpstore_interior_norm"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.28 0.28 0.25]"
+        "$normalmapalphaenvmapmask" 1
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+}

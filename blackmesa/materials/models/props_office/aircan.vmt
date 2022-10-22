@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_office/aircan"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .3 .3 .35 ]"
+	"$envmapmask" "models\props_office/aircan_spec"
+}

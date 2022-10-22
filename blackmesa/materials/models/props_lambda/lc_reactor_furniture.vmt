@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_lambda/lc_reactor_furniture"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms"
+}

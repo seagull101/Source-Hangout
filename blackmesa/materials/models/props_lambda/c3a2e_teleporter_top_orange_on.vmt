@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_lambda/c3a2e_teleporter_top"
+	"$bumpmap"	"models/props_lambda/c3a2e_teleporter_top_norm"
+
+	"$normalmapalphaenvmapmask" 1	
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+  	"$envmaptint" "[1.4 .4 0]"
+	"$envmapsaturation" 	"1"
+
+	"$selfillum"	"1"
+	"$selfillumtint" "[25.5 12.8 0]"
+
+        "$detail" "detail\bm_rustymetal_detail_01"
+	"$detailscale" "20"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+}

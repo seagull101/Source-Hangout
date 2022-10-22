@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_lambda/lambda_door_destroyed"
+	"$bumpmap"	"models/props_lambda/lambda_door_normal"
+
+	"$selfillum"	"1"
+
+	"$normalmapalphaenvmapmask" 1	
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .4 .5]"
+	"$envmapsaturation" 	"1"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 2
+	"$detailblendmode" 0
+"$phong" "1"
+"$phongexponent" "25"
+"$PhongWarpTexture"	"models\props_am\am_ams_phongwarp"
+"$phongboost" "2"
+"$phongfresnelranges"	"[0.4 0.6 1.6]"
+"$phongalbedotint" "1"
+
+"$lightwarptexture"	"models\props_am\am_ams_lightwarp"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "15"
+"$rimlightboost" "0.2"
+}

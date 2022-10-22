@@ -1,0 +1,16 @@
+"UnLitGeneric"
+{
+	"$basetexture" 	"models\props_oar\oar_rocketlaunch_screen"
+	"$alphatest"	"1"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	.05
+			"texturescrollangle"   180
+		}
+	}
+	
+}

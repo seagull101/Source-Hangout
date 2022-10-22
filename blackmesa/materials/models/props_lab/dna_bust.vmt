@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\props_lab/dna_bust"
+	"$bumpmap"	"models\props_lab/dna_bust_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" 	"env_cubemap"
+
+}

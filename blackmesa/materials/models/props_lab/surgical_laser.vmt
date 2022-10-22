@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_lab/surgical_laser"
+	"$surfaceprop" "metalpanel"
+	"$model" 1
+}

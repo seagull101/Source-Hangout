@@ -1,0 +1,24 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_lab/wallunit_display_screen5"
+	"$model" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .4 .4 .4 ]"
+	"$selfillum"	1
+"Proxies"
+   {
+      "AnimatedTexture"
+      {
+         "animatedtexturevar" "$basetexture"
+         "animatedtextureframenumvar" "$frame"
+         "animatedtextureframerate" "1.5"
+      }
+		"Sine"
+		{
+			"resultVar" "$selfillumtint"
+			"sineperiod" "0.01"
+			"sinemin"	"0.85"
+			"sinemax" "1"
+		}
+	}
+}

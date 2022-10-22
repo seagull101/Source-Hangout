@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_office/tv_small_screen_off"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .6 .6 .6 ]"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_marines/mil_flashlight"
+	"$bumpmap" "models/props_marines/mil_flashlight_normal"
+   	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+        "$envmaptint" "[0.5 0.5 0.5]"	
+}

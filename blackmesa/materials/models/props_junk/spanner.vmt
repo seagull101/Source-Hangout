@@ -1,0 +1,7 @@
+//community prop by Angre M0nkE
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_junk/spanner"
+	"$envmap" "env_cubemap"
+}

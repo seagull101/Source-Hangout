@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal\oc_metal_wall_01"
+	"%keywords" "bms, andrea"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.25 .25 .25]"
+	"$envmapsaturation" 1
+
+}

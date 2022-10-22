@@ -1,0 +1,9 @@
+vertexlitgeneric
+{
+	"$basetexture"	"metal\ibeam_brown"
+	"$bumpmap"	"metal\ibeam_normal"
+	"$surfaceprop" "solidmetal"
+
+
+	"%keywords" "bms, jenn0,"
+}

@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\humans\hev_suit\longjump_diffuse"
+	"$bumpmap" "models\humans\hev_suit\longjump_normals"
+	"$surfaceprop" "plastic"
+	"$model" 1
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+        $phong 1
+        $phongexponent 20
+        $phongboost .5
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+
+}

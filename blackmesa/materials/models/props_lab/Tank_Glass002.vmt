@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_questionableethics/bubble_tubes_glass_d"
+	"$envmapmask" "models/props_questionableethics/bubble_tubes_glass_r"
+	"$translucent"	"1"
+//	"$alphatest" "1"
+//	"$AlphaTestReference" ".3"
+	"$envmap" "env_cubemap"
+}

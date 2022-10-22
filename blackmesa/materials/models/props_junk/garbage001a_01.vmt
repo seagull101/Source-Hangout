@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_junk/garbage001a_01"
+	"$surfaceprop" "plastic"
+	"$nodecal" 1
+	
+        $detail detail\detail_noise1 // e.g. for brickwork, concrete...
+        $detailscale 12
+        $detailblendfactor 1
+        $detailblendmode 0
+
+}
+

@@ -1,0 +1,7 @@
+//community prop by Angre M0nkE
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_junk/scissors"
+	"$envmap" "env_cubemap"
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_oar/command_desk01"
+	"$bumpmap" "models/props_oar/command_desk00_n"
+	"$envmap" "env_cubemap"
+	"$selfillum" 1
+	"$model" 1
+	"$envmaptint" "[.33 .33 .33]"
+	"$surfaceprop" "plastic"
+}

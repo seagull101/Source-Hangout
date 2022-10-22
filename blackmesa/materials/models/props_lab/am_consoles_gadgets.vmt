@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/am_consoles_gadgets"
+	"$bumpmap" "models/props_lab/am_consoles_gadgets_nrm"
+	"$normalalphaenvmapmask" "1"
+	"$selfillum"	"1"
+}

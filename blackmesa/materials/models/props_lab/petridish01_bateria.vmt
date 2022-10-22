@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/petridish01_bateria"
+	"$translucent" "1"
+}

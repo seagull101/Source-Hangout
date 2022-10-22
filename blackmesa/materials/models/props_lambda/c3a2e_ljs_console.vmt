@@ -1,0 +1,35 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+	"$baseTexture" "models/props_lambda/c3a2e_ljs_console"
+	"$bumpmap" "models/props_lambda/c3a2e_ljs_console_norm"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.28 0.28 0.25]"
+        "$normalmapalphaenvmapmask" 1
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+	
+	"%keywords" "bms"
+
+	"$selfillum"	"1"
+	"$selfillumtint" "[2 2 2]"
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "5"
+"$phongboost" "5"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+"$phongalbedotint" "1"
+
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+}

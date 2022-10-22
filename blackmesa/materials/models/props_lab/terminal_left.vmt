@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/terminal_left"
+//	"$bumpmap" "models/props_lab/terminal_left_normal"
+//	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" "1"
+//	"$envmaptint" "[0.5 0.5 0.5]"
+}

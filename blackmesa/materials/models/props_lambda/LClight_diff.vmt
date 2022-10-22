@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{	
+   	"$basetexture" 			"models\props_lambda\LClight_diff"
+	"$bumpmap" 			"models\props_lambda\LClight_norm"
+       	"$envmap" 			"env_cubemap"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmaptint" 			"[0.65 0.65 0.65]"
+	"$selfillum" 			"1"
+}

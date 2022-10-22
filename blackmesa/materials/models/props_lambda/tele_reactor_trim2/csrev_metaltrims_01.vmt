@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal\csrev_metaltrims_01"
+	"$surfaceprop" "metal"	
+	"$envmapmask" "metal\csrev_metaltrims_01_spec"
+	"%keywords" "bms, csrev"
+}

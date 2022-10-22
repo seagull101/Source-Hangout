@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_junk/hardhat_red"
+	"$bumpmap" "models/props_junk/hardhat_normal"
+	"$envmap" "env_cubemap"
+	"$surfaceprop"	"plastic"
+	"$nocull"	"1"
+}

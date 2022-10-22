@@ -1,0 +1,70 @@
+"SDK_Core"
+{
+	"$normalmap" "Models/props_lambda/superportal/superportal_normal"
+	"$dudvmap"  "Models/props_lambda/superportal/superportal_dudv"
+	"$corecolortexture" "Models/props_lambda/superportal/superportal_warpcolor"
+	"$flowmap" "models/props_lambda/superportal/superportal_flow"
+	"$model" 1
+	"$envmap" "env_cubemap"
+
+// YOU CAN FUCK WITH THESE.
+	"$REFRACTAmOUNT" "0.25"
+	"$FLOWMAPSCROLLRATE" "[.0475 .133]"
+	"$refracttint" "[0.7 0.7 0.6]"
+	"$envmaptint" "[0.8 0.6 0.6]"
+// SET THIS TO THE DIAMETER OF YOUR MODEL
+	"$DIAMETER" "100"
+	"$DMin" 600
+	"$DMax" 700
+// LEAVE THIS ALONE, EntityOrigin IS SET BY THE PROXY
+	"$entityorigin" "{2688 12139 5170}"//needed for proxy
+
+
+// BUT DON'T FUCK WITH THESE BRO.
+	"$FLOWMAPTEXCOORDOFFSET" "1.0"
+	"$TempMin" 0.21
+	"$TempMax" 0.22
+
+	"core_dx70"
+	{
+		"$fallbackmaterial" "models/props_lambda/superportal/superportal_dx70"
+	}
+
+	"core_dx80"
+	{
+		"$normalmap" "dev/water_normal"
+		"$dudvmap"  "dev/water_dudv"
+		"$bumptransform" "center .5 .5 scale 5 5 rotate 0 translate 0 0"
+		"$envmapcontrast" "1.0"
+	}
+
+	"Proxies"
+	{
+		"EntityOrigin"
+		{
+			//assign $entityorigin
+		}
+		"Sine"
+		{
+			"resultVar" "$DIAMETER"
+			"sineperiod" 4
+			"sinemin" "$DMin"
+			"sinemax" "$DMax"
+		}
+		"Sine"
+		{
+			"resultVar" "$FLOWMAPTEXCOORDOFFSET"
+			"sineperiod" 4
+			"sinemin" "$TempMin"
+			"sinemax" "$TempMax"
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap" 
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 29.00
+		}
+	}
+}
+
+

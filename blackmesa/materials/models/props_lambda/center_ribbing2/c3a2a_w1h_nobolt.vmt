@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lab/c3a2a_w1h_nobolt"
+	"%keywords" "bms, andrea"
+	"$surfaceprop" "metal"
+	"$bumpmap" "lab/c3a2a_nobolt_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.3 .3 .3]"
+	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 1
+
+}

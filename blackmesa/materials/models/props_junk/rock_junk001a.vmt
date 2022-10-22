@@ -1,0 +1,11 @@
+
+"VertexLitGeneric"
+{
+	
+	"$basetexture" "nature/st_rockcliff003"
+	"$bumpmap" "nature/st_rockcliff003_normal"
+	"$model" 1
+	"$surfaceprop" "stone"
+	
+}
+

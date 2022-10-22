@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/macmonitor01_on1"
+	"$halflambert" 1
+	"$selfillum" 1
+}

@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "bms/walls/lambdacore/lambdacore_lowerteleportwall01"
+	"$bumpmap" "bms/walls/lambdacore/lambdacore_lowerteleportwall01_norm"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap" 
+	"$normalmapalphaenvmapmask" 1
+   	"$envmaptint" "[.3 .3 .3]"
+	"%keywords" "bms"
+}

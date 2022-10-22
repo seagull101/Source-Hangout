@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_marines/cot_frame"
+	"$bumpmap" "models\props_marines/cot_frame_normal"
+       	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$normalmapalphaenvmapmask" 1
+}

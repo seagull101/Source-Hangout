@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_office/book_gnbible"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+}

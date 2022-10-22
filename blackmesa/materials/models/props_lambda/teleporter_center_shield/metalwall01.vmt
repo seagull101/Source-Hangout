@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/metalwall01"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.4 .4 .5]"
+	"%keywords" "bms"
+}

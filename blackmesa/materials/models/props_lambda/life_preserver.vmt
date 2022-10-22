@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lambda/life_preserver"
+"$phong" "1"
+"$phongexponent" "25"
+"$PhongWarpTexture"	"models\props_am\am_ams_phongwarp"
+"$phongboost" "6"
+"$phongfresnelranges"	"[0.4 0.6 1.6]"
+"$phongalbedotint" "1"
+
+"$lightwarptexture"	"models\props_am\am_ams_lightwarp"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/wallunits"
+	"$bumpmap" "models/props_lab/wallunits_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .65 .65 .65 ]"
+	"$envmapcontrast" ".7"
+	"$selfillum"	1	
+
+        "$detail" "detail\bm_rustymetal_detail_01"
+	"$detailscale" "4"
+	"$detailblendfactor" 1.0
+	"$detailblendmode" 0
+}

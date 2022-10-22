@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_oar/door_oar2"
+	"$bumpmap"	"models/props_oar/door_oar_nm"
+	"$normalmapalphaenvmapmask" 1
+"$surfaceprop" "metal"	
+}

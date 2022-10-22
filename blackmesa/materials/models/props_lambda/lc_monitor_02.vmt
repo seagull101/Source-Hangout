@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_lambda/lc_monitor_02"
+
+	"$envmap"		"env_cubemap"
+	"$envmaptint"		"[.4 .4 .6]"
+	"$selfillum"	"1"
+	
+	"$nodecal" "1"
+	"%keywords" "bms"
+}

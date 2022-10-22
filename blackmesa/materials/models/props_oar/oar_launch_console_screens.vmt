@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_oar\oar_launch_console_screens"
+"$envmap" "env_cubemap"
+	"$selfillum" "1"
+"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$selfillumtint"
+			"sineperiod" "0.01"
+			"sinemin"	"0.85"
+			"sinemax" "1"
+		}
+	}
+}

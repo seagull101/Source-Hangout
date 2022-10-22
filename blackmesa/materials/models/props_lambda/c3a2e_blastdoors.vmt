@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+   	"$basetexture" "models/props_lambda/c3a2e_blastdoors"
+	"$bumpmap"	"models/props_lambda/c3a2e_blastdoors_norm"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1	
+   	"$envmaptint" "[.35 .35 .3]"
+
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "10"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms"
+	"$surfaceprop" "metal"
+}

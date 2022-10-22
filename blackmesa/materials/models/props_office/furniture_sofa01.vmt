@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_office/furniture_sofa01"
+	"$bumpmap" "models/props_office/furniture_sofa01_normal"	
+	"$phong" "1"
+
+//	"$phongexponent" "1"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[0.1 0.1 0.2]"
+//	"$halflambert" "1"
+	"$phongexponenttexture" "models/props_office/furniture_sofa01_exp"
+	"$phongalbedotint" "1"
+}

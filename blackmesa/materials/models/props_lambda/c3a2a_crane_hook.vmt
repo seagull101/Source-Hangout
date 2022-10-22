@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+  	 $basetexture "models/props_lambda/c3a2a_crane_hook"
+	"$bumpmap" "models/props_lambda/c3a2a_crane_hook_nm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+}

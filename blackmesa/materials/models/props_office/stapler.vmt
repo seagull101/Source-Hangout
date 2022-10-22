@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_office/stapler"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .4 .4 .4 ]"
+}

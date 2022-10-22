@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_office/office_tv_bars"
+	"$surfaceprop" "Glass"
+	"$model" 1
+}

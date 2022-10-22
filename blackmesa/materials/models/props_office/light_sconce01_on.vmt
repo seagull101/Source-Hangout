@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_office/light_sconce01_on"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}

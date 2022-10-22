@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lab\c3a2e_teleporter_girdir"
+
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.3 .3 .55]"
+
+	
+	"%keywords" "bms, jenn0"
+}

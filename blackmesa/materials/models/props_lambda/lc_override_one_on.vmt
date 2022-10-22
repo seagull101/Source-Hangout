@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lambda/lc_override_one_on"
+	"$selfillum" "1"
+	
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+	
+}

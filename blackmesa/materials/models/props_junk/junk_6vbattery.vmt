@@ -1,0 +1,8 @@
+// community prop by Carbon14
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_junk/junk_6vbattery"
+	"$surfaceprop" "metal"
+	"$alphatest" 1
+}

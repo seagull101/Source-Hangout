@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lab\labcountertop"
+	"%keywords" "bms,c1a0"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.1 .1 .1]"
+	"$envmapsaturation" 0.9
+
+
+}

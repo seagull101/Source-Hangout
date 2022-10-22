@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_junk/Dumpster"
+	"$bumpmap"	"models/props_junk/Dumpster_Normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.1 .1 .2]"
+	"$normalalphaenvmapmask" 1	
+	"%keywords" "bms"
+}

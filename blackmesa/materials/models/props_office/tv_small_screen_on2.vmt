@@ -1,0 +1,15 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models/props_office/tv_screen_on1"
+	"$texture2" "models/props_office/tv_small_screen_overlay"
+	"$model" "1"
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedtexturevar" "$basetexture" 
+			"animatedtextureframenumvar" "$frame" 
+			"animatedtextureframerate" "15" 
+		}
+	} 
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_office/waterdispencer_bottle"
+	"$envmapmask" "models/props_office/waterdispencer_bottle_ref"
+	"$envmap" "env_cubemap"
+	"$translucent" "1"
+	"$nocull" "1"
+}

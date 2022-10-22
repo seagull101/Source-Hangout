@@ -1,0 +1,18 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/flr_grt_c2a4_grate1c"
+	"$surfaceprop" "metalgrate"
+	"$alphatest" "1"
+	"%keywords" "bms,schwenz"
+
+	"vertexlitgeneric_dx9"
+	{
+		"$bumpmap"	"metal/flr_grt_c2a4_grate1c_normal"
+		"$normalmapalphaenvmapmask" 1
+		"$envmaptint" "[ .50 .50 .50 ]"
+		"$envmapcontrast"	"1"
+		"$envmap" 	"env_cubemap"
+
+	}
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$baseTexture 	"models/Props_office/c1a2c_fridgedoor"
+$translucent	"1"
+$nodecal	"1"
+}

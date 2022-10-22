@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_marines/ammobox01"
+	"$bumpmap" "models/props_marines/ammobox01_normal"
+   	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	 "$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "0.1"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "25"
+	"$rimlightboost" "0.1"	
+}

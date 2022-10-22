@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_office/monitor_screensaver"
+	"$model" "1"
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedtexturevar" "$basetexture" 
+			"animatedtextureframenumvar" "$frame" 
+			"animatedtextureframerate" "30" 
+		}
+	} 
+}

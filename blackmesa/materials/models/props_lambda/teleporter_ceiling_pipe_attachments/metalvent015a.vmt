@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/metalvent015a"
+	"$surfaceprop"  "metal"
+
+	"%keywords" "c17industrial"
+	"$selfillum" 1
+}

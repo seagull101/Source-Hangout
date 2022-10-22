@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_office/lamp_floor_on"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props_office/lamp_floor_spec"
+	"$envmaptint" "[1 1 1]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" 0.5
+	"$selfillum" 1
+}

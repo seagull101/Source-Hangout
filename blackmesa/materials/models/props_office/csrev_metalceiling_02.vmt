@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal\csrev_metalceiling_02"
+	"$surfaceprop" "metal"
+
+
+	"%keywords" "bms, jenn0, csrev"	
+}

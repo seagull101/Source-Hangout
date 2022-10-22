@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal\rubbercompression_trim_a1"
+	"$bumpmap" "metal\rubbercompression_trim_a1_normal"
+	"%keywords" "bms"
+
+}

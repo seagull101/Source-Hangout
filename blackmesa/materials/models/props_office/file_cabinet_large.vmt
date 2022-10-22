@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_office/file_cabinet_large"
+//	"$bumpmap" "models/props_office/file_cabinet_large_normal"
+	"$model"			"1"
+	"$surfaceprop" "Metal"
+
+	"$envmap"			"env_cubemap"
+	"$envmapcontrast" 		".5"
+   	"$envmaptint"			"[.2 .2 .2]"
+	"$envmapsaturation"		".5"
+}

@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_lab/wallunit_control_screen"
+	"$selfillum"	"1"
+"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	.04
+			"texturescrollangle" 90.00
+		}
+	}
+}

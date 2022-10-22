@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+$baseTexture 	"models/Props_office/c1a2c_FridgeLever"
+$bumpmap  	"effects/flat_normal"
+
+$phong 1
+$phongboost "1"
+$phongexponent 20
+$phongfresnelranges "[0.05 2 60]"
+
+$detail "detail\bm_metal_detail_01"
+$detailscale 2
+$detailblendfactor ".9"
+$detailblendmode 0
+
+
+}

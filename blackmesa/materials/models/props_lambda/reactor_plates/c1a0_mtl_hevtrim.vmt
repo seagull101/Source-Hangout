@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lab\c1a0_mtl_hevtrim"
+	"$bumpmap" "lab\c1a0_mtl_hevtrim_normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.55 .55 .55]"
+	"$normalmapalphaenvmapmask" 1
+
+	
+	"%keywords" "bms, jenn0"
+}

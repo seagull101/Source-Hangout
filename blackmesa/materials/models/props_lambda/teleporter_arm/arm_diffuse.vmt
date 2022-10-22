@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_lambda\teleporter_arm/arm_diffuse"
+	"$bumpmap" "models\props_lambda\teleporter_arm/arm_normalnspec"
+
+
+	"$envmap" "env_cubemap"
+        "$normalmapalphaenvmapmask" 1   	
+	"$envmaptint" "[1 .9 .8]"
+
+	"$model" "1"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "12"
+	"$detailblendfactor" 1
+	"$detailblendmode" 0
+
+}

@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lambda/lambda_truss_01a"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "lambda/lambda_truss_01a_spec"
+	"$envmaptint" "[ 0.1 0.1 0.1 ]"
+	"$envmapcontrast" 1
+	"$envmapsaturation" 1
+
+
+	"%keywords" "bms, jenn0"
+
+}

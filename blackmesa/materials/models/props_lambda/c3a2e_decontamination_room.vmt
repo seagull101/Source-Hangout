@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_lambda/c3a2e_decontamination_room"
+	"$selfillum"	"1"
+	"$selfillumtint" "[1 1 .95]"
+
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "10"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+}

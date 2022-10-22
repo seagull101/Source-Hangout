@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_office/wallshelf_56u"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+}

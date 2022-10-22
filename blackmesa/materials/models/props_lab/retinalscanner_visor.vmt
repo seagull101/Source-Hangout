@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/retinalscanner_visor"
+	"$selfillum" "1"
+}

@@ -1,0 +1,16 @@
+"UnlitTwoTexture"
+{
+	"$basetexture" "models/props_lab/tv_ceiling_screen4"
+	"$texture2" "models/props_office/tv_small_screen_overlay"
+	"$model" "1"
+"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$selfillumtint"
+			"sineperiod" "0.01"
+			"sinemin"	"0.85"
+			"sinemax" "1"
+		}
+	}
+}

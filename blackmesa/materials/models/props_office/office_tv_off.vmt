@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/props_office/office_tv_off"
+	//"$basealphaenvmapmask" "1"
+	"$surfaceprop" "Glass"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]" 
+	"$envmapcontrast" 1
+	"$envmapsaturation" 0.1
+}

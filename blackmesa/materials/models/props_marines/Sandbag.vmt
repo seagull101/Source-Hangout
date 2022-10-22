@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_marines/Sandbag"
+	"$bumpmap" "models/props_marines/sandbag_normal"
+}
+

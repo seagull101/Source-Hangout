@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lab/lab_reactor_metal"
+	"$surfaceprop" "metal"
+	"$bumpmap" "lab/lab_reactor_metal_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.15 .15 .15]"
+   	"$envmapsaturation" "[.25 .25 .25]"
+	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 1
+
+	"%keywords" "bms"
+}

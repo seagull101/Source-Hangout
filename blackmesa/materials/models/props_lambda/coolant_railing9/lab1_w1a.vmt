@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lab/lab1_w1a"
+	"%keywords" "bms,c2a4"
+	"$surfaceprop" "metal"
+	"$bumpmap" "lab/lab1_w1_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.3 .3 .3]"
+	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 1
+
+}

@@ -1,0 +1,9 @@
+// community prop by ortuzero
+
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_office/holepunch"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .05 .05 .05 ]"
+}
+

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_lambda\ceiling_pipes"
+	"$bumpmap" "models\props_lambda\ceiling_pipes_nm"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+}

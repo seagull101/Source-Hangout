@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_junk/Cardboard_boxes001a"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$surfaceprop" "wood"
+
+        $detail detail\detail_noise1 // e.g. for brickwork, concrete...
+        $detailscale 12
+        $detailblendfactor 1
+        $detailblendmode 0
+
+}
+

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_lab/panel_safe"
+	"$surfaceprop" "metalpanel"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "models\props_lab/panel_safe_nm.vtf"
+	"$envmaptint" "[ .3 .3 .3 ]" 
+	"$model" 1
+
+
+}

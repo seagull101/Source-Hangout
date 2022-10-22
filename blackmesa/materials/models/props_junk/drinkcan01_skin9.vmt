@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_junk/drinkcan01_skin9"
+	"$envmapmask" "models/props_junk/drinkcan01_ref"
+	"$envmap" "env_cubemap"
+}

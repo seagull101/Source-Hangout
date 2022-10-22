@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+   	"$basetexture" "models/props_lambda/lc_reactor_vent"	
+	"$bumpmap"	"models/props_lambda/lc_reactor_vent_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1	
+   	"$envmaptint" "[.5 .5 .6]"
+	"$envmapsaturation" 	"1"
+	"$selfillum"	"1"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/tuberack01"
+	"$envmapmask" "models/props_lab/tuberack01_ref"
+	"$envmap" "env_cubemap"
+}

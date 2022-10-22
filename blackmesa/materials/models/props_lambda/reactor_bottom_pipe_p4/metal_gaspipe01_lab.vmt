@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/gaspipe01_lab"
+	"$bumpmap" "metal/gaspipe01_lab_normal"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "0.65"
+	"$envmapsaturation" "0.8"
+	"$envmaptint" "[ 0.4 0.4 0.4 ]"
+	"$normalmapalphaenvmapmask" 1
+
+
+	"%keywords" "bms, jenn0,"
+}

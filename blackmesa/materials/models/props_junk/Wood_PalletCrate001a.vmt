@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "Models/props_junk/Wood_PalletCrate001a"
+	"$surfaceprop" "wood"
+
+        $detail detail\dt_wood1
+        $detailscale 12
+        $detailblendfactor 1
+        $detailblendmode 0
+}
+

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/retinalscanner"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+}

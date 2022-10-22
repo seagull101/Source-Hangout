@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+   	"$basetexture" "models/props_lambda/c3a2e_blastdoor_frame"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "10"
+	"$detailblendfactor" .8
+	"$detailblendmode" 0
+
+	"%keywords" "bms"
+	"$surfaceprop" "metal"
+}

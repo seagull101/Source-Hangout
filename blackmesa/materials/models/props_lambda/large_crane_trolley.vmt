@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+   "$basetexture" "models/props_lambda/large_crane_trolley"
+   "$model" "1"
+   "$bumpmap" "models/props_lambda/large_crane_trolley_normal"
+   "$envmap" "env_cubemap"
+   "$envmaptint" "[.5 .5 .5]"
+   "$normalmapalphaenvmapmask" 1
+}

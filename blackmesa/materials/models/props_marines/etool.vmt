@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_marines/etool"
+   	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.15 0.25 0.15 ]"
+}

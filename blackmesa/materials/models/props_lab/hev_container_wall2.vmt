@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_lab/hev_container_wall2"
+	"$bumpmap" "models/props_lab/hev_container_wall_nm"
+
+}
