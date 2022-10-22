@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/bms_HEV_charger1"
+	"$bumpmap" "models/props_blackmesa/bms_HEV_charger_clean_normal"
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "10"
+"$phongboost" "5"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"		// Boost for ambient cube component of rim lighting
+
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/fireextinguisher_case"
+	"$bumpmap" "models/props_blackmesa/fireextinguisher_case_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$translucent" "1"
+	"$envmapcontrast" "0.1"
+	"$envmapsaturation" "0.3"
+	"$envmaptint" "[0.85 0.85 0.85]"
+}

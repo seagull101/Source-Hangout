@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_industrial\floor_support"
+	"$bumpmap" "models\props_industrial\floor_support_normalmap"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .1.1.1]"
+ "$detail" "detail\bm_concrete_detail_02"
+	"$detailscale" "5"
+	"$detailblendfactor" 1.0
+	"$detailblendmode" 0
+}

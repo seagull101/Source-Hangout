@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_blackmesa\railing01_joints_skin4"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 2
+        $detailblendfactor 1
+        $detailblendmode 0	
+}

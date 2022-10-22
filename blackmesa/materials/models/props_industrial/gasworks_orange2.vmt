@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_industrial/gasworks_orange2"
+	"$bumpmap" "models\props_industrial/gasworks_orange2_normal"
+	"$surfaceprop" "metalpanel"
+	"$model" 1
+}

@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "concrete\whiteredstripe"
+	"$surfaceprop" "concrete"
+
+	
+	"%keywords" "bms"
+}

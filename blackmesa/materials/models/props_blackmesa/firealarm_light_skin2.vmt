@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/firealarm_light_skin2"
+	"$nocull" "1"
+}

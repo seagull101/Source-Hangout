@@ -1,0 +1,31 @@
+
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+	"$basetexture" "models/props_blackmesa/bms_metalcrates_tarp"
+	"$bumpmap" "models/props_blackmesa/bms_metalcrates_tarp_normal"
+
+//metal
+"$normalmapalphaenvmapmask" "1"
+"$envmap" "env_cubemap"
+"$envmaptint" "[.02 .02 .03]"
+//"$envmapfalloff" "1"
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "20"
+"$phongboost" "2"
+"$phongfresnelranges"	"[.6 0.8 1.6]"
+"$phongtint" "[.5 .6 .8]"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+
+   	"$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" 1.5
+	"$detailblendmode" 0
+}

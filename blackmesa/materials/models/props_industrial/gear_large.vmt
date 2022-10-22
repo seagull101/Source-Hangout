@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/gear_large"
+	"$bumpmap" "models/props_industrial/gear_large_normal.vtf"
+	"$surfaceprop" "metalpanel"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .7 .7 .7 ]"
+}

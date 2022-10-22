@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/exit_sign"
+	"$model" "1"
+	"$selfillum" "1"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_industrial\hatchuv"
+	"$bumpmap" "models\props_industrial\hatchnormal"
+	"$normalalphaenvmapmask" "1"
+    $detail detail\bm_rustymetal_detail_03
+        $detailscale 5
+        $detailblendfactor .7
+        $detailblendmode 0
+
+	"$surfaceprop" "metal"
+	"$model" "1"
+}

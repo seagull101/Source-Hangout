@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/intake_beacon"
+	"$envmapmask" "models/props_blackmesa/intake_beacon_spec"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.75 0.75 0.75]"
+}

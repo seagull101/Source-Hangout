@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_blackmesa\lamppost01_on"
+	"$selfillum" "1"
+}

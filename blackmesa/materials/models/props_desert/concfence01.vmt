@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_desert/concfence01"
+	"$surfaceprop" "concrete"
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_blackmesa\light_sconce03_on"
+	"$bumpmap" "models\props_blackmesa\light_sconce03_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.47 0.42 0.47]"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}

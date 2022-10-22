@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/nitrogentank_02"
+	"$bumpmap" "models/props_industrial/nitrogentank_02_Normal"
+	"$model"			"1"
+	"$surfaceprop"			"metal"
+	"$envmap"			"env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"	
+   	"$envmaptint"			"[1 1 1]"
+	"$envmapsaturation"		"0.15"
+}

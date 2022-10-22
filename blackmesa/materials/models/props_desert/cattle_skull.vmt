@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_desert/cattle_skull"
+	"$bumpmap" "models\props_desert/cattle_skull_normals"
+       	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$normalmapalphaenvmapmask" 1
+       	"$surfaceprop" "plastic"
+}

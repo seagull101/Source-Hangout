@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/barrel01_skin1"
+	"$bumpmap" "models/props_blackmesa/barrel01_normal_b"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+    	"$envmaptint" "[.7 .7 .7]"
+
+        $detail detail\bm_rustymetal_detail_03
+        $detailscale 4
+        $detailblendfactor .7
+        $detailblendmode 0
+
+	"$surfaceprop" "metal"
+	"$nodecal" "1"
+	"$multipass" 0
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "2.5"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+
+}

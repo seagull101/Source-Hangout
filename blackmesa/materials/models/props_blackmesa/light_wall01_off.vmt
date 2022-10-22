@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/light_wall01_off"
+	"$envmapmask" "models/props_blackmesa/light_wall01_ref"
+	"$envmap" "env_cubemap"
+}

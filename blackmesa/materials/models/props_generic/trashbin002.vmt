@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_generic\trashbin002"
+	"$bumpmap" "models\props_generic\trashbin002_normal"
+
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+        $phong 1
+        $phongboost "3.4"
+	$phongexponenttexture "models/humans/male_exponent"
+        $phongtint "[.85 .85 1]"
+        $phongfresnelranges "[.2 .5 5]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" "2"	               // Boost for ambient cube component of rim lighting
+
+}

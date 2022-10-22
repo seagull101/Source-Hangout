@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+  "$basetexture" "Models\props_generic\cable_reel_wire_D"
+  "$bumpmap" "Models\props_generic\cable_reel_wire_N"
+  
+  "$envmap"	"env_cubemap"
+  "$envmaptint"	"[.3 .3 .3]"
+  "$envmapsaturation"	"[.2 .2 .2]"
+
+  "$surfaceprop" "rubber"
+}

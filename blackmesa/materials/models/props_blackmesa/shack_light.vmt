@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/shack_light"
+	"$model" "1"
+}

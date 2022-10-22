@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/cagelight01_clearon"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}

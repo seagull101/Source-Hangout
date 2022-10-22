@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_industrial/Cylinder_Store_Cylinder"
+	"$bumpmap"	"models/props_industrial/Cylinder_Store_Cylinder_Normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.1 .1 .1]"
+	"$normalalphaenvmapmask" 1	
+	"%keywords" "bms"
+
+$phong 1
+        $phongexponent 7
+        $phongboost 1
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".15"	               // Boost for ambient cube component of rim lighting
+}

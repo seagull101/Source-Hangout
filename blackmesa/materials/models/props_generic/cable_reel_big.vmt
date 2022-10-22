@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+"$basetexture" "Models\props_generic\cable_reel_big"
+"$bumpmap" "Models\props_generic\cable_reel_big_full_bump"
+"$surfaceprop" "wood"
+}

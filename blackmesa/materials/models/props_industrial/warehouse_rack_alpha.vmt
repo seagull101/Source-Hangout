@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_industrial\warehouse_rack_alpha"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .42 .42 .42 ]"
+	"$envmapcontrast" 	"0.8"
+	"$envmapsaturation" "0.2"
+	"$alphatest" "1"
+}

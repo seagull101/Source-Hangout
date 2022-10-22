@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/lightswitch_old"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props_blackmesa/lightswitch_old_ref"
+}

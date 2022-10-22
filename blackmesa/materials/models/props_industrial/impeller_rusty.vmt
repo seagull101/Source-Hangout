@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/impeller_rusty"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "models/props_industrial/impeller_rusty_NRM"
+	"$envmapcontrast" "0.65"
+	"$envmapsaturation" "0.8"
+	"$envmaptint" "[ 0.23 0.23 0.15 ]"
+	"$normalmapalphaenvmapmask" 1
+
+$phong 1
+        $phongexponent 7
+        $phongboost 1
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".15"	               // Boost for ambient cube component of rim lighting
+}

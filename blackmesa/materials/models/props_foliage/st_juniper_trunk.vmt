@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{	
+	"$baseTexture" "models/props_foliage/st_juniper_trunk"
+	"$model"	"1"
+}

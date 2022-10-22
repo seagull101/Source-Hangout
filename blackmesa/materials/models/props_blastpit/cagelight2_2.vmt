@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_blastpit/cagelight2_2"
+	"$envmap" 	"env_cubemap"
+ 	"$envmaptint" 	"[.2 .2 .2]"	
+	"%keywords" 	"bms"
+}

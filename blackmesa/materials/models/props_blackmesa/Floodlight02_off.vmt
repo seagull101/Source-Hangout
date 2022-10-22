@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_blackmesa/Floodlight02_off"
+	"$model" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .2 .3 .1 ]"
+
+}

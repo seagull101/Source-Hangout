@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{	
+	"$translucent" 1
+	"$baseTexture" "models/props_desert/tumbleweed"
+	"$model"	"1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/gascanister01_blue"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" "1"
+}

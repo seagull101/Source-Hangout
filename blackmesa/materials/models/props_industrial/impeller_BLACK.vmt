@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/impeller_BLACK"
+	//"$bumpmap" "models/props_pipes/gaspipe01_xparts_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "0.25"
+	"$envmapsaturation" "1.0"
+	"$envmaptint" "[ 0.14 0.13 0.09 ]"
+	"$multipass" "1"
+
+$phong 1
+        $phongexponent 7
+        $phongboost 1
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".15"	               // Boost for ambient cube component of rim lighting
+}

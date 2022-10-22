@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_industrial/TrackChanger"
+	"$bumpmap"	"models/props_industrial/TrackChanger_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+   	"$envmaptint" "[1 1 .5]"
+	"$envmapcontrast" ".75"
+}

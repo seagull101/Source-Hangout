@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_foliage/xen_detail_plant01"
+	"$model"	"1"
+	"$alphatest" 1
+}

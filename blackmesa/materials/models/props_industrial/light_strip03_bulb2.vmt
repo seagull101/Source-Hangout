@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/light_strip03_bulb2"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props_industrial/light_strip03_ref"
+   	"$envmaptint" "[0.6 0.6 0.6]"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}

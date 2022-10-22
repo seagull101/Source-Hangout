@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_industrial\corner_guard_skin2"
+	"$basealphaenvmapmask" "1"
+	"$surfaceprop"			"metal"
+	"$envmap"			"env_cubemap"
+//	"$envmapcontrast" 		"0.1"
+   	"$envmaptint"			"[.8 .8 .8]"
+	"$envmapsaturation"		"1"
+}

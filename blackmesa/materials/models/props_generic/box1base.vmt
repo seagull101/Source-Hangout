@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_generic/box1base"
+	"$bumpmap" "models\props_generic/box1base_normal"
+	"$phong" "1"
+	"$phongexponent" 10
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.5 2 1]"
+"$surfaceprop" "wood"
+
+	"%keywords" "bms, Andrea"
+}

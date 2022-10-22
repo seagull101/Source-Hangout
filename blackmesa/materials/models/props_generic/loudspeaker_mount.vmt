@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_generic/loudspeaker_mount"
+	"$basealphaenvmapmask" 1
+	"$surfaceprop" "plastic"
+	"$envmap" "env_cubemap"
+}

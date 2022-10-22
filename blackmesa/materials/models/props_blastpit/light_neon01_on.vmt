@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "lights/light_neon01_on"
+	"$surfaceprop" "metal"
+	"$selfillum" 1
+	"%keywords" "bms"
+}

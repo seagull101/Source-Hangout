@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_desert/mesa01"
+	"$bumpmap" "models/props_desert/mesa01_normal"
+}

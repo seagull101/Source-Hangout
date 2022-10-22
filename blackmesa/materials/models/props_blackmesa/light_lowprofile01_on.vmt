@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/light_lowprofile01_on"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}

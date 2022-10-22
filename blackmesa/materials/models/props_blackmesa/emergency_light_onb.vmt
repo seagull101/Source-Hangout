@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/emergency_light"
+	"$additive" 1 
+	"$nocull" 1
+	"$model" 1 
+}

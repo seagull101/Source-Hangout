@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+//	"$basetexture" "models/props_blastpit/flr_grt_c2a4_grate1c"
+	"$basetexture" "metal/metalgrate001a"
+ 	"$basetexturetransform" "center 0.5 0.5 scale 0.67 0.67 rotate 0  translate 0 0"
+	"$no_fullbright" 1
+	"$translucent" "1"
+	"%compilepassbullets" 1
+	"$surfaceprop" "chainlink"
+	"$nodecal" 1
+	"$nolod" 1
+}

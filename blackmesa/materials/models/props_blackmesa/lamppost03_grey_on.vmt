@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_blackmesa\lamppost03_grey_on"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.35 0.35 0.35]"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}

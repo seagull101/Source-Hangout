@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/supercomputer01"
+	"$bumpmap" "models/props_blackmesa/supercomputer01_normal"
+	"$selfillum" "1"
+	"$surfaceprop" "computer"
+
+	$phong			1
+	$phongexponent		5
+	$phongboost		3.0
+	$phongfresnelranges	"[0 0.5 1]"
+
+}

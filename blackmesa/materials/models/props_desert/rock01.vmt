@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_desert/rock01"
+	"$bumpmap" "models/props_desert/rock01_normal"
+
+  $detail detail\rock_sm
+        $detailscale 15
+        $detailblendfactor 0.9
+        $detailblendmode 0
+}

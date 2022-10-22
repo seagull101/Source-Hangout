@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+
+    "$basetexture" 	"models\props_blastpit\c1a4e_slimeriver"
+    "$model"	"1"
+	"$selfillum"	"1"
+
+
+
+
+
+	"Proxies"
+
+	{
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+		
+			"texturescrollrate" .2
+			
+			"texturescrollangle" 270.00
+		}
+
+	}
+	
+}

@@ -1,0 +1,7 @@
+"vertexlitGeneric"
+{	
+	"$translucent" 1
+	"$baseTexture" "models/props_foliage/detail_shrub01"
+	"$model"	"1"
+	"$nocull"
+}

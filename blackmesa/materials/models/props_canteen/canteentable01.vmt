@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_canteen/canteentable01"
+	"$envmapmask" "models/props_canteen/canteentable01_ref"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" "0.42"
+	"$envmapsaturation" "0.76"
+}

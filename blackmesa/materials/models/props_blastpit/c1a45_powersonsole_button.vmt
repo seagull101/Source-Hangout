@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/props_blastpit/c1a45_powersonsole_button"
+	"$bumpmap" "models/props_blastpit/c1a45_powersonsole_button_nm"	
+	"$envmap" "env_cubemap"				
+	"%keywords" "bms"
+}

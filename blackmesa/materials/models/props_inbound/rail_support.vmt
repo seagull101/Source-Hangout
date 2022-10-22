@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_inbound/rail_support"
+	"$bumpmap" "models/props_inbound/rail_support_nm"
+	"$normalmapalphaenvmapmask" "1"
+	"$model" 1
+       	"$surfaceprop" "Metal"
+
+        "$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "5"
+	"$detailblendfactor" .9
+	"$detailblendmode" 0
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_generic/monitorbox"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_generic\monitorbox_ref"
+	"$surfaceprop" "metal"
+	"$selfillum" "1"
+	"$halflambert" "1"
+}

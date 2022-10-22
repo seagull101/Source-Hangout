@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_industrial\floodlight_uv"
+	"$bumpmap"	"models\props_industrial\floodlight_normal"
+	"$envmap"		"env_cubemap"
+	"$selfillum" "1"
+	"$normalmapalphaenvmapmask"	"1"	
+   	"$envmaptint"		"[0.75 0.75 0.75]"
+	"$envmapsaturation"	"0.2"
+	"$envmapcontrast"	"0.1"
+	"$surfaceprop"		"metalbox"
+	"%keywords"	"bms"
+}

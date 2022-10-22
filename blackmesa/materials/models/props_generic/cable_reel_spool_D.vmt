@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+"$basetexture" "Models\props_generic\cable_reel_spool_D"
+"$bumpmap" "Models\props_generic\cable_reel_spool_N"
+	"$phong" "1"
+	"$phongexponent" 10
+	"$phongboost"	"0.25"
+	"$phongfresnelranges"	"[0.5 2 1]"
+"$surfaceprop" "wood"
+}

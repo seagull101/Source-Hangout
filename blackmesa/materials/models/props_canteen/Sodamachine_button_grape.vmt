@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_canteen\Sodamachine_button_grape"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.9 0.9 0.9]"
+	"$envmapcontrast" "0.6"
+	"$envmapsaturation" "0.6"
+	"$selfillum" 1
+	"$surfaceprop" "plastic"
+}
+
+

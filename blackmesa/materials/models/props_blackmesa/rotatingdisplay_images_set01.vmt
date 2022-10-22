@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_blackmesa\rotatingdisplay_images_set01"
+	"$selfillum" "1"
+        "$selfillummask" "models/gray50"
+}

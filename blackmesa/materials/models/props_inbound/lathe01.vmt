@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_inbound\lathe01"
+	"$bumpmap" "models/props_inbound/lathe01_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "metal"
+	"$model" "1"
+
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_inbound/inbound_door"
+	"$bumpmap" "models/props_inbound/inbound_door_norm"
+	"$normalmapalphaenvmapmask" "1"
+	"$model" 1
+       	"$surfaceprop" "Metal"
+
+ }

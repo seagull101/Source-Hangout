@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/metalcrate01"
+	"$bumpmap" "models/props_blackmesa/metalcrate01_normal"
+	"$nodecal" "1"
+	"$multipass" 0
+
+        $detail detail\bm_metal_detail_01 // e.g. for brickwork, concrete...
+        $detailscale 8
+        $detailblendfactor 0.5
+        $detailblendmode 0
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.05 .05 .05]"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1.5"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+
+	// Rim lighting parameters
+
+	"$rimlight" "1"
+	"$rimlightexponent" "25"
+	"$rimlightboost" "0.15"
+}

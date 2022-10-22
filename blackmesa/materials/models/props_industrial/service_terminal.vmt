@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/props_industrial/service_terminal"
+	"$bumpmap"	"models/props_industrial/service_terminal_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ .3 .3 .3 ]"
+	"$selfillum" "1"
+}

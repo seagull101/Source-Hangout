@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_doors/blastdoor01"
+	"$bumpmap" "models/props_doors/blastdoor01_normal"
+   	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+
+        "$detail" "detail\bm_rustymetal_detail_01"
+	"$detailscale" "16"
+	"$detailblendfactor" 1.0
+	"$detailblendmode" 0
+   "$envmaptint" "[.3 .3 .3]"
+
+
+          "$nocull" 1
+	"$nodecal" "1"
+	"$multipass" 0
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "2.5"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+
+}

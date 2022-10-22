@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$translucent" 1
+	"$basetexture" "metal/metalfence004a"
+	"$nocull" 1
+}

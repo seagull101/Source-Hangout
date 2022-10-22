@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/radioactive_waste_processor"
+	"$bumpmap" "models/props_industrial/radioactive_waste_processor_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[.05 .05 .05]"
+
+$phong 1
+        $phongexponent 20
+        $phongboost 1
+        $phongtint "[1 1 1]"
+        $halflambert 0
+        $phongfresnelranges "[.4 .8 30]"
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "80"             // Exponent for phong component of rim lighting
+	"$rimlightboost" ".15"	               // Boost for ambient cube component of rim lighting
+
+}

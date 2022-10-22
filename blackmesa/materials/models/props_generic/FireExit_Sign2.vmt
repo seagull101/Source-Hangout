@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\props_generic/fireexit_sign2"
+	"$envmapmask"	"models\props_generic/fireexit_sign_Mask"
+	"$envmap"	"env_cubemap"
+	"$selfillum"	"1"
+	
+	"%keywords" "bms"
+}

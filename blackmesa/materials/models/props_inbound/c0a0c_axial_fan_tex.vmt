@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_inbound/c0a0c_axial_fan_tex"
+	"$model" 1
+       	"$surfaceprop" "Metal"
+
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 5
+        $detailblendfactor 1
+        $detailblendmode 0
+
+}

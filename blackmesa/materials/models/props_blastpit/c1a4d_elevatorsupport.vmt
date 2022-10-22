@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_blastpit/c1a4d_elevatorsupport"
+	"$bumpmap"	"models/props_blastpit/c1a4d_elevatorsupport_normal"
+
+	"$normalmapalphaenvmapmask" 1	
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .4 .4]"
+//	"$envmapsaturation" 	"1"
+
+        "$detail" "detail\bm_abusedmetal_detail_01"
+	"$detailscale" "10"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+}

@@ -1,0 +1,32 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+"$basetexture" 	"models/props_industrial/lift_button"
+"$bumpmap"	"models/props_industrial/lift_button_normal"
+
+	"$selfillum" "1"
+
+//metal
+"$normalmapalphaenvmapmask" "1"
+"$envmap" "env_cubemap"
+"$envmaptint" "[.3 .3 .2]"
+//"$envmapfalloff" "1"
+
+// Phong Schtuff
+"$phong" "1"
+//"$phongexponent" "25"
+"$phongexponenttexture" "models/props_industrial/lift_button_exponent"
+"$PhongWarpTexture"	"models\props_am\am_ams_phongwarp"
+"$phongboost" "17"
+"$phongfresnelranges"	"[0.6 0.8 1.6]"
+"$phongalbedotint" "1"
+
+"$lightwarptexture"	"models\props_am\am_ams_lightwarp"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props_inbound/inbound_vat_slime"
+	"$model" "1"
+	"$selfillum" 	"1"
+
+}

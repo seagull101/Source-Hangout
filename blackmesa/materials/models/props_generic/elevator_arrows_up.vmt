@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_generic/elevator_arrows_up"
+       	"$selfillum" 1
+}

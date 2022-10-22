@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_industrial\f1rocketengine"
+	"$bumpmap" "models\props_industrial\f1rocketengine_nm"
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongexponent" "25"
+//	"$lightwarptexture" "models\buildables\sentry1\Sentry1_lightwarp"
+//	"$phongfresnelranges"	"[.5 1.5 10]"
+	"$phongfresnelranges"	"[0.05 2 60]"
+	
+ 	"$rimlight" "1"		
+	"$rimlightexponent" "4"				
+	"$rimlightboost" "1.5"
+	}

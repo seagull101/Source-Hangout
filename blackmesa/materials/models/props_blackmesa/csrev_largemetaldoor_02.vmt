@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal\csrev_largemetaldoor_02"
+	"$bumpmap" "metal/csrev_largemetaldoor_02_normal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.4 .4 .4]"
+	"$normalmapalphaenvmapmask" "1"
+
+
+	"$surfaceprop" "metalvent"
+	"%keywords" "bms, jenn0, csrev"
+}

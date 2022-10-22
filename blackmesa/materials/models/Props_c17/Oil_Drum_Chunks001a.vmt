@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_c17/Oil_Drum_Chunks001a"
+	"$surfaceprop" "metal"
+	"$bumpmap" "Models/props_c17/Oil_Drum001a_normal"
+
+	"$surfaceprop" "metal"
+	"$model" "1"
+
+	"$phong" "1"
+	"$phongexponent" 20
+	"$phongboost"	"5"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+}

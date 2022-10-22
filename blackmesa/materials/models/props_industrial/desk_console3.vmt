@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_industrial\desk_console3_D"
+   	"$envmaptint" "[.2 .2 .2]"
+	"$envmap" 	"env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+}	
+
+

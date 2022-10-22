@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/light_strip03_on"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/props_industrial/light_strip03_ref"
+   	"$envmaptint" "[0.3 0.3 0.3]"
+	"$alphatest" "1"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_generic\hand_dryer_button"
+	"$envmap"	"env_cubemap"
+
+	"$envmaptint"	"[1. 1. 1.]"
+}

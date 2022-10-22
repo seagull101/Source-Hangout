@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/supercomputer_charred"
+	"$halflambert" "1"
+	"$surfaceprop" "computer"	
+}

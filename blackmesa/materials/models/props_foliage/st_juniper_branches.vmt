@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{	
+	"$baseTexture" 	"models/props_foliage/st_juniper_branches"
+	"$model"	"1"
+	"$ALPHATEST"	"1"
+	"$AlphaTestReference" "0.5"
+$AllowAlphaToCoverage 1
+	"$FlashlightNoLambert" "1"
+	"$translucent" 	"1"
+	"$nocull"	"1"
+}

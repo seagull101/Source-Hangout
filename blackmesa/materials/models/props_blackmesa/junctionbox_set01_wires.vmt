@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_blackmesa\junctionbox_set01_wires"
+	"$alphatest" "1"
+}

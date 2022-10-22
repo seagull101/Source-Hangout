@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_desert/roadsign_face8"
+	"$bumpmap" "models/props_desert/roadsign_face2_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ .2 .2 .2 ]"
+	"$model" 1
+}

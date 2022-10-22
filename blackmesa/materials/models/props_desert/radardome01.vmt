@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_desert/radardome01"
+	"$bumpmap" "models/props_desert/radardome01_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "0.8"
+	"$envmapsaturation" "0.3"
+	"$envmaptint" "[ 0.72 0.72 0.72 ]"
+}

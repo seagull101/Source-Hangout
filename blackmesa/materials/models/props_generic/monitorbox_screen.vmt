@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_generic\monitorbox_screen"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_generic\monitorbox_ref"
+	"$surfaceprop" "metal"
+	"$selfillum" "1"
+	"$halflambert" "1"
+
+  "Proxies"
+    {
+    "AnimatedTexture"
+                      {
+                      "animatedTextureVar" "$basetexture"
+                      "animatedTextureFrameNumVar" "$frame"
+                      "animatedTextureFrameRate" ".07"
+                      }
+    }
+
+}

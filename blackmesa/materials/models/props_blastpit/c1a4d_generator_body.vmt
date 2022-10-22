@@ -1,0 +1,33 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+	"$baseTexture" "models/props_blastpit/c1a4d_generator_body"
+	"$bumpmap"	"models/props_blastpit/c1a4d_generator_body_normal"
+
+	"$normalmapalphaenvmapmask" 1	
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[1 1 1.25]"
+//	"$envmapsaturation" 	"1"
+
+        "$detail" "detail\bm_rustymetal_detail_01"
+	"$detailscale" "20"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "10"
+"$phongboost" "5"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+"$phongalbedotint" "1"
+"$PhongWarpTexture"	"models\props_am\am_ams_phongwarp"
+
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+}

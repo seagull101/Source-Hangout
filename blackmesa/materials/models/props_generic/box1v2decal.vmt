@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_generic/box1v2decal"
+	"$bumpmap" "models\props_generic/box1v2_normals"
+	"$phong" "1"
+	"$phongexponent" 10
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.5 2 1]"
+}

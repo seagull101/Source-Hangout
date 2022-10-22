@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture"  "models/props_desert/desert_cactus_01"
+	"$bumpmap"	"models/props_desert/desert_cactus_01_normal"
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[.25 .25 .25]"
+}

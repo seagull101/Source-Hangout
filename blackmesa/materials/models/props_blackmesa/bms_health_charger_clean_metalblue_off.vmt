@@ -1,0 +1,37 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+	"$basetexture" "models/props_blackmesa/bms_health_charger2"
+	"$bumpmap" "models/props_blackmesa/bms_health_charger2_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1	
+	"$envmaptint" "[ .8 .8 .8 ]"
+//	"$envmapcontrast" "0.5"
+	"$envmapsaturation" "0.6"
+
+	"$surfaceprop" "metal"
+	"$model" "1"
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "15"
+"$phongboost" "5"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+//"$phongalbedotint" "1"
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+
+
+    	"$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+
+}

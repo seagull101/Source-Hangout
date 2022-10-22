@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models\props_industrial\LargeFan"
+	"$envmap" 	"env_cubemap"
+   	"$envmaptint" 	"[.05 .05 .15]"
+	"%keywords" 	"bms"
+}

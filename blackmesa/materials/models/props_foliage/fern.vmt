@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{	
+	"$alphatest" 1
+	"$nocull" 1
+	"$baseTexture" "models/props_foliage/fern"
+"$bumpmap" "models/props_foliage/fern_nm"
+		"$normalmapalphaenvmapmask" "1"
+	"$model"	"1"
+"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost"	"1"
+	  $phongfresnelranges "[.4 .8 30]"
+
+	"$halflambert" 1
+	"$multipass" 1
+
+	// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "15"		// Exponent for phong component of rim lighting
+	"$rimlightboost" ".1"			// Boost for ambient cube component 
+}

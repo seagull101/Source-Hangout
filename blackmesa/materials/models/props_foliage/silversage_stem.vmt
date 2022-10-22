@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{	
+	"$alphatest" 1
+	"$nocull" 1
+	"$baseTexture" "models/props_foliage/silversage_stem"
+	"$model"	"1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/wallclock_large"
+	"$envmap" "env_cubemap"
+	"$translucent" "1"
+}

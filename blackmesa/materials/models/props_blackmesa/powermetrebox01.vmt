@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_blackmesa\powermetrebox01"
+ 	"$basealphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.3 0.34 0.4]"
+	"$surfaceprop" "metal_box"
+}

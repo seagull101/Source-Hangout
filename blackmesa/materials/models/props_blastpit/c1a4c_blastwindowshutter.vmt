@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_blastpit/c1a4c_blastwindowshutter"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"%keywords" "bms"
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models\props_blackmesa\c2a4b_vent_b"
+	"$selfillum"	"1"
+}

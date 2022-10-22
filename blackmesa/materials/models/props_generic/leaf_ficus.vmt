@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_generic/leaf_ficus"
+	"$bumpmap" "models\props_generic/leaf_ficus_n"
+	"$alphatest" "1"
+	"$halflambert" "1"
+	"$surfaceprop" "foliage"
+	"$model" "1"
+	
+	"$phong" "1"
+	"$phongexponent" 10
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.5 2 1]"
+}

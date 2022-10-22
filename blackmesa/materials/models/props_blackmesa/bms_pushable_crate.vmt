@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_blackmesa/bms_pushable_crate"
+	"$bumpmap"	"models/props_blackmesa/bms_pushable_crate_norm"
+
+	"$normalmapalphaenvmapmask" 1	
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[.5 .5 .55]"
+//	"$envmapsaturation" 	"1"
+
+   	"$detail" "detail\bm_plastic_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 1.5
+	"$detailblendmode" 0
+
+}

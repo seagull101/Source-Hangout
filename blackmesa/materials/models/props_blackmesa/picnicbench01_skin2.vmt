@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/picnicbench01_skin2"
+	"$bumpmap" "models/props_blackmesa//picnicbench01_normal"
+}

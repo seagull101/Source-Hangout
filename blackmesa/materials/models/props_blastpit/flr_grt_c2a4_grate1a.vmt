@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "metal/flr_grt_c2a4_grate1a"
+	"$surfaceprop" "metalgrate"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

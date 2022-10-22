@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_blackmesa\conduit_tubing_white"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.55 0.55 0.55]"
+}

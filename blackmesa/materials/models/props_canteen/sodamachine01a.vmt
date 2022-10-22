@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\props_canteen\sodamachine01a"
+	"$envmapmask" "models\props_canteen\sodamachine01a_mask"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.8 0.8 0.8]"
+	"$envmapcontrast" "1.0"
+	"$envmapsaturation" "1.0"
+	"$selfillum" 1
+	"$surfaceprop" "metal"
+}
+
+

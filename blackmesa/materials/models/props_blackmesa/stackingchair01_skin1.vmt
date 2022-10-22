@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_blackmesa/stackingchair01_skin1"
+	"$bumpmap" "models/props_blackmesa/stackingchair01_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "0.5"
+	"$envmapsaturation" "0.8"
+	"$envmaptint" "[ .6 .6 .6 ]"
+}

@@ -1,0 +1,51 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+"$SHADERNAME" "model_standard"
+
+	"$basetexture" "models/props_blackmesa/bms_HEV_charger_clean"
+	"$bumpmap" "models/props_blackmesa/bms_HEV_charger_clean_normal"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1	
+	"$envmaptint" "[ .6 .6 .6 ]"
+//	"$envmapcontrast" "0.5"
+	"$envmapsaturation" "0.6"
+
+	"$surfaceprop" "metal"
+	"$model" "1"
+
+// Phong Schtuff
+"$phong" "1"
+"$phongexponent" "5"
+"$phongboost" "5"
+"$phongfresnelranges"	"[0.2 .5 1.6]"
+"$phongalbedotint" "1"
+
+
+// Rim lighting parameters
+"$rimlight" "1"
+"$rimlightexponent" "25"
+"$rimlightboost" "0.5"
+
+
+    	"$detail" "detail\bm_metal_detail_01"
+	"$detailscale" "6"
+	"$detailblendfactor" 0.8
+	"$detailblendmode" 0
+
+	"$selfillum"	"1"
+	"$selfillumcolor1" "[0.5 0.5 0.5]"
+	"$selfillumcolor2" "[0 7 10]"
+	"Proxies"
+	{
+		"AnimCycleBias"
+		{
+			"offset"	"0.86956521739" // 100 / 115
+			"bias"		"0.6"
+			"srcVar1"	"$selfillumcolor1"
+			"srcVar2"	"$selfillumcolor2"
+			"resultVar" "$selfillumtint"
+		}
+	}
+}

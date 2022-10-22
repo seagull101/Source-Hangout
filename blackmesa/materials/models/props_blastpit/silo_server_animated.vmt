@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_blastpit/silo_server_animated"
+	"$bumpmap" "models/props_blastpit/silo_server_Normal"
+	"$envmap" "env_cubemap"
+	"$selfillum" 1
+   	"$envmaptint" "[.2 .2 .2]"
+	"$normalalphaenvmapmask" 1
+	"%keywords" "bms"
+	"$nocull" 1
+}

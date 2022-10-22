@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_industrial/light_lowbay01_on"
+	"$halflambert" "1"
+	"$selfillum" "1"
+}

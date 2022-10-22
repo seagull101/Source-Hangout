@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_blastpit/c2a1a_generator"
+	"$bumpmap" "models/props_blastpit/c2a1a_generator_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+        "$envmaptint" "[1 1 1]"
+	"$model" 		"1"
+	"$surfaceprop" 		"metal"
+
+	"$phong" "1"
+	"$phongboost"	"2.45"
+	"$phongexponent" 30
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	
+        $detail detail\bm_rustymetal_detail_01
+        $detailscale 6
+        $detailblendfactor 1
+        $detailblendmode 0
+
+	"%keywords" "bms"
+}
