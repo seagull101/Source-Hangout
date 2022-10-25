@@ -1,0 +1,989 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\materials
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-144.00 -1184.00 144.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20152 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 36 texinfos to 28
+Reduced 6 texdatas to 6 (155 bytes to 155)
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+No vis information, direct lighting only.
+115 faces
+19697 square feet [2836433.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 54/8192          648/98304    ( 0.7%) 
+brushsides             372/65536        2976/524288   ( 0.6%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               289/65536        3468/786432   ( 0.4%) 
+nodes                  146/65536        4672/2097152  ( 0.2%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  115/65536        6440/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               82/65536        4592/3670016  ( 0.1%) 
+leaves                 148/65536        4736/2097152  ( 0.2%) 
+leaffaces              117/65536         234/131072   ( 0.2%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges              816/512000       3264/2048000  ( 0.2%) 
+edges                  549/256000       2196/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            93/65536         186/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      220140/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2693/393216   ( 0.7%) 
+LDR ambient table      148/65536         592/262144   ( 0.2%) 
+HDR ambient table      148/65536         592/262144   ( 0.2%) 
+LDR leaf ambient        93/65536        2604/1835008  ( 0.1%) 
+HDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       20152/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 258
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+No vis information, direct lighting only.
+115 faces
+19697 square feet [2836433.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 54/8192          648/98304    ( 0.7%) 
+brushsides             372/65536        2976/524288   ( 0.6%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               289/65536        3468/786432   ( 0.4%) 
+nodes                  146/65536        4672/2097152  ( 0.2%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  115/65536        6440/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               82/65536        4592/3670016  ( 0.1%) 
+leaves                 148/65536        4736/2097152  ( 0.2%) 
+leaffaces              117/65536         234/131072   ( 0.2%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges              816/512000       3264/2048000  ( 0.2%) 
+edges                  549/256000       2196/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            93/65536         186/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      220140/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2693/393216   ( 0.7%) 
+LDR ambient table      148/65536         592/262144   ( 0.2%) 
+HDR ambient table      148/65536         592/262144   ( 0.2%) 
+LDR leaf ambient        93/65536        2604/1835008  ( 0.1%) 
+HDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       20152/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 258
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+LoadPortals: couldn't read d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+No vis information, direct lighting only.
+115 faces
+19697 square feet [2836433.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0003 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 54/8192          648/98304    ( 0.7%) 
+brushsides             372/65536        2976/524288   ( 0.6%) 
+planes                 128/65536        2560/1310720  ( 0.2%) 
+vertexes               289/65536        3468/786432   ( 0.4%) 
+nodes                  146/65536        4672/2097152  ( 0.2%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  115/65536        6440/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               82/65536        4592/3670016  ( 0.1%) 
+leaves                 148/65536        4736/2097152  ( 0.2%) 
+leaffaces              117/65536         234/131072   ( 0.2%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges              816/512000       3264/2048000  ( 0.2%) 
+edges                  549/256000       2196/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            93/65536         186/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      220140/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2693/393216   ( 0.7%) 
+LDR ambient table      148/65536         592/262144   ( 0.2%) 
+HDR ambient table      148/65536         592/262144   ( 0.2%) 
+LDR leaf ambient        93/65536        2604/1835008  ( 0.1%) 
+HDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       20152/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 258
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\materials
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.vmf
+Brush 1928: FloatPlane: bad normal
+Side 1
+Texture: TOOLS/TOOLSNODRAW
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+Error opening d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+Error opening d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\materials
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.vmf
+Brush 1928: FloatPlane: bad normal
+Side 1
+Texture: TOOLS/TOOLSNODRAW
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+Error opening d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+Error opening d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\materials
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.vmf
+Brush 1928: FloatPlane: bad normal
+Side 1
+Texture: TOOLS/TOOLSNODRAW
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+Error opening d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+Error opening d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\materials
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22332 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 48 texinfos to 37
+Reduced 12 texdatas to 12 (340 bytes to 340)
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+  21 portalclusters
+  36 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 271
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 14
+visdatasize:298  compressed from 336
+writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+151 faces
+25869 square feet [3725140.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+151 patches before subdivision
+4557 patches after subdivision
+40 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 482016, max 313
+transfer lists:   3.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4890, 478, 40)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(500, 49, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(63, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 40 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 61/8192          732/98304    ( 0.7%) 
+brushsides             419/65536        3352/524288   ( 0.6%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes               259/65536        3108/786432   ( 0.4%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               97/65536        5432/3670016  ( 0.1%) 
+leaves                  75/65536        2400/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes             96/65536         192/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             1055/512000       4220/2048000  ( 0.2%) 
+edges                  688/256000       2752/1024000  ( 0.3%) 
+LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           117/65536         234/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      226620/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         298/16777216 ( 0.0%) 
+entdata               [variable]       12960/393216   ( 3.3%) 
+LDR ambient table       75/65536         300/262144   ( 0.1%) 
+HDR ambient table       75/65536         300/262144   ( 0.1%) 
+LDR leaf ambient       243/65536        6804/1835008  ( 0.4%) 
+HDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       22332/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 372
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+151 faces
+25869 square feet [3725140.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+151 patches before subdivision
+4557 patches after subdivision
+40 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 482016, max 313
+transfer lists:   3.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2935, 287, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(300, 29, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(38, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 40 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 61/8192          732/98304    ( 0.7%) 
+brushsides             419/65536        3352/524288   ( 0.6%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes               259/65536        3108/786432   ( 0.4%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces              151/65536        8456/3670016  ( 0.2%) 
+origfaces               97/65536        5432/3670016  ( 0.1%) 
+leaves                  75/65536        2400/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes             96/65536         192/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             1055/512000       4220/2048000  ( 0.2%) 
+edges                  688/256000       2752/1024000  ( 0.3%) 
+LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+HDR worldlights         40/8192         3520/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           117/65536         234/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      226620/0        ( 0.0%) 
+HDR lightdata         [variable]      226620/0        ( 0.0%) 
+visdata               [variable]         298/16777216 ( 0.0%) 
+entdata               [variable]       12960/393216   ( 3.3%) 
+LDR ambient table       75/65536         300/262144   ( 0.1%) 
+HDR ambient table       75/65536         300/262144   ( 0.1%) 
+LDR leaf ambient       243/65536        6804/1835008  ( 0.4%) 
+HDR leaf ambient       224/65536        6272/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       22332/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 372
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\materials
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (22332 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 48 texinfos to 37
+Reduced 12 texdatas to 12 (340 bytes to 340)
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+  21 portalclusters
+  36 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 271
+Average clusters visible: 12
+Building PAS...
+Average clusters audible: 14
+visdatasize:298  compressed from 336
+writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+151 faces
+25869 square feet [3725140.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+151 patches before subdivision
+4557 patches after subdivision
+40 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 482016, max 313
+transfer lists:   3.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(4890, 478, 40)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(499, 49, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(63, 6, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(11, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 40 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 61/8192          732/98304    ( 0.7%) 
+brushsides             419/65536        3352/524288   ( 0.6%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes               259/65536        3108/786432   ( 0.4%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               97/65536        5432/3670016  ( 0.1%) 
+leaves                  75/65536        2400/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes             96/65536         192/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             1055/512000       4220/2048000  ( 0.2%) 
+edges                  688/256000       2752/1024000  ( 0.3%) 
+LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           117/65536         234/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      226620/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         298/16777216 ( 0.0%) 
+entdata               [variable]       14952/393216   ( 3.8%) 
+LDR ambient table       75/65536         300/262144   ( 0.1%) 
+HDR ambient table       75/65536         300/262144   ( 0.1%) 
+LDR leaf ambient       243/65536        6804/1835008  ( 0.4%) 
+HDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       22332/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 372
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+151 faces
+25869 square feet [3725140.75 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+151 patches before subdivision
+4557 patches after subdivision
+40 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 482016, max 313
+transfer lists:   3.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2935, 287, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(300, 29, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(38, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(6, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 40 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 61/8192          732/98304    ( 0.7%) 
+brushsides             419/65536        3352/524288   ( 0.6%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes               259/65536        3108/786432   ( 0.4%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  151/65536        8456/3670016  ( 0.2%) 
+hdr faces              151/65536        8456/3670016  ( 0.2%) 
+origfaces               97/65536        5432/3670016  ( 0.1%) 
+leaves                  75/65536        2400/2097152  ( 0.1%) 
+leaffaces              161/65536         322/131072   ( 0.2%) 
+leafbrushes             96/65536         192/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             1055/512000       4220/2048000  ( 0.2%) 
+edges                  688/256000       2752/1024000  ( 0.3%) 
+LDR worldlights         40/8192         3520/720896   ( 0.5%) 
+HDR worldlights         40/8192         3520/720896   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           117/65536         234/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/512          2816/180224   ( 1.6%) 
+LDR lightdata         [variable]      226620/0        ( 0.0%) 
+HDR lightdata         [variable]      226620/0        ( 0.0%) 
+visdata               [variable]         298/16777216 ( 0.0%) 
+entdata               [variable]       14952/393216   ( 3.8%) 
+LDR ambient table       75/65536         300/262144   ( 0.1%) 
+HDR ambient table       75/65536         300/262144   ( 0.1%) 
+LDR leaf ambient       243/65536        6804/1835008  ( 0.4%) 
+HDR leaf ambient       224/65536        6272/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       22332/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 372
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\materials
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 12 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29183 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 98 texinfos to 72
+Reduced 21 texdatas to 21 (587 bytes to 587)
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+reading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.prt
+  34 portalclusters
+  67 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 996
+Average clusters visible: 29
+Building PAS...
+Average clusters audible: 34
+visdatasize:616  compressed from 544
+writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+240 faces
+29676 square feet [4273433.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+240 patches before subdivision
+5482 patches after subdivision
+51 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 599563, max 337
+transfer lists:   4.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7688, 3116, 2562)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1295, 814, 666)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(160, 97, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(33, 22, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0006 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 40 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 80/8192          960/98304    ( 1.0%) 
+brushsides             533/65536        4264/524288   ( 0.8%) 
+planes                 204/65536        4080/1310720  ( 0.3%) 
+vertexes               374/65536        4488/786432   ( 0.6%) 
+nodes                   96/65536        3072/2097152  ( 0.1%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  240/65536       13440/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              147/65536        8232/3670016  ( 0.2%) 
+leaves                  99/65536        3168/2097152  ( 0.2%) 
+leaffaces              251/65536         502/131072   ( 0.4%) 
+leafbrushes            124/65536         248/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1673/512000       6692/2048000  ( 0.3%) 
+edges                 1047/256000       4188/1024000  ( 0.4%) 
+LDR worldlights         51/8192         4488/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             17/32768         170/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           252/65536         504/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                13/512          4576/180224   ( 2.5%) 
+LDR lightdata         [variable]      264324/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         616/16777216 ( 0.0%) 
+entdata               [variable]       30061/393216   ( 7.6%) 
+LDR ambient table       99/65536         396/262144   ( 0.2%) 
+HDR ambient table       99/65536         396/262144   ( 0.2%) 
+LDR leaf ambient       395/65536       11060/1835008  ( 0.6%) 
+HDR leaf ambient        99/65536        2772/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       29183/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 612
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+240 faces
+29676 square feet [4273433.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+240 patches before subdivision
+5482 patches after subdivision
+51 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 599563, max 337
+transfer lists:   4.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5677, 2920, 2546)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1086, 793, 665)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(133, 94, 73)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(28, 22, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 40 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 80/8192          960/98304    ( 1.0%) 
+brushsides             533/65536        4264/524288   ( 0.8%) 
+planes                 204/65536        4080/1310720  ( 0.3%) 
+vertexes               374/65536        4488/786432   ( 0.6%) 
+nodes                   96/65536        3072/2097152  ( 0.1%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 21/2048          672/65536    ( 1.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  240/65536       13440/3670016  ( 0.4%) 
+hdr faces              240/65536       13440/3670016  ( 0.4%) 
+origfaces              147/65536        8232/3670016  ( 0.2%) 
+leaves                  99/65536        3168/2097152  ( 0.2%) 
+leaffaces              251/65536         502/131072   ( 0.4%) 
+leafbrushes            124/65536         248/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1673/512000       6692/2048000  ( 0.3%) 
+edges                 1047/256000       4188/1024000  ( 0.4%) 
+LDR worldlights         51/8192         4488/720896   ( 0.6%) 
+HDR worldlights         51/8192         4488/720896   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             17/32768         170/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           252/65536         504/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                13/512          4576/180224   ( 2.5%) 
+LDR lightdata         [variable]      264324/0        ( 0.0%) 
+HDR lightdata         [variable]      264324/0        ( 0.0%) 
+visdata               [variable]         616/16777216 ( 0.0%) 
+entdata               [variable]       30061/393216   ( 7.6%) 
+LDR ambient table       99/65536         396/262144   ( 0.2%) 
+HDR ambient table       99/65536         396/262144   ( 0.2%) 
+LDR leaf ambient       395/65536       11060/1835008  ( 0.6%) 
+HDR leaf ambient       393/65536       11004/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105679/0        ( 0.0%) 
+physics               [variable]       29183/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 612
+Writing d:\steamlibrary\steamapps\sourcemods\source-hangout\maps\towerdefense.bsp
+1 second elapsed
