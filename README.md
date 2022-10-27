@@ -10,6 +10,8 @@ Originally named malmetro, Source Hangout is a hangout game based on the source 
 # Support
 Get support in the discord (unavalible for now)
 
+Fix errors: https://github.com/Itsyourdriver/server-setup-tutorial-source-hangout/blob/main/fixingerrors.md
+
 # Server Setup Tutorial
 https://github.com/Itsyourdriver/server-setup-tutorial-source-hangout/blob/main/tutorial/setup.md
 
