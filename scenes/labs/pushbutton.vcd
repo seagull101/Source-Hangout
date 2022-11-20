@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "Bob"
+{
+  channel "Action"
+  {
+    event gesture "Push"
+    {
+      time 0.033333 3.000000
+      param "wallbuttongesture"
+      absolutetags playback_time
+      {
+        "apex" 0.147727
+        "accent" 0.193182
+        "loop" 0.284091
+        "end" 0.681818
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.147727
+        "accent" 0.193182
+        "loop" 0.284091
+        "end" 0.681818
+      }
+    }
+    event lookat "Look at heavydoor1targ"
+    {
+      time 0.466666 3.120000
+      param "heavydoor1targ"
+    }
+  }
+}
+
+actor "heavydoor1targ"
+{
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,49 @@
+// Choreo version 1
+event section "This is fine"
+{
+  time 1.919999 -1.000000
+  param "noaction"
+}
+actor "Bob"
+{
+  channel "Speech"
+  {
+    event subscene "C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\scenes\npc\scientist_male01\sci_runforyoulife06.vcd"
+    {
+      time 1.933333 4.361764
+      param "C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\scenes\npc\scientist_male01\sci_runforyoulife06.vcd"
+      resumecondition
+      fixedlength
+    }
+    event subscene "C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\scenes\npc\scientist_male01\sci_startle11.vcd"
+    {
+      time 0.020000 1.887514
+      param "C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout\scenes\npc\scientist_male01\sci_startle11.vcd"
+      resumecondition
+      fixedlength
+    }
+  }
+  channel "Movement"
+  {
+  }
+}
+
+actor "heavydoor1targ"
+{
+}
+
+actor "disaster01stand"
+{
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

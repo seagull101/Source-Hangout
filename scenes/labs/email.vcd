@@ -1,0 +1,38 @@
+// Choreo version 1
+actor "generic_actor"
+{
+  channel "Typin"
+  {
+    event gesture "typing"
+    {
+      time 0.013333 2.446666
+      param "typinggesture"
+      absolutetags playback_time
+      {
+        "in" 0.138889
+        "loop" 0.305556
+        "end" 0.805556
+        "out" 0.902778
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.138889
+        "loop" 0.305556
+        "end" 0.805556
+        "out" 0.902778
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
