@@ -111,4 +111,6 @@ particles_manifest
 	"file"		"particles/st_bridge_dust00.pcf"
 
 	"file"		"particles/cinephys_particles.pcf"
+	
+	"file"		"particles/cig_smoke.pcf"
 }
