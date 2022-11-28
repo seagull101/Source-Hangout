@@ -1,6 +1,21 @@
 @include "base.fgd"
 
-@PointClass Webhook(Targetname) iconsprite("editor/disclogo.vmt") = discord_webhook : "Sends a webhook to the desired link"
+@PointClass base(Targetname) iconsprite("editor/logicplayers.vmt") = logic_players : "(UNFINISHED) Manages Players in a server. Can also calculate how many are in the server compared to the Compare value"
+[
+//Fields
+targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+CompareVal(integer) : "Compare Value" : 0 : "The value to compare number of online players by."
+// Inputs
+input Trigger(void) : "CalculateOnlinePlayers"
+input Trigger(void) : "SetCompareValue"
+
+// Outputs
+output OnGreater(void) : "Fired if online players is more than to compare value."
+output OnMatch(void) : "Fired if online players is equal to compare value."
+output OnLess(void) : "Fired if online players is less than to compare value."
+]
+
+@PointClass Webhook(Targetname) iconsprite("editor/disclogo.vmt") = discord_webhook : "(UNFINISHED) Sends a webhook to the desired link"
 [
 //Fields
 targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
