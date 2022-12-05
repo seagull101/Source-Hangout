@@ -143,7 +143,7 @@ WebhookURL(string) 	: "URL"		: ""	: "Where the message will be sent"
 	output OnPlayerUse(void) : "Fires when a player +USEs the citizen"
 	output OnNavFailBlocked(void) : "Fires when this Citizen's movement fails because he/she is blocked."
 ]
-@NPCClass base(BaseNPC,Parentname, TalkNPC, PlayerCompanion ) studio() = npc_administrator : "Admin"
+@NPCClass base(BaseNPC,Parentname, TalkNPC, PlayerCompanion ) studio() = npc_marine : "Marine"
 [
 
 	spawnflags(Flags) =
@@ -204,9 +204,9 @@ WebhookURL(string) 	: "URL"		: ""	: "Where the message will be sent"
 
 	//!!!BUGBUG - don't ship with these names
 	//!!!FIXME - don't ship with these names
-	model(choices) : "Model" : "models/gman.mdl" =
+	model(choices) : "Model" : "models/humans/marine.mdl" =
 	[
-		"models/gman.mdl" : "Admin"
+		"models/humans/marine.mdl" : "Marine"
 	]
 
 	ExpressionOverride(string) : "Facial expression override"
@@ -321,3 +321,4 @@ WebhookURL(string) 	: "URL"		: ""	: "Where the message will be sent"
 	input FadeOut(integer) : "Fades the sound to silence over a specified number of seconds, with a range from 0 to 100 seconds."
 ]
 @PointClass base(Item) studio("models/mesaweapons/w_medkit.mdl") = item_healthkit : "Small Health Kit" []
+@PointClass base(Targetname) studio("models/Weapons/w_slam.mdl") = npc_tripmine : "Tripmine" []

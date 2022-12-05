@@ -1,0 +1,60 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "talk"
+  {
+    event speak "vo\npc\scientist_male01\abouttime03_sp03.wav"
+    {
+      time 0.093333 3.033333
+      param "vo\npc\scientist_male01\abouttime03_sp03.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Animation"
+  {
+    event gesture "g_thank_god"
+    {
+      time 0.086667 2.386667
+      param "g_thank_god"
+      absolutetags playback_time
+      {
+        "in" 0.147059
+        "out" 0.735294
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.147059
+        "out" 0.735294
+      }
+    }
+    event gesture "g_joke_point"
+    {
+      time 2.413333 5.380000
+      param "g_joke_point"
+      absolutetags playback_time
+      {
+        "in" 0.113636
+        "out" 0.795455
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.113636
+        "out" 0.795455
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
