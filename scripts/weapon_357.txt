@@ -20,6 +20,20 @@ WeaponData
 
 	"damage"		"75"
 
+
+	//ironsights
+ 	   ExpOffset
+ 	  {
+      	"x"   "-15"
+      	"y"   "-5.5"
+     	 "z"   "4.2"
+  	   // "xori"   "-2.9" //Does not work
+	     // "yori"   "1.1" //Does not work
+	     // "zori"   "2.0" // Does not work
+	   }
+
+
+
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{

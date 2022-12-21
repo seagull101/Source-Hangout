@@ -1,0 +1,138 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "Audio"
+  {
+    event speak "vo\npc\scientist_male01\runforyourlife04.wav"
+    {
+      time 0.093333 1.277505
+      param "vo\npc\scientist_male01\runforyourlife04.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vo\npc\scientist_male01\runforyourlife05.wav"
+    {
+      time 1.500000 3.660000
+      param "vo\npc\scientist_male01\runforyourlife05.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "vo\npc\scientist_male01\no04.wav"
+    {
+      time 6.904615 8.170533
+      param "vo\npc\scientist_male01\no04.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Movement"
+  {
+    event moveto "Moveto Doorstand"
+    {
+      time 3.753333 6.876923
+      param "Doorstand"
+      param2 "Run"
+    }
+    event flexanimation "flex"
+    {
+      time -0.013333 3.429744
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_raiser" combo 
+        {
+          1.0000 0.4800
+          2.0234 0.0000
+        }
+        {
+          1.0000 0.5000
+          2.0234 0.5000
+        }
+        "inner_raiser" combo 
+        {
+          1.0000 1.0000
+          2.0234 0.0000
+        }
+        {
+          1.0000 0.5000
+          2.0234 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          1.0000 0.2100
+          2.0234 0.0000
+        }
+        {
+          1.0000 0.5000
+          2.0234 0.5000
+        }
+        "wrinkler" 
+        {
+          2.0234 0.4000
+        }
+      }
+    }
+  }
+  channel "Animation"
+  {
+    event gesture "g_leanGlass"
+    {
+      time 0.012821 3.678205
+      param "g_leanGlass"
+      absolutetags playback_time
+      {
+        "in" 0.229279
+        "out" 0.606506
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.211864
+        "out" 0.847458
+      }
+      sequenceduration 3.966666
+    }
+    event gesture "g_hands_dismissive"
+    {
+      time 6.814103 11.114103
+      param "g_hands_upset"
+      absolutetags playback_time
+      {
+        "apex" 0.132353
+        "in" 0.234375
+        "accent" 0.294118
+        "loop" 0.588235
+        "end" 0.735294
+        "out" 0.820312
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.170455
+        "in" 0.234375
+        "accent" 0.340909
+        "loop" 0.170455
+        "end" 0.852273
+        "out" 0.820313
+      }
+      sequenceduration 2.966667
+    }
+  }
+}
+
+actor "Doorstand"
+{
+}
+
+scalesettings
+{
+  "CChoreoView" "104"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
