@@ -11078,3 +11078,647 @@ Level flags = 0
 Total triangle count: 3855
 Writing s:\steamlibrary\sourcemods\source-hangout\maps\concept_turrets.bsp
 5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity func_water_analog (-1400.00 -1488.00 -427.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 0.0 -136.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-512.0 0.0 -208.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-960.0 0.0 -64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-760.0 0.0 -64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-560.0 0.0 -64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-464.0 0.0 -64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-352.0 0.0 -64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-144.0 0.0 -64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (217881 bytes)
+Error! prop_static using model "models/props_oar/exit_sign.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_oar/exit_sign.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_shelf001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_shelf001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1445 texinfos to 616
+Reduced 174 texdatas to 135 (7846 bytes to 6301)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.bsp
+Wrote ZIP buffer, estimated size 1637960, actual size 1620728
+2 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (219977 bytes)
+Error! prop_static using model "models/props_oar/exit_sign.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_oar/exit_sign.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_shelf001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_shelf001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1445 texinfos to 616
+Reduced 174 texdatas to 135 (7846 bytes to 6301)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.bsp
+Wrote ZIP buffer, estimated size 1637960, actual size 1620728
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.prt
+ 915 portalclusters
+3099 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4210 visible clusters (1.47%)
+Total clusters visible: 286803
+Average clusters visible: 313
+Building PAS...
+Average clusters audible: 836
+visdatasize:187723  compressed from 219600
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+6 minutes, 0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+1399 faces
+134249 square feet [19331992.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1399 patches before subdivision
+19565 patches after subdivision
+28 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 578688, max 277
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(94001, 61432, 42161)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(22300, 12476, 8114)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6058, 3010, 1899)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1793, 823, 506)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(557, 244, 146)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(177, 76, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(57, 25, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(19, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  43/1024         2064/49152    ( 4.2%) 
+brushes                611/8192         7332/98304    ( 7.5%) 
+brushsides            5988/65536       47904/524288   ( 9.1%) 
+planes                5510/65536      110200/1310720  ( 8.4%) 
+vertexes              4035/65536       48420/786432   ( 6.2%) 
+nodes                 1947/65536       62304/2097152  ( 3.0%) 
+texinfos               616/12288       44352/884736   ( 5.0%) 
+texdata                135/2048         4320/65536    ( 6.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1399/65536       78344/3670016  ( 2.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1025/65536       57400/3670016  ( 1.6%) 
+leaves                1991/65536       63712/2097152  ( 3.0%) 
+leaffaces             1892/65536        3784/131072   ( 2.9%) 
+leafbrushes           1274/65536        2548/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10813/512000      43252/2048000  ( 2.1%) 
+edges                 7020/256000      28080/1024000  ( 2.7%) 
+LDR worldlights         28/8192         2464/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            9/32768         108/393216   ( 0.0%) 
+waterstrips            265/32768        2650/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4647/65536        9294/131072   ( 7.1%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                28/512          9856/180224   ( 5.5%) 
+LDR lightdata         [variable]     1508028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      187723/16777216 ( 1.1%) 
+entdata               [variable]       84565/393216   (21.5%) 
+LDR ambient table     1991/65536        7964/262144   ( 3.0%) 
+HDR ambient table     1991/65536        7964/262144   ( 3.0%) 
+LDR leaf ambient      7304/65536      204512/1835008  (11.1%) 
+HDR leaf ambient      1991/65536       55748/1835008  ( 3.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/17306    ( 0.0%) 
+pakfile               [variable]     1620728/0        ( 0.0%) 
+physics               [variable]      219977/4194304  ( 5.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4059
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (220531 bytes)
+Error! prop_static using model "models/props_oar/exit_sign.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_oar/exit_sign.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_shelf001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_shelf001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1453 texinfos to 620
+Reduced 174 texdatas to 135 (7846 bytes to 6301)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.bsp
+Wrote ZIP buffer, estimated size 1637960, actual size 1620728
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.prt
+ 915 portalclusters
+3099 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4216 visible clusters (1.47%)
+Total clusters visible: 286803
+Average clusters visible: 313
+Building PAS...
+Average clusters audible: 836
+visdatasize:187723  compressed from 219600
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+5 minutes, 58 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+1405 faces
+134694 square feet [19395992.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1405 patches before subdivision
+19571 patches after subdivision
+28 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 578915, max 277
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(94141, 61460, 42172)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(22354, 12487, 8119)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6076, 3014, 1901)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1799, 824, 507)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(559, 245, 147)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(178, 76, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(57, 25, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(19, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes                612/8192         7344/98304    ( 7.5%) 
+brushsides            5994/65536       47952/524288   ( 9.1%) 
+planes                5520/65536      110400/1310720  ( 8.4%) 
+vertexes              4043/65536       48516/786432   ( 6.2%) 
+nodes                 1953/65536       62496/2097152  ( 3.0%) 
+texinfos               620/12288       44640/884736   ( 5.0%) 
+texdata                135/2048         4320/65536    ( 6.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1405/65536       78680/3670016  ( 2.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1031/65536       57736/3670016  ( 1.6%) 
+leaves                1998/65536       63936/2097152  ( 3.0%) 
+leaffaces             1898/65536        3796/131072   ( 2.9%) 
+leafbrushes           1275/65536        2550/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10861/512000      43444/2048000  ( 2.1%) 
+edges                 7044/256000      28176/1024000  ( 2.8%) 
+LDR worldlights         28/8192         2464/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            9/32768         108/393216   ( 0.0%) 
+waterstrips            265/32768        2650/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4647/65536        9294/131072   ( 7.1%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                28/512          9856/180224   ( 5.5%) 
+LDR lightdata         [variable]     1508028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      187723/16777216 ( 1.1%) 
+entdata               [variable]       87379/393216   (22.2%) 
+LDR ambient table     1998/65536        7992/262144   ( 3.0%) 
+HDR ambient table     1998/65536        7992/262144   ( 3.0%) 
+LDR leaf ambient      7310/65536      204680/1835008  (11.2%) 
+HDR leaf ambient      1998/65536       55944/1835008  ( 3.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/17306    ( 0.0%) 
+pakfile               [variable]     1620728/0        ( 0.0%) 
+physics               [variable]      220531/4194304  ( 5.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4071
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (220530 bytes)
+Error! prop_static using model "models/props_oar/exit_sign.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_oar/exit_sign.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_shelf001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_shelf001a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1453 texinfos to 620
+Reduced 174 texdatas to 135 (7846 bytes to 6301)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\concept_turrets.bsp
+Wrote ZIP buffer, estimated size 1637960, actual size 1620728
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.prt
+ 915 portalclusters
+3099 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 4220 visible clusters (1.47%)
+Total clusters visible: 286807
+Average clusters visible: 313
+Building PAS...
+Average clusters audible: 836
+visdatasize:187723  compressed from 219600
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+5 minutes, 34 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+1405 faces
+134534 square feet [19372952.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1405 patches before subdivision
+19571 patches after subdivision
+28 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 578926, max 277
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(94165, 61466, 42175)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(22353, 12488, 8119)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6076, 3015, 1901)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1799, 825, 507)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(559, 245, 147)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(178, 76, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(57, 25, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(19, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes                612/8192         7344/98304    ( 7.5%) 
+brushsides            5994/65536       47952/524288   ( 9.1%) 
+planes                5518/65536      110360/1310720  ( 8.4%) 
+vertexes              4043/65536       48516/786432   ( 6.2%) 
+nodes                 1953/65536       62496/2097152  ( 3.0%) 
+texinfos               620/12288       44640/884736   ( 5.0%) 
+texdata                135/2048         4320/65536    ( 6.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1405/65536       78680/3670016  ( 2.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1031/65536       57736/3670016  ( 1.6%) 
+leaves                1998/65536       63936/2097152  ( 3.0%) 
+leaffaces             1898/65536        3796/131072   ( 2.9%) 
+leafbrushes           1275/65536        2550/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10861/512000      43444/2048000  ( 2.1%) 
+edges                 7044/256000      28176/1024000  ( 2.8%) 
+LDR worldlights         28/8192         2464/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            9/32768         108/393216   ( 0.0%) 
+waterstrips            265/32768        2650/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4647/65536        9294/131072   ( 7.1%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                28/512          9856/180224   ( 5.5%) 
+LDR lightdata         [variable]     1508028/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      187723/16777216 ( 1.1%) 
+entdata               [variable]       87386/393216   (22.2%) 
+LDR ambient table     1998/65536        7992/262144   ( 3.0%) 
+HDR ambient table     1998/65536        7992/262144   ( 3.0%) 
+LDR leaf ambient      7310/65536      204680/1835008  (11.2%) 
+HDR leaf ambient      1998/65536       55944/1835008  ( 3.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/17306    ( 0.0%) 
+pakfile               [variable]     1620728/0        ( 0.0%) 
+physics               [variable]      220530/4194304  ( 5.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4071
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+1405 faces
+134534 square feet [19372952.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1405 patches before subdivision
+19571 patches after subdivision
+28 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 578926, max 277
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(94162, 61463, 42173)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(22353, 12488, 8119)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6076, 3015, 1901)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1799, 825, 507)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(559, 245, 147)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(178, 76, 44)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(57, 25, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(19, 8, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  44/1024         2112/49152    ( 4.3%) 
+brushes                612/8192         7344/98304    ( 7.5%) 
+brushsides            5994/65536       47952/524288   ( 9.1%) 
+planes                5518/65536      110360/1310720  ( 8.4%) 
+vertexes              4043/65536       48516/786432   ( 6.2%) 
+nodes                 1953/65536       62496/2097152  ( 3.0%) 
+texinfos               620/12288       44640/884736   ( 5.0%) 
+texdata                135/2048         4320/65536    ( 6.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1405/65536       78680/3670016  ( 2.1%) 
+hdr faces             1405/65536       78680/3670016  ( 2.1%) 
+origfaces             1031/65536       57736/3670016  ( 1.6%) 
+leaves                1998/65536       63936/2097152  ( 3.0%) 
+leaffaces             1898/65536        3796/131072   ( 2.9%) 
+leafbrushes           1275/65536        2550/131072   ( 1.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10861/512000      43444/2048000  ( 2.1%) 
+edges                 7044/256000      28176/1024000  ( 2.8%) 
+LDR worldlights         28/8192         2464/720896   ( 0.3%) 
+HDR worldlights         28/8192         2464/720896   ( 0.3%) 
+leafwaterdata            9/32768         108/393216   ( 0.0%) 
+waterstrips            265/32768        2650/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4647/65536        9294/131072   ( 7.1%) 
+cubemapsamples          14/1024          224/16384    ( 1.4%) 
+overlays                28/512          9856/180224   ( 5.5%) 
+LDR lightdata         [variable]     1508028/0        ( 0.0%) 
+HDR lightdata         [variable]     1508028/0        ( 0.0%) 
+visdata               [variable]      187723/16777216 ( 1.1%) 
+entdata               [variable]       87386/393216   (22.2%) 
+LDR ambient table     1998/65536        7992/262144   ( 3.0%) 
+HDR ambient table     1998/65536        7992/262144   ( 3.0%) 
+LDR leaf ambient      7310/65536      204680/1835008  (11.2%) 
+HDR leaf ambient      7310/65536      204680/1835008  (11.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/17306    ( 0.0%) 
+pakfile               [variable]     1620728/0        ( 0.0%) 
+physics               [variable]      220530/4194304  ( 5.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4071
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\concept_turrets.bsp
+5 seconds elapsed
