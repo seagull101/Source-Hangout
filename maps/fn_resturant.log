@@ -1,0 +1,2128 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85307 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 517 texinfos to 348
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 32 visible clusters (0.10%)
+Total clusters visible: 31558
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1046 faces
+329315 square feet [47421476.00 square inches]
+4 Displacements
+44821 Square Feet [6454272.00 Square Inches]
+1046 patches before subdivision
+20234 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1109279, max 530
+transfer lists:   8.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47851, 45220, 34659)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10915, 9821, 5886)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2673, 2291, 1084)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(657, 534, 198)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(164, 126, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 30, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0250 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                245/8192         2940/98304    ( 3.0%) 
+brushsides            1570/65536       12560/524288   ( 2.4%) 
+planes                 582/65536       11640/1310720  ( 0.9%) 
+vertexes              1507/65536       18084/786432   ( 2.3%) 
+nodes                  449/65536       14368/2097152  ( 0.7%) 
+texinfos               348/12288       25056/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts             324/0            6480/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       78892/0           78892/0        ( 0.0%) 
+faces                 1046/65536       58576/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              528/65536       29568/3670016  ( 0.8%) 
+leaves                 452/65536       14464/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            494/65536         988/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7022/512000      28088/2048000  ( 1.4%) 
+edges                 4115/256000      16460/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      677252/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       31193/393216   ( 7.9%) 
+LDR ambient table      452/65536        1808/262144   ( 0.7%) 
+HDR ambient table      452/65536        1808/262144   ( 0.7%) 
+LDR leaf ambient      2139/65536       59892/1835008  ( 3.3%) 
+HDR leaf ambient       452/65536       12656/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5178     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       85307/4194304  ( 2.0%) 
+physics terrain       [variable]         466/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2823
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85307 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 517 texinfos to 348
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 33 visible clusters (0.10%)
+Total clusters visible: 31561
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1046 faces
+329315 square feet [47421476.00 square inches]
+4 Displacements
+44821 Square Feet [6454272.00 Square Inches]
+1046 patches before subdivision
+20234 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1109277, max 530
+transfer lists:   8.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47871, 45239, 34673)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10916, 9822, 5887)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2673, 2291, 1084)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(657, 535, 198)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(164, 126, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(41, 30, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(10, 7, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0137 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                245/8192         2940/98304    ( 3.0%) 
+brushsides            1570/65536       12560/524288   ( 2.4%) 
+planes                 582/65536       11640/1310720  ( 0.9%) 
+vertexes              1507/65536       18084/786432   ( 2.3%) 
+nodes                  449/65536       14368/2097152  ( 0.7%) 
+texinfos               348/12288       25056/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts             324/0            6480/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       78892/0           78892/0        ( 0.0%) 
+faces                 1046/65536       58576/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              528/65536       29568/3670016  ( 0.8%) 
+leaves                 452/65536       14464/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            494/65536         988/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7022/512000      28088/2048000  ( 1.4%) 
+edges                 4115/256000      16460/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      677252/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       31199/393216   ( 7.9%) 
+LDR ambient table      452/65536        1808/262144   ( 0.7%) 
+HDR ambient table      452/65536        1808/262144   ( 0.7%) 
+LDR leaf ambient      2139/65536       59892/1835008  ( 3.3%) 
+HDR leaf ambient       452/65536       12656/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5178     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       85307/4194304  ( 2.0%) 
+physics terrain       [variable]         466/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2823
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85307 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 517 texinfos to 348
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 32 visible clusters (0.10%)
+Total clusters visible: 31558
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1046 faces
+329315 square feet [47421476.00 square inches]
+4 Displacements
+44821 Square Feet [6454272.00 Square Inches]
+1046 patches before subdivision
+20234 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1098369, max 530
+transfer lists:   8.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(46682, 44228, 34057)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10447, 9450, 5711)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2509, 2170, 1040)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(602, 497, 187)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(146, 115, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(36, 27, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0103 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                245/8192         2940/98304    ( 3.0%) 
+brushsides            1570/65536       12560/524288   ( 2.4%) 
+planes                 582/65536       11640/1310720  ( 0.9%) 
+vertexes              1507/65536       18084/786432   ( 2.3%) 
+nodes                  449/65536       14368/2097152  ( 0.7%) 
+texinfos               348/12288       25056/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                4/0             704/0        ( 0.0%) 
+disp_verts             324/0            6480/0        ( 0.0%) 
+disp_tris              512/0            1024/0        ( 0.0%) 
+disp_lmsamples       78892/0           78892/0        ( 0.0%) 
+faces                 1046/65536       58576/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              528/65536       29568/3670016  ( 0.8%) 
+leaves                 452/65536       14464/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            494/65536         988/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7022/512000      28088/2048000  ( 1.4%) 
+edges                 4115/256000      16460/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      677252/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       31219/393216   ( 7.9%) 
+LDR ambient table      452/65536        1808/262144   ( 0.7%) 
+HDR ambient table      452/65536        1808/262144   ( 0.7%) 
+LDR leaf ambient      2139/65536       59892/1835008  ( 3.3%) 
+HDR leaf ambient       452/65536       12656/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       85307/4194304  ( 2.0%) 
+physics terrain       [variable]         466/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2823
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85862 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 35 visible clusters (0.11%)
+Total clusters visible: 31561
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0103 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1576/65536       12608/524288   ( 2.4%) 
+planes                 606/65536       12120/1310720  ( 0.9%) 
+vertexes              1519/65536       18228/786432   ( 2.3%) 
+nodes                  455/65536       14560/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32014/393216   ( 8.1%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2126/65536       59528/1835008  ( 3.2%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       85862/4194304  ( 2.0%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85862 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 35 visible clusters (0.11%)
+Total clusters visible: 31561
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0076 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1576/65536       12608/524288   ( 2.4%) 
+planes                 606/65536       12120/1310720  ( 0.9%) 
+vertexes              1519/65536       18228/786432   ( 2.3%) 
+nodes                  455/65536       14560/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32160/393216   ( 8.2%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2126/65536       59528/1835008  ( 3.2%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       85862/4194304  ( 2.0%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85862 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 30 visible clusters (0.10%)
+Total clusters visible: 31556
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0099 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1576/65536       12608/524288   ( 2.4%) 
+planes                 606/65536       12120/1310720  ( 0.9%) 
+vertexes              1519/65536       18228/786432   ( 2.3%) 
+nodes                  455/65536       14560/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32166/393216   ( 8.2%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2126/65536       59528/1835008  ( 3.2%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       85862/4194304  ( 2.0%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85862 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 32 visible clusters (0.10%)
+Total clusters visible: 31558
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9069, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0096 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1576/65536       12608/524288   ( 2.4%) 
+planes                 606/65536       12120/1310720  ( 0.9%) 
+vertexes              1519/65536       18228/786432   ( 2.3%) 
+nodes                  455/65536       14560/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32251/393216   ( 8.2%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2126/65536       59528/1835008  ( 3.2%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       85862/4194304  ( 2.0%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85862 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 33 visible clusters (0.10%)
+Total clusters visible: 31559
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0338 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1576/65536       12608/524288   ( 2.4%) 
+planes                 606/65536       12120/1310720  ( 0.9%) 
+vertexes              1519/65536       18228/786432   ( 2.3%) 
+nodes                  455/65536       14560/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32270/393216   ( 8.2%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient      2126/65536       59528/1835008  ( 3.2%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       85862/4194304  ( 2.0%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86102 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 30 visible clusters (0.10%)
+Total clusters visible: 31556
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9069, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0329 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1581/65536       12648/524288   ( 2.4%) 
+planes                 624/65536       12480/1310720  ( 1.0%) 
+vertexes              1523/65536       18276/786432   ( 2.3%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 462/65536       14784/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32302/393216   ( 8.2%) 
+LDR ambient table      462/65536        1848/262144   ( 0.7%) 
+HDR ambient table      462/65536        1848/262144   ( 0.7%) 
+LDR leaf ambient      2152/65536       60256/1835008  ( 3.3%) 
+HDR leaf ambient       462/65536       12936/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       86102/4194304  ( 2.1%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86102 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 30 visible clusters (0.10%)
+Total clusters visible: 31556
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0291 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1581/65536       12648/524288   ( 2.4%) 
+planes                 624/65536       12480/1310720  ( 1.0%) 
+vertexes              1523/65536       18276/786432   ( 2.3%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 462/65536       14784/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32302/393216   ( 8.2%) 
+LDR ambient table      462/65536        1848/262144   ( 0.7%) 
+HDR ambient table      462/65536        1848/262144   ( 0.7%) 
+LDR leaf ambient      2152/65536       60256/1835008  ( 3.3%) 
+HDR leaf ambient       462/65536       12936/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       86102/4194304  ( 2.1%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86102 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 35 visible clusters (0.11%)
+Total clusters visible: 31561
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0277 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1581/65536       12648/524288   ( 2.4%) 
+planes                 624/65536       12480/1310720  ( 1.0%) 
+vertexes              1523/65536       18276/786432   ( 2.3%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 462/65536       14784/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32302/393216   ( 8.2%) 
+LDR ambient table      462/65536        1848/262144   ( 0.7%) 
+HDR ambient table      462/65536        1848/262144   ( 0.7%) 
+LDR leaf ambient      2152/65536       60256/1835008  ( 3.3%) 
+HDR leaf ambient       462/65536       12936/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       86102/4194304  ( 2.1%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86102 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 521 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 35 visible clusters (0.11%)
+Total clusters visible: 31561
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9069, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0077 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1581/65536       12648/524288   ( 2.4%) 
+planes                 624/65536       12480/1310720  ( 1.0%) 
+vertexes              1523/65536       18276/786432   ( 2.3%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 462/65536       14784/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32306/393216   ( 8.2%) 
+LDR ambient table      462/65536        1848/262144   ( 0.7%) 
+HDR ambient table      462/65536        1848/262144   ( 0.7%) 
+LDR leaf ambient      2152/65536       60256/1835008  ( 3.3%) 
+HDR leaf ambient       462/65536       12936/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       86102/4194304  ( 2.1%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86054 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 524 texinfos to 350
+Reduced 30 texdatas to 28 (781 bytes to 682)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 33 visible clusters (0.10%)
+Total clusters visible: 31559
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0117 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1582/65536       12656/524288   ( 2.4%) 
+planes                 630/65536       12600/1310720  ( 1.0%) 
+vertexes              1523/65536       18276/786432   ( 2.3%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               350/12288       25200/884736   ( 2.8%) 
+texdata                 28/2048          896/65536    ( 1.4%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 462/65536       14784/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32320/393216   ( 8.2%) 
+LDR ambient table      462/65536        1848/262144   ( 0.7%) 
+HDR ambient table      462/65536        1848/262144   ( 0.7%) 
+LDR leaf ambient      2195/65536       61460/1835008  ( 3.3%) 
+HDR leaf ambient       462/65536       12936/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       86054/4194304  ( 2.1%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86054 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 524 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 32 visible clusters (0.10%)
+Total clusters visible: 31558
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0392 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1582/65536       12656/524288   ( 2.4%) 
+planes                 630/65536       12600/1310720  ( 1.0%) 
+vertexes              1523/65536       18276/786432   ( 2.3%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 462/65536       14784/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32153/393216   ( 8.2%) 
+LDR ambient table      462/65536        1848/262144   ( 0.7%) 
+HDR ambient table      462/65536        1848/262144   ( 0.7%) 
+LDR leaf ambient      2179/65536       61012/1835008  ( 3.3%) 
+HDR leaf ambient       462/65536       12936/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       86054/4194304  ( 2.1%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86054 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 524 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 31 visible clusters (0.10%)
+Total clusters visible: 31559
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0445 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1582/65536       12656/524288   ( 2.4%) 
+planes                 630/65536       12600/1310720  ( 1.0%) 
+vertexes              1523/65536       18276/786432   ( 2.3%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 462/65536       14784/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       32154/393216   ( 8.2%) 
+LDR ambient table      462/65536        1848/262144   ( 0.7%) 
+HDR ambient table      462/65536        1848/262144   ( 0.7%) 
+LDR leaf ambient      2179/65536       61012/1835008  ( 3.3%) 
+HDR leaf ambient       462/65536       12936/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       86054/4194304  ( 2.1%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (86054 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 524 texinfos to 349
+Reduced 29 texdatas to 27 (760 bytes to 661)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_resturant.bsp
+Wrote ZIP buffer, estimated size 212685, actual size 211935
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.prt
+ 222 portalclusters
+ 597 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 34 visible clusters (0.11%)
+Total clusters visible: 31560
+Average clusters visible: 142
+Building PAS...
+Average clusters audible: 221
+visdatasize:14138  compressed from 14208
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+1047 faces
+329315 square feet [47421476.00 square inches]
+5 Displacements
+109027 Square Feet [15699968.00 Square Inches]
+1047 patches before subdivision
+21841 patches after subdivision
+23 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1092886, max 529
+transfer lists:   8.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43346, 41092, 31725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10027, 9070, 5499)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2424, 2096, 1008)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(584, 482, 182)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(142, 112, 33)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(35, 26, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 6, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0108 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                246/8192         2952/98304    ( 3.0%) 
+brushsides            1582/65536       12656/524288   ( 2.4%) 
+planes                 630/65536       12600/1310720  ( 1.0%) 
+vertexes              1523/65536       18276/786432   ( 2.3%) 
+nodes                  458/65536       14656/2097152  ( 0.7%) 
+texinfos               349/12288       25128/884736   ( 2.8%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos                5/0             880/0        ( 0.0%) 
+disp_verts             405/0            8100/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples      151784/0          151784/0        ( 0.0%) 
+faces                 1047/65536       58632/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              529/65536       29624/3670016  ( 0.8%) 
+leaves                 462/65536       14784/2097152  ( 0.7%) 
+leaffaces             1276/65536        2552/131072   ( 1.9%) 
+leafbrushes            495/65536         990/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7030/512000      28120/2048000  ( 1.4%) 
+edges                 4123/256000      16492/1024000  ( 1.6%) 
+LDR worldlights         23/8192         2024/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]      750148/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       14138/16777216 ( 0.1%) 
+entdata               [variable]       33157/393216   ( 8.4%) 
+LDR ambient table      462/65536        1848/262144   ( 0.7%) 
+HDR ambient table      462/65536        1848/262144   ( 0.7%) 
+LDR leaf ambient      2179/65536       61012/1835008  ( 3.3%) 
+HDR leaf ambient       462/65536       12936/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5882     ( 0.0%) 
+pakfile               [variable]      211935/0        ( 0.0%) 
+physics               [variable]       86054/4194304  ( 2.1%) 
+physics terrain       [variable]         547/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 2825
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_resturant.bsp
+5 seconds elapsed
