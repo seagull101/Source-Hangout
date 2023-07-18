@@ -306,8 +306,7 @@ WebhookURL(string) 	: "URL"		: ""	: "Where the message will be sent"
 		1: "Play everywhere" : 0
 		16:"Start Silent": 1
 		32:"Is NOT Looped": 1
-		64: "Legacy Sound" : 0
-		128: "Sound bounces off walls (requires Legacy Sound to be disabled)" : 1
+		64: "Requires Line of Sight" : 0
 	]
 	SourceEntityName(target_destination) : "SourceEntityName" : : "If an entity is specified, sound will come from this named entity instead of the location of ambient_generic."
 

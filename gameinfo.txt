@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"Source Hangout"
+	game	"Source Hangout (DEV)"
 	title	"The Source Hangout"
 	title2	""
 	type multiplayer_only

@@ -19247,3 +19247,271 @@ Level flags = 0
 Total triangle count: 1286
 Writing s:\steamlibrary\sourcemods\source-hangout\maps\lab_01.bsp
 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\lab_01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_dynamic (-960.00 -416.00 0.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1024.0 1536.0 128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 128.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 1536.0 128.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1184.0 0.0 -96.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1088.0 0.0 -96.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1632.0 0.0 -96.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 0.0 -136.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1632.0 0.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (72724 bytes)
+Error! To use model "models/props_canal/mattpipe.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_canal/mattpipe.mdl"!
+Error! prop_static using model "models/props_blackmesa/metalcrate01.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_blackmesa/metalcrate01.mdl"!
+Error! prop_static using model "models/props_office/metalbin01.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_office/metalbin01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 448 texinfos to 218
+Reduced 77 texdatas to 59 (2767 bytes to 2312)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\lab_01.bsp
+Wrote ZIP buffer, estimated size 759023, actual size 751975
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\lab_01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\lab_01.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\lab_01.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\lab_01.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\lab_01.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (74820 bytes)
+Error! To use model "models/props_canal/mattpipe.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props_canal/mattpipe.mdl"!
+Error! prop_static using model "models/props_blackmesa/metalcrate01.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_blackmesa/metalcrate01.mdl"!
+Error! prop_static using model "models/props_office/metalbin01.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_office/metalbin01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 448 texinfos to 218
+Reduced 77 texdatas to 59 (2767 bytes to 2312)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\lab_01.bsp
+Wrote ZIP buffer, estimated size 759023, actual size 751975
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\lab_01.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\lab_01.prt
+ 268 portalclusters
+ 796 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 111 visible clusters (0.35%)
+Total clusters visible: 31915
+Average clusters visible: 119
+Building PAS...
+Average clusters audible: 260
+visdatasize:20176  compressed from 21440
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\lab_01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\lab_01.bsp
+476 faces
+42234 square feet [6081726.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+476 patches before subdivision
+9210 patches after subdivision
+41 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 795785, max 276
+transfer lists:   6.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45535, 46077, 39210)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(14434, 14681, 11863)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4699, 4703, 3440)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1532, 1515, 1035)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(509, 493, 309)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(169, 161, 93)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(57, 53, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(19, 18, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(7, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                201/8192         2412/98304    ( 2.5%) 
+brushsides            1238/65536        9904/524288   ( 1.9%) 
+planes                 472/65536        9440/1310720  ( 0.7%) 
+vertexes              1269/65536       15228/786432   ( 1.9%) 
+nodes                  656/65536       20992/2097152  ( 1.0%) 
+texinfos               218/12288       15696/884736   ( 1.8%) 
+texdata                 59/2048         1888/65536    ( 2.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  476/65536       26656/3670016  ( 0.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              377/65536       21112/3670016  ( 0.6%) 
+leaves                 677/65536       21664/2097152  ( 1.0%) 
+leaffaces              523/65536        1046/131072   ( 0.8%) 
+leafbrushes            342/65536         684/131072   ( 0.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3738/512000      14952/2048000  ( 0.7%) 
+edges                 2325/256000       9300/1024000  ( 0.9%) 
+LDR worldlights         41/8192         3608/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             72/32768         720/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1179/65536        2358/131072   ( 1.8%) 
+cubemapsamples           6/1024           96/16384    ( 0.6%) 
+overlays                 9/512          3168/180224   ( 1.8%) 
+LDR lightdata         [variable]      403676/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       20176/16777216 ( 0.1%) 
+entdata               [variable]      112923/393216   (28.7%) 
+LDR ambient table      677/65536        2708/262144   ( 1.0%) 
+HDR ambient table      677/65536        2708/262144   ( 1.0%) 
+LDR leaf ambient      3160/65536       88480/1835008  ( 4.8%) 
+HDR leaf ambient       677/65536       18956/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12012    ( 0.0%) 
+pakfile               [variable]      751975/0        ( 0.0%) 
+physics               [variable]       74820/4194304  ( 1.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1278
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\lab_01.bsp
+1 second elapsed

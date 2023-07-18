@@ -1,2 +1,2 @@
-Xcopy /C /Y "D:\SteamLibrary\steamapps\sourcemods\MetroSDK\game\server\Release_mod_hl2mp\server.dll" "S:\steamlibrary\sourcemods\Source-Hangout\bin"
-Xcopy /C /Y "D:\SteamLibrary\steamapps\sourcemods\MetroSDK\game\client\Release_mod_hl2mp\client.dll" "S:\steamlibrary\sourcemods\Source-Hangout\bin"
+Xcopy /C /Y "D:\SteamLibrary\steamapps\sourcemods\MetroSDK\game\server\Release_mod_hl2mp\server.dll" "C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\bin"
+Xcopy /C /Y "D:\SteamLibrary\steamapps\sourcemods\MetroSDK\game\client\Release_mod_hl2mp\client.dll" "C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\bin"

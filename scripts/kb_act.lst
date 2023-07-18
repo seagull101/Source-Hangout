@@ -27,6 +27,7 @@
 "invnext"				"#Valve_Next_Weapon"
 "invprev"				"#Valve_Previous_Weapon"
 "lastinv"				"#Valve_Last_Weapon_Used"
+"+drop"				"Drop a weapon for another player"
 "use weapon_crowbar;use weapon_stunstick" "#HL2_Crowbar_Menu"
 "use weapon_physcannon"	"#HL2_GravityGun_Menu"
 "use weapon_pistol"		"#HL2_Pistol_Menu"

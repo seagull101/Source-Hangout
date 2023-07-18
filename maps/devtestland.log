@@ -1,0 +1,516 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\devtestland.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop concretegrit for material CONCRETE/CONCRETE_WALL_CRETE4W, using default
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+Patching WVT material: maps/devtestland/nature/blend_rp_ground_dt_lite_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_caverock_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_rp_skybox_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_rp_rockwall001a_st_rockcliff003_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_rp_ground_dt_none_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_rp_rockwall002a_st_rockcliff003_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 254 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\devtestland.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dusk_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dusk_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (2309741 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+.Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+..8...9...10
+Compacting texture/material tables...
+Reduced 7508 texinfos to 3159
+Reduced 283 texdatas to 245 (13512 bytes to 12145)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\devtestland.bsp
+Wrote ZIP buffer, estimated size 4006296, actual size 3969902
+3 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.prt
+ 692 portalclusters
+2170 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2312 visible clusters (0.95%)
+Total clusters visible: 242802
+Average clusters visible: 350
+Building PAS...
+Average clusters audible: 662
+visdatasize:119868  compressed from 121792
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.bsp
+1 minute, 8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.bsp
+6662 faces
+24 degenerate faces
+1654097 square feet [238190080.00 square inches]
+279 Displacements
+122944 Square Feet [17704064.00 Square Inches]
+6638 patches before subdivision
+73652 patches after subdivision
+62 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10537746, max 949
+transfer lists:  80.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(116990, 50497, 30517)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9882, 3143, 1434)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(930, 231, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(96, 21, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(10, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0185 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  89/1024         4272/49152    ( 8.7%) 
+brushes               1898/8192        22776/98304    (23.2%) 
+brushsides           17906/65536      143248/524288   (27.3%) 
+planes               20454/65536      409080/1310720  (31.2%) 
+vertexes             12390/65536      148680/786432   (18.9%) 
+nodes                 2932/65536       93824/2097152  ( 4.5%) 
+texinfos              3159/12288      227448/884736   (25.7%) 
+texdata                245/2048         7840/65536    (12.0%) 
+dispinfos              279/0           49104/0        ( 0.0%) 
+disp_verts           10207/0          204140/0        ( 0.0%) 
+disp_tris            14496/0           28992/0        ( 0.0%) 
+disp_lmsamples      528032/0          528032/0        ( 0.0%) 
+faces                 6662/65536      373072/3670016  (10.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4633/65536      259448/3670016  ( 7.1%) 
+leaves                3022/65536       96704/2097152  ( 4.6%) 
+leaffaces             8257/65536       16514/131072   (12.6%) 
+leafbrushes           4283/65536        8566/131072   ( 6.5%) 
+areas                    7/256            56/2048     ( 2.7%) 
+surfedges            52025/512000     208100/2048000  (10.2%) 
+edges                32526/256000     130104/1024000  (12.7%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            950/32768        9500/327680   ( 2.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23037/65536       46074/131072   (35.2%) 
+cubemapsamples          44/1024          704/16384    ( 4.3%) 
+overlays                47/512         16544/180224   ( 9.2%) 
+LDR lightdata         [variable]     9891096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      119868/16777216 ( 0.7%) 
+entdata               [variable]      369818/393216   (94.0%) VERY FULL!
+LDR ambient table     3022/65536       12088/262144   ( 4.6%) 
+HDR ambient table     3022/65536       12088/262144   ( 4.6%) 
+LDR leaf ambient     11691/65536      327348/1835008  (17.8%) 
+HDR leaf ambient      3022/65536       84616/1835008  ( 4.6%) 
+occluders                1/0              40/0        ( 0.0%) 
+occluder polygons        1/0              12/0        ( 0.0%) 
+occluder vert ind        4/0              16/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/58512    ( 0.0%) 
+pakfile               [variable]     3969902/0        ( 0.0%) 
+physics               [variable]     2309741/4194304  (55.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 20064
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.bsp
+33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\devtestland.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop concretegrit for material CONCRETE/CONCRETE_WALL_CRETE4W, using default
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+Patching WVT material: maps/devtestland/nature/blend_rp_ground_dt_lite_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_caverock_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_rp_skybox_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_rp_rockwall001a_st_rockcliff003_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_rp_ground_dt_none_wvt_patch
+Patching WVT material: maps/devtestland/nature/blend_rp_rockwall002a_st_rockcliff003_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 254 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\devtestland.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dusk_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_dusk_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (2309741 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+.Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+Material NATURE/BLEND_RP_GROUND_DT_LITE uses unknown detail object type short_redgrass_bms_ltrev!
+..8...9...10
+Compacting texture/material tables...
+Reduced 7508 texinfos to 3159
+Reduced 283 texdatas to 245 (13512 bytes to 12145)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\devtestland.bsp
+Wrote ZIP buffer, estimated size 4006296, actual size 3969902
+3 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.prt
+ 692 portalclusters
+2170 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2312 visible clusters (0.95%)
+Total clusters visible: 242802
+Average clusters visible: 350
+Building PAS...
+Average clusters audible: 662
+visdatasize:119868  compressed from 121792
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.bsp
+1 minute, 1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.bsp
+6662 faces
+24 degenerate faces
+1654097 square feet [238190080.00 square inches]
+279 Displacements
+122944 Square Feet [17704064.00 Square Inches]
+6638 patches before subdivision
+73652 patches after subdivision
+62 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10537746, max 949
+transfer lists:  80.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(116988, 50497, 30517)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9881, 3143, 1434)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(930, 231, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(96, 21, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(10, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0173 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  89/1024         4272/49152    ( 8.7%) 
+brushes               1898/8192        22776/98304    (23.2%) 
+brushsides           17906/65536      143248/524288   (27.3%) 
+planes               20454/65536      409080/1310720  (31.2%) 
+vertexes             12390/65536      148680/786432   (18.9%) 
+nodes                 2932/65536       93824/2097152  ( 4.5%) 
+texinfos              3159/12288      227448/884736   (25.7%) 
+texdata                245/2048         7840/65536    (12.0%) 
+dispinfos              279/0           49104/0        ( 0.0%) 
+disp_verts           10207/0          204140/0        ( 0.0%) 
+disp_tris            14496/0           28992/0        ( 0.0%) 
+disp_lmsamples      528032/0          528032/0        ( 0.0%) 
+faces                 6662/65536      373072/3670016  (10.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4633/65536      259448/3670016  ( 7.1%) 
+leaves                3022/65536       96704/2097152  ( 4.6%) 
+leaffaces             8257/65536       16514/131072   (12.6%) 
+leafbrushes           4283/65536        8566/131072   ( 6.5%) 
+areas                    7/256            56/2048     ( 2.7%) 
+surfedges            52025/512000     208100/2048000  (10.2%) 
+edges                32526/256000     130104/1024000  (12.7%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            950/32768        9500/327680   ( 2.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23037/65536       46074/131072   (35.2%) 
+cubemapsamples          44/1024          704/16384    ( 4.3%) 
+overlays                47/512         16544/180224   ( 9.2%) 
+LDR lightdata         [variable]     9891096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      119868/16777216 ( 0.7%) 
+entdata               [variable]      370321/393216   (94.2%) VERY FULL!
+LDR ambient table     3022/65536       12088/262144   ( 4.6%) 
+HDR ambient table     3022/65536       12088/262144   ( 4.6%) 
+LDR leaf ambient     11691/65536      327348/1835008  (17.8%) 
+HDR leaf ambient      3022/65536       84616/1835008  ( 4.6%) 
+occluders                1/0              40/0        ( 0.0%) 
+occluder polygons        1/0              12/0        ( 0.0%) 
+occluder vert ind        4/0              16/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/58512    ( 0.0%) 
+pakfile               [variable]     3969902/0        ( 0.0%) 
+physics               [variable]     2309741/4194304  (55.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 20064
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\devtestland.bsp
+34 seconds elapsed
