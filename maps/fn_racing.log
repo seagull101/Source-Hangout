@@ -1,0 +1,3527 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.vmf
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38869 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 216 texinfos to 123
+Reduced 34 texdatas to 33 (930 bytes to 875)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 106344, actual size 105996
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 169 portalclusters
+ 501 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 42 visible clusters (0.23%)
+Total clusters visible: 18521
+Average clusters visible: 109
+Building PAS...
+Average clusters audible: 165
+visdatasize:8791  compressed from 8112
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+385 faces
+533347 square feet [76802000.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+385 patches before subdivision
+4331 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 286457, max 235
+transfer lists:   2.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(26768, 20894, 13648)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5255, 4088, 2618)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1073, 850, 554)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(222, 184, 125)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(47, 41, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 10, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                113/8192         1356/98304    ( 1.4%) 
+brushsides             700/65536        5600/524288   ( 1.1%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes               706/65536        8472/786432   ( 1.1%) 
+nodes                  404/65536       12928/2097152  ( 0.6%) 
+texinfos               123/12288        8856/884736   ( 1.0%) 
+texdata                 33/2048         1056/65536    ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  385/65536       21560/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              187/65536       10472/3670016  ( 0.3%) 
+leaves                 411/65536       13152/2097152  ( 0.6%) 
+leaffaces              427/65536         854/131072   ( 0.7%) 
+leafbrushes            256/65536         512/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2498/512000       9992/2048000  ( 0.5%) 
+edges                 1541/256000       6164/1024000  ( 0.6%) 
+LDR worldlights         14/8192         1232/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             36/32768         360/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           531/65536        1062/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]      294176/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8791/16777216 ( 0.1%) 
+entdata               [variable]       34459/393216   ( 8.8%) 
+LDR ambient table      411/65536        1644/262144   ( 0.6%) 
+HDR ambient table      411/65536        1644/262144   ( 0.6%) 
+LDR leaf ambient      2197/65536       61516/1835008  ( 3.4%) 
+HDR leaf ambient       411/65536       11508/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3286     ( 0.0%) 
+pakfile               [variable]      105996/0        ( 0.0%) 
+physics               [variable]       38869/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 980
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.vmf
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38724 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 212 texinfos to 122
+Reduced 34 texdatas to 33 (930 bytes to 875)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 106344, actual size 105996
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 169 portalclusters
+ 500 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 43 visible clusters (0.23%)
+Total clusters visible: 18570
+Average clusters visible: 109
+Building PAS...
+Average clusters audible: 165
+visdatasize:8789  compressed from 8112
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+384 faces
+533340 square feet [76801040.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+384 patches before subdivision
+4324 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 270723, max 225
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(26528, 20714, 13562)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5302, 4116, 2630)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1101, 867, 559)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(232, 189, 126)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(50, 43, 30)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(11, 10, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                113/8192         1356/98304    ( 1.4%) 
+brushsides             700/65536        5600/524288   ( 1.1%) 
+planes                 324/65536        6480/1310720  ( 0.5%) 
+vertexes               706/65536        8472/786432   ( 1.1%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               122/12288        8784/884736   ( 1.0%) 
+texdata                 33/2048         1056/65536    ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  384/65536       21504/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              186/65536       10416/3670016  ( 0.3%) 
+leaves                 404/65536       12928/2097152  ( 0.6%) 
+leaffaces              426/65536         852/131072   ( 0.7%) 
+leafbrushes            257/65536         514/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2498/512000       9992/2048000  ( 0.5%) 
+edges                 1545/256000       6180/1024000  ( 0.6%) 
+LDR worldlights         14/8192         1232/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             38/32768         380/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           567/65536        1134/131072   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]      293660/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8789/16777216 ( 0.1%) 
+entdata               [variable]       32916/393216   ( 8.4%) 
+LDR ambient table      404/65536        1616/262144   ( 0.6%) 
+HDR ambient table      404/65536        1616/262144   ( 0.6%) 
+LDR leaf ambient      2193/65536       61404/1835008  ( 3.3%) 
+HDR leaf ambient       404/65536       11312/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3286     ( 0.0%) 
+pakfile               [variable]      105996/0        ( 0.0%) 
+physics               [variable]       38724/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 986
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.vmf
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (51998 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 263 texinfos to 139
+Reduced 35 texdatas to 33 (988 bytes to 875)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 106816, actual size 106334
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 406 portalclusters
+1134 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 176 visible clusters (0.18%)
+Total clusters visible: 99560
+Average clusters visible: 245
+Building PAS...
+Average clusters audible: 399
+visdatasize:44023  compressed from 45472
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+1057 faces
+2301032 square feet [331348704.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1057 patches before subdivision
+10621 patches after subdivision
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1169162, max 546
+transfer lists:   8.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(33022, 25160, 15887)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6982, 5234, 3227)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1537, 1148, 712)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(343, 259, 164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 60, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 14, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                145/8192         1740/98304    ( 1.8%) 
+brushsides             973/65536        7784/524288   ( 1.5%) 
+planes                 588/65536       11760/1310720  ( 0.9%) 
+vertexes              1580/65536       18960/786432   ( 2.4%) 
+nodes                 1042/65536       33344/2097152  ( 1.6%) 
+texinfos               139/12288       10008/884736   ( 1.1%) 
+texdata                 33/2048         1056/65536    ( 1.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1057/65536       59192/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              289/65536       16184/3670016  ( 0.4%) 
+leaves                1048/65536       33536/2097152  ( 1.6%) 
+leaffaces             1164/65536        2328/131072   ( 1.8%) 
+leafbrushes            851/65536        1702/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5893/512000      23572/2048000  ( 1.2%) 
+edges                 3347/256000      13388/1024000  ( 1.3%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             71/32768         710/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1077/65536        2154/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]      937412/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       44023/16777216 ( 0.3%) 
+entdata               [variable]       36028/393216   ( 9.2%) 
+LDR ambient table     1048/65536        4192/262144   ( 1.6%) 
+HDR ambient table     1048/65536        4192/262144   ( 1.6%) 
+LDR leaf ambient      3502/65536       98056/1835008  ( 5.3%) 
+HDR leaf ambient      1048/65536       29344/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4050     ( 0.0%) 
+pakfile               [variable]      106334/0        ( 0.0%) 
+physics               [variable]       51998/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2623
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.vmf
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (52102 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 265 texinfos to 141
+Reduced 36 texdatas to 34 (1004 bytes to 891)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 106816, actual size 106334
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 385 portalclusters
+1027 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.vmf
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (52102 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 383 texinfos to 162
+Reduced 78 texdatas to 55 (3449 bytes to 2431)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 1715785, actual size 1705655
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 385 portalclusters
+1027 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 132 visible clusters (0.15%)
+Total clusters visible: 90687
+Average clusters visible: 235
+Building PAS...
+Average clusters audible: 378
+visdatasize:40277  compressed from 43120
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+9 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+1044 faces
+2302463 square feet [331554784.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1044 patches before subdivision
+10768 patches after subdivision
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1210471, max 542
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(32917, 25097, 15867)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6992, 5241, 3231)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1536, 1147, 711)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(343, 259, 164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 60, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 14, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                146/8192         1752/98304    ( 1.8%) 
+brushsides             979/65536        7832/524288   ( 1.5%) 
+planes                 580/65536       11600/1310720  ( 0.9%) 
+vertexes              1516/65536       18192/786432   ( 2.3%) 
+nodes                  999/65536       31968/2097152  ( 1.5%) 
+texinfos               162/12288       11664/884736   ( 1.3%) 
+texdata                 55/2048         1760/65536    ( 2.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1044/65536       58464/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              285/65536       15960/3670016  ( 0.4%) 
+leaves                1005/65536       32160/2097152  ( 1.5%) 
+leaffaces             1154/65536        2308/131072   ( 1.8%) 
+leafbrushes            827/65536        1654/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5790/512000      23160/2048000  ( 1.1%) 
+edges                 3277/256000      13108/1024000  ( 1.3%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             64/32768         640/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           936/65536        1872/131072   ( 1.4%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]      946456/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       40277/16777216 ( 0.2%) 
+entdata               [variable]       36079/393216   ( 9.2%) 
+LDR ambient table     1005/65536        4020/262144   ( 1.5%) 
+HDR ambient table     1005/65536        4020/262144   ( 1.5%) 
+LDR leaf ambient      3455/65536       96740/1835008  ( 5.3%) 
+HDR leaf ambient      1005/65536       28140/1835008  ( 1.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4048     ( 0.0%) 
+pakfile               [variable]     1705655/0        ( 0.0%) 
+physics               [variable]       52102/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2562
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+1044 faces
+2302463 square feet [331554784.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1044 patches before subdivision
+10768 patches after subdivision
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1210471, max 542
+transfer lists:   9.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(32917, 25097, 15867)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6992, 5241, 3231)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1536, 1147, 711)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(343, 259, 164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(78, 60, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(18, 14, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                146/8192         1752/98304    ( 1.8%) 
+brushsides             979/65536        7832/524288   ( 1.5%) 
+planes                 580/65536       11600/1310720  ( 0.9%) 
+vertexes              1516/65536       18192/786432   ( 2.3%) 
+nodes                  999/65536       31968/2097152  ( 1.5%) 
+texinfos               162/12288       11664/884736   ( 1.3%) 
+texdata                 55/2048         1760/65536    ( 2.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1044/65536       58464/3670016  ( 1.6%) 
+hdr faces             1044/65536       58464/3670016  ( 1.6%) 
+origfaces              285/65536       15960/3670016  ( 0.4%) 
+leaves                1005/65536       32160/2097152  ( 1.5%) 
+leaffaces             1154/65536        2308/131072   ( 1.8%) 
+leafbrushes            827/65536        1654/131072   ( 1.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5790/512000      23160/2048000  ( 1.1%) 
+edges                 3277/256000      13108/1024000  ( 1.3%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights         17/8192         1496/720896   ( 0.2%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips             64/32768         640/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           936/65536        1872/131072   ( 1.4%) 
+cubemapsamples          15/1024          240/16384    ( 1.5%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]      946456/0        ( 0.0%) 
+HDR lightdata         [variable]      946456/0        ( 0.0%) 
+visdata               [variable]       40277/16777216 ( 0.2%) 
+entdata               [variable]       36079/393216   ( 9.2%) 
+LDR ambient table     1005/65536        4020/262144   ( 1.5%) 
+HDR ambient table     1005/65536        4020/262144   ( 1.5%) 
+LDR leaf ambient      3455/65536       96740/1835008  ( 5.3%) 
+HDR leaf ambient      3455/65536       96740/1835008  ( 5.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/4048     ( 0.0%) 
+pakfile               [variable]     1705655/0        ( 0.0%) 
+physics               [variable]       52102/4194304  ( 1.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2562
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -593.8 -112.8)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -439.7 -24.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2008.0 -724.8 -90.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2008.0 -483.6 -9.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -699.3 -54.9)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2008.0 -606.1 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (84688 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 475 texinfos to 215
+Reduced 93 texdatas to 67 (4207 bytes to 2985)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2568386, actual size 2554638
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 902 portalclusters
+3052 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -593.8 -112.8)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -439.7 -24.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2008.0 -724.8 -90.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2008.0 -483.6 -9.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -699.3 -54.9)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2008.0 -606.1 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (84688 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 475 texinfos to 215
+Reduced 93 texdatas to 67 (4207 bytes to 2985)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2568386, actual size 2554638
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 902 portalclusters
+3052 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 39678 visible clusters (7.53%)
+Total clusters visible: 527141
+Average clusters visible: 584
+Building PAS...
+Average clusters audible: 899
+visdatasize:209758  compressed from 216480
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+2577 faces
+10 degenerate faces
+1267226 square feet [182480608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2567 patches before subdivision
+2567 patches after subdivision
+27 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 576078, max 668
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(8172, 5852, 3332)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1920, 1315, 721)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(463, 304, 164)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(115, 73, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(30, 18, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(8, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0142 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                233/8192         2796/98304    ( 2.8%) 
+brushsides            2494/65536       19952/524288   ( 3.8%) 
+planes                2484/65536       49680/1310720  ( 3.8%) 
+vertexes              3714/65536       44568/786432   ( 5.7%) 
+nodes                 2022/65536       64704/2097152  ( 3.1%) 
+texinfos               215/12288       15480/884736   ( 1.7%) 
+texdata                 67/2048         2144/65536    ( 3.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2577/65536      144312/3670016  ( 3.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              609/65536       34104/3670016  ( 0.9%) 
+leaves                2029/65536       64928/2097152  ( 3.1%) 
+leaffaces             2843/65536        5686/131072   ( 4.3%) 
+leafbrushes           2236/65536        4472/131072   ( 3.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            15042/512000      60168/2048000  ( 2.9%) 
+edges                 8138/256000      32552/1024000  ( 3.2%) 
+LDR worldlights         27/8192         2376/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            272/32768        2720/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4059/65536        8118/131072   ( 6.2%) 
+cubemapsamples          23/1024          368/16384    ( 2.2%) 
+overlays                13/512          4576/180224   ( 2.5%) 
+LDR lightdata         [variable]     3033256/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      209758/16777216 ( 1.3%) 
+entdata               [variable]       43940/393216   (11.2%) 
+LDR ambient table     2029/65536        8116/262144   ( 3.1%) 
+HDR ambient table     2029/65536        8116/262144   ( 3.1%) 
+LDR leaf ambient      6622/65536      185416/1835008  (10.1%) 
+HDR leaf ambient      2029/65536       56812/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7378     ( 0.0%) 
+pakfile               [variable]     2554638/0        ( 0.0%) 
+physics               [variable]       84688/4194304  ( 2.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7458
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -392.0 -108.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -392.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2014.8 -416.0 -81.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2008.0 -392.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -416.0 -60.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1984.0 -392.0 -60.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -392.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4352.0 680.5 -328.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10251: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85080 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 468 texinfos to 211
+Reduced 93 texdatas to 67 (4207 bytes to 2985)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2568386, actual size 2554638
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 894 portalclusters
+3047 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5.
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -392.0 -108.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 -392.0 0.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2014.8 -416.0 -81.2)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2008.0 -392.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -416.0 -60.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1984.0 -392.0 -60.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -392.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4352.0 680.5 -328.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10251: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 4 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (85080 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 468 texinfos to 211
+Reduced 93 texdatas to 67 (4207 bytes to 2985)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2568386, actual size 2554638
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 894 portalclusters
+3047 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 42089 visible clusters (8.03%)
+Total clusters visible: 524166
+Average clusters visible: 586
+Building PAS...
+Average clusters audible: 891
+visdatasize:205744  compressed from 200256
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+2551 faces
+5 degenerate faces
+1268929 square feet [182725872.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2546 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+28728 patches after subdivision
+27 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4708422, max 875
+transfer lists:  35.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(65989, 47796, 27847)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(16094, 11220, 6335)
+Build Patch/Sample Hash Table(s).....Done<0.0061 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                233/8192         2796/98304    ( 2.8%) 
+brushsides            2494/65536       19952/524288   ( 3.8%) 
+planes                2484/65536       49680/1310720  ( 3.8%) 
+vertexes              3672/65536       44064/786432   ( 5.6%) 
+nodes                 1985/65536       63520/2097152  ( 3.0%) 
+texinfos               211/12288       15192/884736   ( 1.7%) 
+texdata                 67/2048         2144/65536    ( 3.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2551/65536      142856/3670016  ( 3.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              595/65536       33320/3670016  ( 0.9%) 
+leaves                1992/65536       63744/2097152  ( 3.0%) 
+leaffaces             2803/65536        5606/131072   ( 4.3%) 
+leafbrushes           2227/65536        4454/131072   ( 3.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            14744/512000      58976/2048000  ( 2.9%) 
+edges                 7986/256000      31944/1024000  ( 3.1%) 
+LDR worldlights         27/8192         2376/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            242/32768        2420/327680   ( 0.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3468/65536        6936/131072   ( 5.3%) 
+cubemapsamples          23/1024          368/16384    ( 2.2%) 
+overlays                13/512          4576/180224   ( 2.5%) 
+LDR lightdata         [variable]     3053452/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      205744/16777216 ( 1.2%) 
+entdata               [variable]       43941/393216   (11.2%) 
+LDR ambient table     1992/65536        7968/262144   ( 3.0%) 
+HDR ambient table     1992/65536        7968/262144   ( 3.0%) 
+LDR leaf ambient      7150/65536      200200/1835008  (10.9%) 
+HDR leaf ambient      1992/65536       55776/1835008  ( 3.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7376     ( 0.0%) 
+pakfile               [variable]     2554638/0        ( 0.0%) 
+physics               [variable]       85080/4194304  ( 2.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7268
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1984.0 -476.3 -60.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -522.9 -107.6)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -670.2 0.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -644.2 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -629.4 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -683.9 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -664.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1976.0 -714.3 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (114478 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 713 texinfos to 302
+Reduced 106 texdatas to 82 (4623 bytes to 3565)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2570259, actual size 2555975
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+ 965 portalclusters
+3275 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 47918 visible clusters (8.94%)
+Total clusters visible: 536206
+Average clusters visible: 555
+Building PAS...
+Average clusters audible: 962
+visdatasize:238816  compressed from 247040
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+2772 faces
+5 degenerate faces
+1275911 square feet [183731248.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2767 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+30487 patches after subdivision
+39 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4796956, max 853
+transfer lists:  36.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(107214, 74956, 39244)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(24485, 16296, 8026)
+Build Patch/Sample Hash Table(s).....Done<0.0084 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                330/8192         3960/98304    ( 4.0%) 
+brushsides            3115/65536       24920/524288   ( 4.8%) 
+planes                2688/65536       53760/1310720  ( 4.1%) 
+vertexes              4087/65536       49044/786432   ( 6.2%) 
+nodes                 2098/65536       67136/2097152  ( 3.2%) 
+texinfos               302/12288       21744/884736   ( 2.5%) 
+texdata                 82/2048         2624/65536    ( 4.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2772/65536      155232/3670016  ( 4.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              742/65536       41552/3670016  ( 1.1%) 
+leaves                2105/65536       67360/2097152  ( 3.2%) 
+leaffaces             3073/65536        6146/131072   ( 4.7%) 
+leafbrushes           2340/65536        4680/131072   ( 3.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16474/512000      65896/2048000  ( 3.2%) 
+edges                 9125/256000      36500/1024000  ( 3.6%) 
+LDR worldlights         39/8192         3432/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            299/32768        2990/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4449/65536        8898/131072   ( 6.8%) 
+cubemapsamples          23/1024          368/16384    ( 2.2%) 
+overlays                39/512         13728/180224   ( 7.6%) 
+LDR lightdata         [variable]     3177040/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      238816/16777216 ( 1.4%) 
+entdata               [variable]       63717/393216   (16.2%) 
+LDR ambient table     2105/65536        8420/262144   ( 3.2%) 
+HDR ambient table     2105/65536        8420/262144   ( 3.2%) 
+LDR leaf ambient      8209/65536      229852/1835008  (12.5%) 
+HDR leaf ambient      2105/65536       58940/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/9840     ( 0.0%) 
+pakfile               [variable]     2555975/0        ( 0.0%) 
+physics               [variable]      114478/4194304  ( 2.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 7968
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 -380.0 -60.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1989.5 -376.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5012.0 743.3 -324.4)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4951.3 784.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5081.6 784.0 -324.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 -380.0 -60.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1989.5 -376.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5120.0 760.0 -320.5)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (116358 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 729 texinfos to 313
+Reduced 106 texdatas to 82 (4623 bytes to 3565)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2570259, actual size 2555975
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1017 portalclusters
+3432 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 44248 visible clusters (7.77%)
+Total clusters visible: 569152
+Average clusters visible: 559
+Building PAS...
+Average clusters audible: 1014
+visdatasize:264559  compressed from 260352
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+2861 faces
+5 degenerate faces
+1282235 square feet [184641936.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2856 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+31290 patches after subdivision
+39 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5027068, max 879
+transfer lists:  38.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(108559, 76104, 40134)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(24761, 16528, 8195)
+Build Patch/Sample Hash Table(s).....Done<0.0102 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                335/8192         4020/98304    ( 4.1%) 
+brushsides            3147/65536       25176/524288   ( 4.8%) 
+planes                2704/65536       54080/1310720  ( 4.1%) 
+vertexes              4226/65536       50712/786432   ( 6.4%) 
+nodes                 2196/65536       70272/2097152  ( 3.4%) 
+texinfos               313/12288       22536/884736   ( 2.5%) 
+texdata                 82/2048         2624/65536    ( 4.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2861/65536      160216/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              755/65536       42280/3670016  ( 1.2%) 
+leaves                2203/65536       70496/2097152  ( 3.4%) 
+leaffaces             3208/65536        6416/131072   ( 4.9%) 
+leafbrushes           2419/65536        4838/131072   ( 3.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16920/512000      67680/2048000  ( 3.3%) 
+edges                 9365/256000      37460/1024000  ( 3.7%) 
+LDR worldlights         39/8192         3432/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            323/32768        3230/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4761/65536        9522/131072   ( 7.3%) 
+cubemapsamples          23/1024          368/16384    ( 2.2%) 
+overlays                39/512         13728/180224   ( 7.6%) 
+LDR lightdata         [variable]     3264904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      264559/16777216 ( 1.6%) 
+entdata               [variable]       64133/393216   (16.3%) 
+LDR ambient table     2203/65536        8812/262144   ( 3.4%) 
+HDR ambient table     2203/65536        8812/262144   ( 3.4%) 
+LDR leaf ambient      8792/65536      246176/1835008  (13.4%) 
+HDR leaf ambient      2203/65536       61684/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10436    ( 0.0%) 
+pakfile               [variable]     2555975/0        ( 0.0%) 
+physics               [variable]      116358/4194304  ( 2.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8183
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 -380.0 -60.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1989.5 -376.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5012.0 743.3 -324.4)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4951.3 784.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5081.6 784.0 -324.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+0...1...2...3...Brush 11509: WARNING, microbrush
+4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 -380.0 -60.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1989.5 -376.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5120.0 760.0 -320.5)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (116358 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 729 texinfos to 313
+Reduced 106 texdatas to 82 (4623 bytes to 3565)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2570259, actual size 2555975
+1 second elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1017 portalclusters
+3432 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 44248 visible clusters (7.77%)
+Total clusters visible: 569152
+Average clusters visible: 559
+Building PAS...
+Average clusters audible: 1014
+visdatasize:264559  compressed from 260352
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+2861 faces
+5 degenerate faces
+1282235 square feet [184641936.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2856 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+31290 patches after subdivision
+39 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5027068, max 879
+transfer lists:  38.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(108559, 76104, 40134)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(24761, 16528, 8195)
+Build Patch/Sample Hash Table(s).....Done<0.0085 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                335/8192         4020/98304    ( 4.1%) 
+brushsides            3147/65536       25176/524288   ( 4.8%) 
+planes                2704/65536       54080/1310720  ( 4.1%) 
+vertexes              4226/65536       50712/786432   ( 6.4%) 
+nodes                 2196/65536       70272/2097152  ( 3.4%) 
+texinfos               313/12288       22536/884736   ( 2.5%) 
+texdata                 82/2048         2624/65536    ( 4.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2861/65536      160216/3670016  ( 4.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              755/65536       42280/3670016  ( 1.2%) 
+leaves                2203/65536       70496/2097152  ( 3.4%) 
+leaffaces             3208/65536        6416/131072   ( 4.9%) 
+leafbrushes           2419/65536        4838/131072   ( 3.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            16920/512000      67680/2048000  ( 3.3%) 
+edges                 9365/256000      37460/1024000  ( 3.7%) 
+LDR worldlights         39/8192         3432/720896   ( 0.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            323/32768        3230/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4761/65536        9522/131072   ( 7.3%) 
+cubemapsamples          23/1024          368/16384    ( 2.2%) 
+overlays                39/512         13728/180224   ( 7.6%) 
+LDR lightdata         [variable]     3264904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      264559/16777216 ( 1.6%) 
+entdata               [variable]       64133/393216   (16.3%) 
+LDR ambient table     2203/65536        8812/262144   ( 3.4%) 
+HDR ambient table     2203/65536        8812/262144   ( 3.4%) 
+LDR leaf ambient      8792/65536      246176/1835008  (13.4%) 
+HDR leaf ambient      2203/65536       61684/1835008  ( 3.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/10436    ( 0.0%) 
+pakfile               [variable]     2555975/0        ( 0.0%) 
+physics               [variable]      116358/4194304  ( 2.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8183
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...Brush 11509: WARNING, microbrush
+2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 -380.0 -60.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1989.5 -376.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5012.0 743.3 -324.4)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4951.3 784.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5081.6 784.0 -324.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5120.0 1824.5 -282.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5304.0 1866.8 -269.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5304.0 1724.0 -269.7)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...Brush 11509: WARNING, microbrush
+2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (388552 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1616 texinfos to 871
+Reduced 114 texdatas to 87 (4995 bytes to 3718)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2678237, actual size 2663149
+2 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1470 portalclusters
+4740 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 99142 visible clusters (7.64%)
+Total clusters visible: 1298116
+Average clusters visible: 883
+Building PAS...
+Average clusters audible: 1461
+visdatasize:536273  compressed from 540960
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+6632 faces
+5 degenerate faces
+2534903 square feet [365026048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6627 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+79357 patches after subdivision
+60 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10616423, max 909
+transfer lists:  81.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(147907, 101509, 51543)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31450, 20649, 9994)
+Build Patch/Sample Hash Table(s).....Done<0.0127 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 446/1024        21408/49152    (43.6%) 
+brushes                856/8192        10272/98304    (10.4%) 
+brushsides            6380/65536       51040/524288   ( 9.7%) 
+planes                3634/65536       72680/1310720  ( 5.5%) 
+vertexes              9419/65536      113028/786432   (14.4%) 
+nodes                 5796/65536      185472/2097152  ( 8.8%) 
+texinfos               871/12288       62712/884736   ( 7.1%) 
+texdata                 87/2048         2784/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6632/65536      371392/3670016  (10.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3582/65536      200592/3670016  ( 5.5%) 
+leaves                6243/65536      199776/2097152  ( 9.5%) 
+leaffaces             7163/65536       14326/131072   (10.9%) 
+leafbrushes           3776/65536        7552/131072   ( 5.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            43869/512000     175476/2048000  ( 8.6%) 
+edges                23071/256000      92284/1024000  ( 9.0%) 
+LDR worldlights         60/8192         5280/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            390/32768        3900/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5745/65536       11490/131072   ( 8.8%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays                47/512         16544/180224   ( 9.2%) 
+LDR lightdata         [variable]     6500208/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      536273/16777216 ( 3.2%) 
+entdata               [variable]      299964/393216   (76.3%) 
+LDR ambient table     6243/65536       24972/262144   ( 9.5%) 
+HDR ambient table     6243/65536       24972/262144   ( 9.5%) 
+LDR leaf ambient     16851/65536      471828/1835008  (25.7%) 
+HDR leaf ambient      6243/65536      174804/1835008  ( 9.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/16160    ( 0.0%) 
+pakfile               [variable]     2663149/0        ( 0.0%) 
+physics               [variable]      388552/4194304  ( 9.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16282
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...Brush 11509: WARNING, microbrush
+2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 -380.0 -60.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1989.5 -376.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5012.0 743.3 -324.4)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4951.3 784.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5081.6 784.0 -324.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5120.0 1824.5 -282.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5304.0 1866.8 -269.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5304.0 1724.0 -269.7)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...Brush 11509: WARNING, microbrush
+2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (385056 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1573 texinfos to 851
+Reduced 112 texdatas to 86 (4932 bytes to 3699)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2677788, actual size 2662834
+2 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1468 portalclusters
+4736 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 98786 visible clusters (7.63%)
+Total clusters visible: 1293896
+Average clusters visible: 881
+Building PAS...
+Average clusters audible: 1459
+visdatasize:535169  compressed from 540224
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+6574 faces
+5 degenerate faces
+2530740 square feet [364426560.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6569 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+78825 patches after subdivision
+60 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...Brush 11509: WARNING, microbrush
+2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 -380.0 -60.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1989.5 -376.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5012.0 743.3 -324.4)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4951.3 784.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5081.6 784.0 -324.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5120.0 1824.5 -282.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5304.0 1866.8 -269.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5304.0 1724.0 -269.7)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...Brush 11509: WARNING, microbrush
+2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (385056 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1573 texinfos to 851
+Reduced 112 texdatas to 86 (4932 bytes to 3699)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2677788, actual size 2662834
+2 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1468 portalclusters
+4736 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 98786 visible clusters (7.63%)
+Total clusters visible: 1293896
+Average clusters visible: 881
+Building PAS...
+Average clusters audible: 1459
+visdatasize:535169  compressed from 540224
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+6574 faces
+5 degenerate faces
+2530740 square feet [364426560.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6569 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+78825 patches after subdivision
+60 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10544025, max 909
+transfer lists:  80.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(147888, 101514, 51562)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(31437, 20639, 9989)
+Build Patch/Sample Hash Table(s).....Done<0.0127 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 438/1024        21024/49152    (42.8%) 
+brushes                851/8192        10212/98304    (10.4%) 
+brushsides            6340/65536       50720/524288   ( 9.7%) 
+planes                3490/65536       69800/1310720  ( 5.3%) 
+vertexes              9352/65536      112224/786432   (14.3%) 
+nodes                 5744/65536      183808/2097152  ( 8.8%) 
+texinfos               851/12288       61272/884736   ( 6.9%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6574/65536      368144/3670016  (10.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3537/65536      198072/3670016  ( 5.4%) 
+leaves                6183/65536      197856/2097152  ( 9.4%) 
+leaffaces             7106/65536       14212/131072   (10.8%) 
+leafbrushes           3774/65536        7548/131072   ( 5.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            43459/512000     173836/2048000  ( 8.5%) 
+edges                22869/256000      91476/1024000  ( 8.9%) 
+LDR worldlights         60/8192         5280/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            390/32768        3900/327680   ( 1.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          5751/65536       11502/131072   ( 8.8%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays                47/512         16544/180224   ( 9.2%) 
+LDR lightdata         [variable]     6495272/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      535169/16777216 ( 3.2%) 
+entdata               [variable]      296561/393216   (75.4%) 
+LDR ambient table     6183/65536       24732/262144   ( 9.4%) 
+HDR ambient table     6183/65536       24732/262144   ( 9.4%) 
+LDR leaf ambient     16772/65536      469616/1835008  (25.6%) 
+HDR leaf ambient      6183/65536      173124/1835008  ( 9.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/16160    ( 0.0%) 
+pakfile               [variable]     2662834/0        ( 0.0%) 
+physics               [variable]      385056/4194304  ( 9.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16168
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2..Brush 11509: WARNING, microbrush
+.3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 -380.0 -60.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1989.5 -376.0 48.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 11509: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5120.0 1824.5 -282.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5304.0 1866.8 -269.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5304.0 1724.0 -269.7)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5120.0 1766.3 -282.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 17965: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-5012.0 743.3 -324.4)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-4951.3 784.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 10238: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2..Brush 11509: WARNING, microbrush
+.3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (400560 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1579 texinfos to 858
+Reduced 111 texdatas to 86 (4845 bytes to 3699)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2677229, actual size 2662409
+2 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1704 portalclusters
+5741 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 154122 visible clusters (8.85%)
+Total clusters visible: 1741287
+Average clusters visible: 1021
+Building PAS...
+Average clusters audible: 1695
+visdatasize:706171  compressed from 736128
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+7336 faces
+9 degenerate faces
+1830699 square feet [263620736.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7327 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+89589 patches after subdivision
+63 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12935346, max 909
+transfer lists:  98.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(158444, 108798, 55464)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(34757, 22828, 11159)
+Build Patch/Sample Hash Table(s).....Done<0.0151 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 438/1024        21024/49152    (42.8%) 
+brushes                891/8192        10692/98304    (10.9%) 
+brushsides            7092/65536       56736/524288   (10.8%) 
+planes                4396/65536       87920/1310720  ( 6.7%) 
+vertexes             10417/65536      125004/786432   (15.9%) 
+nodes                 6178/65536      197696/2097152  ( 9.4%) 
+texinfos               858/12288       61776/884736   ( 7.0%) 
+texdata                 86/2048         2752/65536    ( 4.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7336/65536      410816/3670016  (11.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3700/65536      207200/3670016  ( 5.6%) 
+leaves                6617/65536      211744/2097152  (10.1%) 
+leaffaces             7927/65536       15854/131072   (12.1%) 
+leafbrushes           4392/65536        8784/131072   ( 6.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            47856/512000     191424/2048000  ( 9.3%) 
+edges                25146/256000     100584/1024000  ( 9.8%) 
+LDR worldlights         63/8192         5544/720896   ( 0.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            469/32768        4690/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6867/65536       13734/131072   (10.5%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays                47/512         16544/180224   ( 9.2%) 
+LDR lightdata         [variable]     7791404/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      706171/16777216 ( 4.2%) 
+entdata               [variable]      332620/393216   (84.6%) VERY FULL!
+LDR ambient table     6617/65536       26468/262144   (10.1%) 
+HDR ambient table     6617/65536       26468/262144   (10.1%) 
+LDR leaf ambient     18700/65536      523600/1835008  (28.5%) 
+HDR leaf ambient      6617/65536      185276/1835008  (10.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/16382    ( 0.0%) 
+pakfile               [variable]     2662409/0        ( 0.0%) 
+physics               [variable]      400560/4194304  ( 9.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 18389
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+17 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2..Brush 11509: WARNING, microbrush
+.3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-367.5 2150.3 -279.6)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36865: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-418.2 2254.1 -244.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36865: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-416.2 2250.0 -311.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36865: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-440.2 2299.1 -259.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36865: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-484.6 2389.9 -279.6)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36865: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-581.3 2587.6 -279.6)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36865: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-551.0 2525.6 -244.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36865: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-553.0 2529.7 -311.3)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36865: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2..Brush 11509: WARNING, microbrush
+.3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (414442 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1741 texinfos to 941
+Reduced 116 texdatas to 88 (5136 bytes to 3778)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2679301, actual size 2663945
+2 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1744 portalclusters
+5770 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 168556 visible clusters (9.52%)
+Total clusters visible: 1770598
+Average clusters visible: 1015
+Building PAS...
+Average clusters audible: 1734
+visdatasize:738126  compressed from 781312
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+7676 faces
+7 degenerate faces
+1986921 square feet [286116736.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+7669 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+90325 patches after subdivision
+61 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 13508458, max 909
+transfer lists: 103.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(152054, 104370, 53070)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(32700, 21489, 10442)
+Build Patch/Sample Hash Table(s).....Done<0.0148 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 446/1024        21408/49152    (43.6%) 
+brushes                917/8192        11004/98304    (11.2%) 
+brushsides            7280/65536       58240/524288   (11.1%) 
+planes                4622/65536       92440/1310720  ( 7.1%) 
+vertexes             10696/65536      128352/786432   (16.3%) 
+nodes                 6363/65536      203616/2097152  ( 9.7%) 
+texinfos               941/12288       67752/884736   ( 7.7%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 7676/65536      429856/3670016  (11.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3813/65536      213528/3670016  ( 5.8%) 
+leaves                6810/65536      217920/2097152  (10.4%) 
+leaffaces             8337/65536       16674/131072   (12.7%) 
+leafbrushes           4683/65536        9366/131072   ( 7.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            49847/512000     199388/2048000  ( 9.7%) 
+edges                26220/256000     104880/1024000  (10.2%) 
+LDR worldlights         61/8192         5368/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            498/32768        4980/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7347/65536       14694/131072   (11.2%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays                47/512         16544/180224   ( 9.2%) 
+LDR lightdata         [variable]     7874436/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      738126/16777216 ( 4.4%) 
+entdata               [variable]      336476/393216   (85.6%) VERY FULL!
+LDR ambient table     6810/65536       27240/262144   (10.4%) 
+HDR ambient table     6810/65536       27240/262144   (10.4%) 
+LDR leaf ambient     18893/65536      529004/1835008  (28.8%) 
+HDR leaf ambient      6810/65536      190680/1835008  (10.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/16234    ( 0.0%) 
+pakfile               [variable]     2663945/0        ( 0.0%) 
+physics               [variable]      414442/4194304  ( 9.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 19280
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2..Brush 11509: WARNING, microbrush
+.3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1999.6 1024.0 -276.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36850: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 1649.3 -324.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 1985.5 -324.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 1935.6 -324.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2028.3 2016.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1980.3 2016.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (984.2 768.9 -244.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (983.8 715.2 -259.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2..Brush 11509: WARNING, microbrush
+.3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (425442 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1779 texinfos to 950
+Reduced 116 texdatas to 88 (5139 bytes to 3778)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2679310, actual size 2663954
+3 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1958 portalclusters
+6531 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 216450 visible clusters (9.83%)
+Total clusters visible: 2202067
+Average clusters visible: 1124
+Building PAS...
+Average clusters audible: 1949
+visdatasize:923289  compressed from 971168
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+8360 faces
+14 degenerate faces
+1986502 square feet [286056320.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+8346 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+97116 patches after subdivision
+69 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15633648, max 999
+transfer lists: 119.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(176512, 121257, 62135)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(39807, 26218, 12975)
+Build Patch/Sample Hash Table(s).....Done<0.0168 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 446/1024        21408/49152    (43.6%) 
+brushes                946/8192        11352/98304    (11.5%) 
+brushsides            7833/65536       62664/524288   (12.0%) 
+planes                5352/65536      107040/1310720  ( 8.2%) 
+vertexes             11764/65536      141168/786432   (18.0%) 
+nodes                 6816/65536      218112/2097152  (10.4%) 
+texinfos               950/12288       68400/884736   ( 7.7%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 8360/65536      468160/3670016  (12.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3942/65536      220752/3670016  ( 6.0%) 
+leaves                7263/65536      232416/2097152  (11.1%) 
+leaffaces             9027/65536       18054/131072   (13.8%) 
+leafbrushes           5091/65536       10182/131072   ( 7.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            54239/512000     216956/2048000  (10.6%) 
+edges                28582/256000     114328/1024000  (11.2%) 
+LDR worldlights         69/8192         6072/720896   ( 0.8%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            649/32768        6490/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9810/65536       19620/131072   (15.0%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays                47/512         16544/180224   ( 9.2%) 
+LDR lightdata         [variable]     8636200/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      923289/16777216 ( 5.5%) 
+entdata               [variable]      352120/393216   (89.5%) VERY FULL!
+LDR ambient table     7263/65536       29052/262144   (11.1%) 
+HDR ambient table     7263/65536       29052/262144   (11.1%) 
+LDR leaf ambient     20202/65536      565656/1835008  (30.8%) 
+HDR leaf ambient      7263/65536      203364/1835008  (11.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/16828    ( 0.0%) 
+pakfile               [variable]     2663954/0        ( 0.0%) 
+physics               [variable]      425442/4194304  (10.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 21788
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+24 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Source-Hangout-GIT\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+"glass/glasswindow_refract01" - "materials/glass/glasswindow_refract01.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2..Brush 11509: WARNING, microbrush
+.3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1999.6 1024.0 -276.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36850: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 1649.3 -324.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2048.0 1985.5 -324.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2000.2 1935.6 -324.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2028.3 2016.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1980.3 2016.0 -324.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37174: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-2560.0 1024.0 -276.0)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 36850: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (0.0 595.7 -273.1)
+Leaf 0 contents: CONTENTS_WATER CONTENTS_TRANSLUCENT 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WATER 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WATER 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WATER 
+Candidate brush IDs: Brush 37985: 
+
+*** Suppressing further FindPortalSide errors.... ***
+0...1...2..Brush 11509: WARNING, microbrush
+.3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (430026 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1811 texinfos to 962
+Reduced 118 texdatas to 88 (5250 bytes to 3776)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+Wrote ZIP buffer, estimated size 2680300, actual size 2664676
+3 seconds elapsed
+
+
+
+8 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.prt
+1998 portalclusters
+6544 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 250482 visible clusters (11.75%)
+Total clusters visible: 2131192
+Average clusters visible: 1066
+Building PAS...
+Average clusters audible: 1974
+visdatasize:952997  compressed from 1022976
+writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+8466 faces
+13 degenerate faces
+1722803 square feet [248083728.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+8453 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+100797 patches after subdivision
+74 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16516026, max 941
+transfer lists: 126.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(180393, 124610, 64819)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(40617, 26859, 13430)
+Build Patch/Sample Hash Table(s).....Done<0.0200 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 446/1024        21408/49152    (43.6%) 
+brushes                957/8192        11484/98304    (11.7%) 
+brushsides            7902/65536       63216/524288   (12.1%) 
+planes                5364/65536      107280/1310720  ( 8.2%) 
+vertexes             11935/65536      143220/786432   (18.2%) 
+nodes                 6910/65536      221120/2097152  (10.5%) 
+texinfos               962/12288       69264/884736   ( 7.8%) 
+texdata                 88/2048         2816/65536    ( 4.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 8466/65536      474096/3670016  (12.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3962/65536      221872/3670016  ( 6.0%) 
+leaves                7357/65536      235424/2097152  (11.2%) 
+leaffaces             9170/65536       18340/131072   (14.0%) 
+leafbrushes           5245/65536       10490/131072   ( 8.0%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            54832/512000     219328/2048000  (10.7%) 
+edges                28879/256000     115516/1024000  (11.3%) 
+LDR worldlights         74/8192         6512/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            652/32768        6520/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          9843/65536       19686/131072   (15.0%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays                47/512         16544/180224   ( 9.2%) 
+LDR lightdata         [variable]     9124276/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      952997/16777216 ( 5.7%) 
+entdata               [variable]      360215/393216   (91.6%) VERY FULL!
+LDR ambient table     7357/65536       29428/262144   (11.2%) 
+HDR ambient table     7357/65536       29428/262144   (11.2%) 
+LDR leaf ambient     20293/65536      568204/1835008  (31.0%) 
+HDR leaf ambient      7357/65536      205996/1835008  (11.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/17064    ( 0.0%) 
+pakfile               [variable]     2664676/0        ( 0.0%) 
+physics               [variable]      430026/4194304  (10.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 22089
+Writing c:\program files (x86)\steam\steamapps\sourcemods\source-hangout-git\maps\fn_racing.bsp
+22 seconds elapsed
