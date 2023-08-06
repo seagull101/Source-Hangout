@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	$basetexture 		models/glitch/murderdrones/attachments/railgun_base
+	$bumpmap			models/glitch/murderdrones/shared/flat_normal
+	
+	"$phong"     "1"
+	"$halflambert"	1
+ 	"$phongexponent"   "50"
+ 	"$phongboost"   	"1"
+ 	"$phongfresnelranges"   "[.5 .8 1]"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	$basetexture models/glitch/murderdrones/disdrone/md_hair_base
+	$bumpmap     models/glitch/murderdrones/disdrone/md_hair_normal
+
+}

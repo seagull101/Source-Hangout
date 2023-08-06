@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/glitch/murderdrones/workerdrone/uzi/uzi_extra"
+	$halflambert 1
+}

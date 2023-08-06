@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/glitch/murderdrones/disdrone/j/j_clothes_base"
+	"$bumpmap" 		"models/glitch/murderdrones/disdrone/j/j_clothes_normal"
+	
+	"$halflambert" 	"1"
+}

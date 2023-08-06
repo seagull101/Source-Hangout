@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	$basetexture models/glitch/murderdrones/shared/screen_base
+	$selfillum	 1
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/glitch/murderdrones/workerdrone/uzi/uzi_jacket_base"
+	"$bumpmap" 		"models/glitch/murderdrones/workerdrone/uzi/uzi_jacket_normal"
+	$halflambert 1
+}
